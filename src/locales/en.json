@@ -52,696 +52,880 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "The Alters Last Variable Gameplay",
+    "description": "Build an underground base, manage four specialist Alters, terraform nine hostile arenas, and unravel the mystery of the Oasis in this sci-fi survival DLC by 11 bit studios."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "title": "The Alters Last Variable",
+    "titleHighlight": "Guide Hub",
+    "subtitle": "Everything you need to survive The Alters: Last Variable — release info, DLC setup, walkthroughs, specialist Alters, base building, terraforming and endings.",
     "cards": [
+      {
+        "icon": "Rocket",
+        "title": "Release Date & Platforms",
+        "description": "Launch date, $14.99 price and every supported store"
+      },
+      {
+        "icon": "Download",
+        "title": "DLC Access & Setup",
+        "description": "Own the base game, install and start the expansion"
+      },
       {
         "icon": "BookOpen",
         "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "description": "First-cycle route and resource priorities"
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
+        "icon": "Map",
+        "title": "Walkthrough & Quests",
+        "description": "Full campaign broken down by cycle and main quest"
       },
       {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
+        "icon": "Users",
+        "title": "Specialist Alters",
+        "description": "Four scientists, creation order and best assignments"
       },
       {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
+        "icon": "Pickaxe",
+        "title": "Underground Base & Cryosleep",
+        "description": "Base layout, soil rules and hot-phase preparation"
       },
       {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
+        "icon": "Leaf",
+        "title": "Terraforming & Research",
+        "description": "Nine arenas, samples and new technology"
       },
       {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "icon": "Trophy",
+        "title": "Endings & Achievements",
+        "description": "Final choices, missables and the trophy list"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
+    "releaseDatePlatformsPrice": {
+      "title": "The Alters Last Variable Release Date, Price and Platforms",
+      "intro": "Last Variable launched on July 13, 2026, as a paid expansion for The Alters. Compare its price, platform availability, ownership requirements, and store-specific features.",
+      "platforms": [
+        {
+          "platform": "Steam",
+          "releaseDate": "July 13, 2026",
+          "price": "$14.99",
+          "availability": "Windows PC",
+          "baseGameRequired": "Yes",
+          "features": "Steam achievements, Steam Cloud, Family Sharing and controller support"
+        },
+        {
+          "platform": "Epic Games Store",
+          "releaseDate": "July 13, 2026",
+          "price": "$14.99",
+          "availability": "Windows PC",
+          "baseGameRequired": "Yes",
+          "features": "Single-player campaign and Epic achievements"
+        },
+        {
+          "platform": "GOG",
+          "releaseDate": "July 13, 2026",
+          "price": "$14.99",
+          "availability": "Windows PC",
+          "baseGameRequired": "Yes",
+          "features": "DRM-free offline installer with optional GOG Galaxy features"
+        },
+        {
+          "platform": "PlayStation Store",
+          "releaseDate": "July 13, 2026",
+          "price": "$14.99",
+          "availability": "PlayStation 5",
+          "baseGameRequired": "Yes",
+          "features": "Offline single-player play, DualSense vibration and accessibility options"
+        },
+        {
+          "platform": "Microsoft Store",
+          "releaseDate": "July 13, 2026",
+          "price": "$14.99",
+          "availability": "Xbox Series X|S and PC",
+          "baseGameRequired": "Yes",
+          "features": "Also included with eligible Deluxe Edition and Deluxe Edition Upgrade purchases"
+        },
+        {
+          "platform": "Expansion Overview",
+          "releaseDate": "Available now",
+          "price": "$14.99",
+          "availability": "PC, PlayStation 5 and Xbox Series X|S",
+          "baseGameRequired": "Yes",
+          "features": "Approximately 20 hours of new campaign content"
+        }
+      ]
+    },
+    "dlcAccessStoryPrerequisites": {
+      "title": "The Alters Last Variable DLC Access and Installation",
+      "intro": "The expansion runs as a separate campaign and does not require an existing completed save. Follow these steps to confirm ownership, install the DLC, and start its story.",
       "steps": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "title": "Own The Alters Base Game",
+          "description": "Purchase or install the original The Alters on the same storefront and account used for the Last Variable expansion. The DLC cannot run as a standalone game."
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "title": "Purchase or Verify Last Variable",
+          "description": "Buy the expansion separately or confirm that it is included with your eligible Deluxe Edition content. Check the platform's add-on management page if the DLC is not automatically recognized."
         },
         {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
+          "title": "Install the Latest Game Update",
+          "description": "Update The Alters before launching it. On consoles, open the game's add-on management screen and confirm that Last Variable is installed rather than only owned."
         },
         {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
-        }
-      ],
-      "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
-      ]
-    },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
-        {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
+          "title": "Open the New Game Menu",
+          "description": "Launch The Alters, choose Start New Game, and select the Last Variable campaign. Loading a completed base-game save is not required."
         },
         {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
+          "title": "Begin with a Separate Campaign State",
+          "description": "The expansion creates its own progression route, research sequence, objectives, resources, and save files. Base-game structures and inventory are not carried into the new story."
         },
         {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
+          "title": "Review the Story Prerequisite",
+          "description": "Last Variable follows the outcome in which Jan Scientist remains behind on the planet. Complete the original campaign first to understand the relationships, ethical choices, and events referenced by the expansion."
         },
         {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
-        }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
-      "items": [
-        {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
-        },
-        {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
-        },
-        {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
-        },
-        {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "title": "Check Missing-DLC Problems",
+          "description": "Restart the storefront client, verify the game's installed files, confirm that the base game and DLC use the same regional account, and reinstall the add-on if Last Variable does not appear in the menu."
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
-        {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
-        },
-        {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
-        },
-        {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
-        },
-        {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
-        },
-        {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
-      "items": [
-        {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
-        },
-        {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
-        {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
-          ]
-        },
-        {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
-          ]
-        },
-        {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
-          ]
-        },
-        {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
-        },
-        {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
-          ]
-        }
-      ]
-    },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
-        {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
-        },
-        {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
-        },
-        {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
-        },
-        {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
-        {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
-        },
-        {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
-        },
-        {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
+    "beginnerGuide": {
+      "title": "The Alters Last Variable Beginner Guide",
+      "intro": "The opening cycle is controlled by a 14-day Cryosleep Chamber deadline. Prioritize essential repairs, resource outposts, the branching procedure, and your first Alter before spending materials on optional modules or unnecessary crafting.",
       "steps": [
         {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
+          "timeframe": "Cycle 1, Day 1",
+          "title": "Complete Famous Last Words",
+          "objectives": [
+            "Speak with Old Scientist and complete his final request.",
+            "Bury him and return to JanBot.",
+            "Inspect the damaged Research Lab and the locked Quantum Computer."
+          ],
+          "keyCosts": "Keep at least 10 Metals available for a Repair Kit.",
+          "avoid": "Do not spend the starting Metals on optional equipment before inspecting the damaged facilities."
         },
         {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
+          "timeframe": "Cycle 1, Day 1",
+          "title": "Start New Home and Forced Dormancy",
+          "objectives": [
+            "Review the new base objectives after speaking with JanBot.",
+            "Track the 14-day deadline for constructing the Cryosleep Chamber.",
+            "Reserve resources for the chamber while expanding production."
+          ],
+          "keyCosts": "Cryosleep Chamber: 50 Metals and 65 Rapidium.",
+          "avoid": "Do not treat the deadline as optional; delaying core research can leave too little time for construction."
         },
         {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
+          "timeframe": "Cycle 1, Day 1",
+          "title": "Establish the First Metals Outpost",
+          "objectives": [
+            "Travel south from the base and locate the nearby Metals deposit.",
+            "Build a Metals Outpost and connect it to the base network.",
+            "Collect enough Metals for repairs, pylons, and required modules."
+          ],
+          "keyCosts": "Repair Kit: 10 Metals.",
+          "avoid": "Do not rely only on manually collected surface resources; automated Metals production is needed for the opening build order."
         },
         {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
+          "timeframe": "Cycle 1, Day 2",
+          "title": "Repair the Research Lab",
+          "objectives": [
+            "Use the Repair Kit on the damaged Research Lab.",
+            "Inspect the laboratory whiteboard.",
+            "Speak with JanBot to unlock the route toward the Oasis."
+          ],
+          "keyCosts": "New Branching Procedure research uses 20 Rapidium and takes 2 working hours.",
+          "avoid": "Do not end the day before starting critical research when enough work time remains."
         },
         {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "timeframe": "Cycle 1, Days 2–3",
+          "title": "Create the First Alter",
+          "objectives": [
+            "Collect Rapidium from the deposit south of the Metals Outpost.",
+            "Complete New Branching Procedure.",
+            "Choose the first Alter according to the resource bottleneck you want to solve."
+          ],
+          "alterOptions": [
+            "Geologist: 50% faster Metal mining.",
+            "Physicist: 50% faster base maintenance and Workshop crafting.",
+            "Biologist: 100% faster Greenhouse work and eight-times faster Infirmary healing.",
+            "Chemist: 50% faster refining and faster cooking."
+          ],
+          "avoid": "Do not choose only by personality; match the Alter's production bonus to the facilities you plan to use most."
+        },
+        {
+          "timeframe": "Cycle 1, Day 3",
+          "title": "Investigate the Oasis",
+          "objectives": [
+            "Enter the Oasis and collect all three required samples.",
+            "Return before exhausting the day's exploration window.",
+            "Start Analysis of Samples in the Research Lab."
+          ],
+          "keyCosts": "Analysis of Samples takes 4 working hours.",
+          "avoid": "Do not leave the Oasis after collecting only one or two samples, because a second trip consumes another large block of the day."
+        },
+        {
+          "timeframe": "Cycle 1, Days 3–5",
+          "title": "Build the Sample Analysis Module",
+          "objectives": [
+            "Secure Metals, Rapidium, and Organics.",
+            "Add the Sample Analysis Module to the base.",
+            "Continue the Oasis research chain without interrupting essential resource production."
+          ],
+          "keyCosts": "Sample Analysis Module: 60 Metals, 50 Rapidium and 60 Organics.",
+          "avoid": "Do not begin construction until the Cryosleep Chamber reserve and basic production network are protected."
+        },
+        {
+          "timeframe": "Cycle 1, Days 4–6",
+          "title": "Stabilize the Base Economy",
+          "objectives": [
+            "Build a Dormitory for the growing crew.",
+            "Establish an Organics Outpost behind the base.",
+            "Craft Drill Cartridges when blocked deposits must be opened.",
+            "Extend pylons toward the Oasis Rapidium deposit.",
+            "Add a Refinery only when its input materials and staffing are ready."
+          ],
+          "keyCosts": "Drill Cartridges: 20 Metals.",
+          "avoid": "Avoid building multiple unstaffed facilities, overproducing food, or assigning Jan and every Alter to long projects at the same time."
+        }
+      ]
+    },
+    "walkthroughQuestGuide": {
+      "title": "The Alters Last Variable Walkthrough and Quest Guide",
+      "intro": "The campaign progresses through repeating exploration, research, production, Field Laboratory, Terraformer, and cryosleep phases. Complete urgent construction before the end of each cycle, then use remaining hours for Alter requests, anomalies, upgrades, and additional resource reserves.",
+      "cycles": [
+        {
+          "section": "Cycle 1: The First Branch",
+          "mainQuests": [
+            "Famous Last Words",
+            "New Home",
+            "More Eggheads Needed",
+            "First Things First",
+            "Forced Dormancy",
+            "Find a Way into the Oasis"
+          ],
+          "requiredActions": [
+            "Complete Old Scientist's final request and speak with JanBot.",
+            "Inspect and repair the Research Lab.",
+            "Build the first Metals Outpost.",
+            "Research New Branching Procedure and create the first Alter.",
+            "Collect three Oasis samples and complete Analysis of Samples.",
+            "Build the Sample Analysis Module and Cryosleep Chamber."
+          ],
+          "requiredResearch": [
+            "New Branching Procedure",
+            "Analysis of Samples",
+            "Preliminary Analysis",
+            "Phased Rapidium",
+            "Terraformer technology"
+          ],
+          "importantCosts": [
+            "Cryosleep Chamber: 50 Metals and 65 Rapidium.",
+            "Sample Analysis Module: 60 Metals, 50 Rapidium and 60 Organics.",
+            "First Terraformer: 30 Metals, 50 Rapidium and 50 Phased Rapidium.",
+            "Cryosleep preparation: 50 Organics for each person remaining inside the base."
+          ],
+          "optionalObjectives": [
+            "Chasing Anomalies for the Geologist.",
+            "Can't Do It Without Help for the Physicist.",
+            "Personality Replication.",
+            "Build the Infirmary before the Geologist's human test."
+          ],
+          "completionCheckpoint": "Install the Terraformer in Rocky Valley, complete urgent Alter requests, stock Organics, and enter cryosleep before the cycle expires."
+        },
+        {
+          "section": "Cycle 2: Oasis 2.0",
+          "mainQuests": [
+            "Oasis 2.0",
+            "Root of the Problem",
+            "Eyewitness"
+          ],
+          "requiredActions": [
+            "Restore resource structures dismantled during the transition.",
+            "Research a method for passing the root barriers.",
+            "Explore the reopened Oasis routes.",
+            "Construct the first Field Laboratory on the second tier near the Metals Outpost.",
+            "Assign an Alter to the Field Laboratory on the final research day."
+          ],
+          "requiredResearch": [
+            "Drilling Through Root Barriers",
+            "Field Laboratory"
+          ],
+          "importantCosts": [
+            "Field Laboratory: 50 Metals, 50 Minerals and 100 Organics.",
+            "Field Laboratory construction time: 2 working hours.",
+            "Field Laboratory research: 10 hours for most workers or approximately 6 hours 15 minutes for the Chemist."
+          ],
+          "optionalObjectives": [
+            "Rebuild the resource network before expanding into optional modules.",
+            "Prepare enough Organics for every person who will remain in the base during cryosleep."
+          ],
+          "completionCheckpoint": "Finish the Field Laboratory assignment, collect all available resources, and enter cryosleep after the cycle's investigation is complete."
+        },
+        {
+          "section": "Cycle 3: Proxilium and Misty Gorge",
+          "mainQuests": [
+            "Continue the Field Laboratory investigation",
+            "Expand into Misty Gorge",
+            "Analyze the new planetary samples"
+          ],
+          "requiredActions": [
+            "Visit the Field Laboratory and speak with JanBot to unlock Proxilium.",
+            "Build a Proxilium Tank and expand production.",
+            "Construct the Splitter needed for advanced materials.",
+            "Research and install a Tier II Terraformer in Misty Gorge.",
+            "Upgrade the Sample Analysis Module with a Magnetometer.",
+            "Complete Magnetometric Analysis."
+          ],
+          "requiredResearch": [
+            "Proxilium production",
+            "Tier II Terraformer",
+            "Magnetometer",
+            "Magnetometric Analysis"
+          ],
+          "importantCosts": [
+            "Proxilium Tank: 150 Metals and 40 Minerals.",
+            "Splitter: 300 Metals, 150 Minerals and 100 Organics.",
+            "Tier II Terraformer: 60 Metals, 100 Rapidium and 100 Proxilium.",
+            "Magnetometer: 30 Metals and 30 Minerals.",
+            "Magnetometric Analysis: 12 working hours."
+          ],
+          "optionalObjectives": [
+            "Waves of Our Memory for the Chemist.",
+            "Doctor Janhattan and the Rematerializer project.",
+            "Project Rehabilitation and Uses for Slime for the Biologist."
+          ],
+          "completionCheckpoint": "Terraform Misty Gorge, complete the sample analysis, and resolve the current Alter objectives before cryosleep."
+        },
+        {
+          "section": "Cycle 4: Quantum Biofield",
+          "mainQuests": [
+            "Quantum Biofield",
+            "Radiation Crystallization",
+            "Second Field Laboratory deployment"
+          ],
+          "requiredActions": [
+            "Follow the new energy and radiation investigation.",
+            "Complete the Radiation Crystallization experiment.",
+            "Reach the raised central area of Misty Gorge.",
+            "Construct the second Field Laboratory.",
+            "Assign an Alter to complete the Field Laboratory work before the cycle ends."
+          ],
+          "requiredResearch": [
+            "Radiation Crystallization",
+            "Second Field Laboratory technologies"
+          ],
+          "importantCosts": [
+            "Radiation Crystallization experiment: 12 working hours.",
+            "Reserve construction resources before beginning optional facility upgrades."
+          ],
+          "optionalObjectives": [
+            "Finish unresolved personal quests from earlier cycles.",
+            "Upgrade production capacity for the advanced resources required later."
+          ],
+          "completionCheckpoint": "Complete the second Field Laboratory assignment and enter cryosleep with a reserve of advanced materials."
+        },
+        {
+          "section": "Advanced Cycles: Megafluid and Tier III Terraforming",
+          "mainQuests": [
+            "More Advanced Terraforming",
+            "Radioactive Decay",
+            "Colossal Energy"
+          ],
+          "requiredActions": [
+            "Collect data from both Field Laboratories to unlock Megafluid.",
+            "Produce the materials required for two Tier III Terraformers.",
+            "Install Terraformers in Far Hill and Waterfall.",
+            "Upgrade the Sample Analysis Module with a Mass Spectrometer.",
+            "Complete Mass Spectrometric Analysis.",
+            "Build the third Field Laboratory in Far Hill."
+          ],
+          "requiredResearch": [
+            "Megafluid production",
+            "Tier III Terraformer",
+            "Mass Spectrometer",
+            "Mass Spectrometric Analysis"
+          ],
+          "importantCosts": [
+            "Each Tier III Terraformer: 90 Metals, 200 Rapidium and 75 Megafluid.",
+            "Mass Spectrometer: 50 Metals and 50 Minerals.",
+            "Mass Spectrometric Analysis: 12 working hours."
+          ],
+          "optionalObjectives": [
+            "Research Mind Stimulant.",
+            "Explore the hidden Waterfall route.",
+            "Find the pink suitcase containing Scientist Jan's journal."
+          ],
+          "completionCheckpoint": "Activate both Terraformers, complete the third Field Laboratory assignment, and finish the Colossal Energy investigation."
+        },
+        {
+          "section": "Final Cycle: Energy Extraction",
+          "mainQuests": [
+            "Energy Extraction",
+            "Strange Phenomenon",
+            "ENC Generator project"
+          ],
+          "requiredActions": [
+            "Build the Resistor Blocks required for the final energy system.",
+            "Complete the planetary core analysis.",
+            "Research and craft the ENC Generator Alternator.",
+            "Assemble the generator and install it in Rocky Valley.",
+            "Activate the generator and return to the base.",
+            "Inspect the laboratory board, construct the additional Elevator Section, and descend."
+          ],
+          "requiredResearch": [
+            "Core Analysis",
+            "ENC Generator Alternator"
+          ],
+          "importantCosts": [
+            "Resistor Blocks: 50 Metals, 300 Phased Rapidium, 200 Proxilium and 100 Megafluid.",
+            "Resistor Blocks construction time: 4 working hours.",
+            "Core Analysis: 12 working hours.",
+            "Alternator research: 100 Phased Rapidium, 100 Proxilium and 100 Megafluid.",
+            "Alternator crafting: 50 Metals, 50 Organics and 160 Special Resources.",
+            "Generator assembly: 4 working hours."
+          ],
+          "optionalObjectives": [
+            "Complete all remaining Alter conversations before activating the final sequence.",
+            "Create a manual save before committing to the final decision."
+          ],
+          "completionCheckpoint": "Enter the final area and choose how Jan responds to the planet's last variable."
+        },
+        {
+          "section": "Endings and Post-Game",
+          "mainQuests": [
+            "Create a Successor",
+            "Break the Cycle"
+          ],
+          "requiredActions": [
+            "Review the final discovery and select one of the two concluding paths.",
+            "Finish the ending sequence and credits.",
+            "Reload the latest autosave to experience the alternate conclusion."
+          ],
+          "requiredResearch": [],
+          "importantCosts": [],
+          "optionalObjectives": [
+            "Complete missing Alter storylines before repeating the finale.",
+            "Use earlier saves to test different production routes and first-Alter choices."
+          ],
+          "completionCheckpoint": "Both final choices can be viewed without replaying the entire campaign by using the autosave created near the ending."
+        }
+      ]
+    },
+    "specialistAlters": {
+      "title": "The Alters Last Variable Best Specialist Alters",
+      "intro": "Jan Geologist is the strongest first creation because early Metal income and geology research control almost every other upgrade. Jan Physicist is the best second pick for Workshop output, maintenance, and processing technology; Jan Chemist and Jan Biologist become increasingly valuable once Field Labs, rare-resource chains, terraforming, the Greenhouse, and crew recovery enter the schedule.",
+      "specialists": [
+        {
+          "tier": "S",
+          "creationPriority": 1,
+          "specialist": "Jan Geologist",
+          "scientificSpecialty": "Geology, deposits, terrain barriers, anomalies, and advanced resource extraction.",
+          "researchContribution": [
+            "Accelerates Phased Rapidium research.",
+            "Excels at root-barrier drilling, Magnetometer, Tier III Terraformer, Anomaly Repulsor, and late Oasis-device research.",
+            "Provides the strongest early boost to the Metal economy."
+          ],
+          "workEfficiency": "50% efficiency when mining Metal, making him the most useful opening-cycle resource specialist.",
+          "bestAssignments": [
+            "Metal extraction during the opening cycle",
+            "Geology and anomaly research",
+            "Root-clearing and high-tier terraforming preparation",
+            "Surface expeditions that combine deposits, samples, and story objectives"
+          ],
+          "personality": "Enthusiastic, adventurous, and eager to test bold ideas. He responds best when Jan takes his discoveries seriously and supports controlled experimentation.",
+          "fieldLabTiming": "Keep him at the base until the main extraction upgrades, root access, anomaly protection, and his personal storyline are complete.",
+          "relationshipRule": "Support his curiosity, repair experiment damage quickly, and give him rest after long mining or surface shifts."
+        },
+        {
+          "tier": "A",
+          "creationPriority": 2,
+          "specialist": "Jan Physicist",
+          "scientificSpecialty": "Physics, advanced instruments, resource-processing networks, equipment, and base systems.",
+          "researchContribution": [
+            "Accelerates Splitter research from six hours to four hours and forty-five minutes.",
+            "Specializes in Tier II Terraformer, Polygonal Scanner, Rematerializer, and Mass Spectrometer projects.",
+            "Makes the transition from simple extraction to multi-input production chains much smoother."
+          ],
+          "workEfficiency": "50% efficiency in base maintenance and 50% efficiency when crafting Workshop items.",
+          "bestAssignments": [
+            "Workshop queues and Repair Kit production",
+            "Base maintenance during high-damage cycles",
+            "Splitter, scanner, and processing-network research",
+            "Late-day crafting while other Alters gather resources"
+          ],
+          "personality": "Highly self-assured and status-conscious, with a strong need to feel that his work is important.",
+          "fieldLabTiming": "Send him only after the Splitter and essential instrument research are finished and the base has enough Repair Kits and spare parts.",
+          "relationshipRule": "Recognize his expertise, avoid dismissive dialogue, and balance his workload with Recreation or personal conversations."
+        },
+        {
+          "tier": "A",
+          "creationPriority": 3,
+          "specialist": "Jan Chemist",
+          "scientificSpecialty": "Chemistry, refined materials, food production, sample work, and Field Lab technology.",
+          "researchContribution": [
+            "Completes Field Laboratory research in six hours and fifteen minutes instead of the standard ten hours.",
+            "Supports chemical processing, sample analysis, anomaly-countermeasure work, and rare-resource production.",
+            "Becomes especially useful when Phased Rapidium, Proxylium, and Megafluid chains begin overlapping."
+          ],
+          "workEfficiency": "50% efficiency when refining Enriched Metal into Metal and Organics; he also prepares food faster.",
+          "bestAssignments": [
+            "Field Lab research",
+            "Refining and rare-resource processing",
+            "Cooking during food-pressure periods",
+            "Sample experiments and chemical story projects"
+          ],
+          "personality": "Precise, emotionally restrained, and pragmatic. He values clear facts, efficient plans, and direct answers.",
+          "fieldLabTiming": "Create him before the first Field Lab research bottleneck, then keep him at the base until key chemical projects and his storyline are resolved.",
+          "relationshipRule": "Use practical dialogue, keep promises, and avoid assigning him to low-value work while major Laboratory projects are waiting."
+        },
+        {
+          "tier": "A",
+          "creationPriority": 4,
+          "specialist": "Jan Biologist",
+          "scientificSpecialty": "Biology, living samples, crop growth, medical recovery, slime research, and ecosystem response.",
+          "researchContribution": [
+            "Accelerates Terraformer research and the Uses for Slime project.",
+            "Strengthens biological sample work and long-cycle survival planning.",
+            "Supports the research path connecting the Oasis, plant life, radiation recovery, and transformed regions."
+          ],
+          "workEfficiency": "100% efficiency when growing Greenhouse crops and eight-times-faster healing work in the Infirmary.",
+          "bestAssignments": [
+            "Greenhouse production",
+            "Infirmary recovery",
+            "Terraforming and biological sample research",
+            "Morale recovery through plant-focused projects"
+          ],
+          "personality": "Idealistic but worn down by past failures. He needs encouragement and visible proof that his work can still help the crew.",
+          "fieldLabTiming": "Keep him available while injuries, food supply, Greenhouse output, or biological research remain unstable.",
+          "relationshipRule": "Encourage his work, complete plant-related requests, and avoid sending him away while the base still depends on his healing or crop bonus."
+        }
+      ]
+    },
+    "undergroundBaseCryosleep": {
+      "title": "The Alters Last Variable Underground Base and Cryosleep",
+      "intro": "The underground base does not roll away from danger. Each cool phase is a preparation window before a thirteen-year hot phase forces the remaining crew into cryosleep. Build the Cryosleep Chamber within its fourteen-day objective, protect critical production and life-support modules, and treat the final evening as a hard logistics deadline rather than another normal work shift.",
+      "steps": [
+        {
+          "title": "Restore the Research Core",
+          "timing": "Cycle 1, immediately after gaining control",
+          "requirements": [
+            "Build one Repair Kit in the Workshop for 10 Metal.",
+            "Repair the damaged Research Lab.",
+            "Research New Branching Procedure to unlock the specialist crew path."
+          ],
+          "baseRule": "Do not spend the opening Metal reserve on comfort modules before the Laboratory and basic extraction are operational.",
+          "failurePrevented": "A delayed Research Lab blocks Alter creation, Cryosleep preparation, Terraformer work, and the entire technology chain."
+        },
+        {
+          "title": "Build the Cryosleep Chamber",
+          "timing": "Complete the Forced Dormancy objective within 14 days",
+          "requirements": [
+            "50 Metal",
+            "65 Rapidium",
+            "A valid underground placement cell connected to the working base"
+          ],
+          "baseRule": "Place the chamber early enough that its footprint does not cut off future corridors, large modules, or expansion routes through the varied underground soil.",
+          "failurePrevented": "Without the chamber, the crew cannot safely pass the planet's years-long hot phase."
+        },
+        {
+          "title": "Plan Around Soil and Module Footprints",
+          "timing": "Before every major expansion",
+          "requirements": [
+            "Use the placement preview to identify buildable soil.",
+            "Reserve connected space for Laboratory, Workshop, storage, sleeping, food, medical, morale, and power-support functions.",
+            "Keep production modules close to storage and Workshop routes while separating rest areas from constant emergency work."
+          ],
+          "baseRule": "Build the mandatory chain first, then fill remaining cells with comfort modules. A compact layout reduces walking time and leaves fewer critical rooms isolated by awkward soil.",
+          "failurePrevented": "Poor placement can consume the only practical cells for later modules and force expensive rebuilding during a short cooldown."
+        },
+        {
+          "title": "Create a Critical-Power and Repair Buffer",
+          "timing": "Mid-cycle, before advanced processing expands",
+          "requirements": [
+            "Keep life support, Laboratory, Workshop, storage, and essential processing online before optional comfort systems.",
+            "Stock Repair Kits and Metal for earthquake damage.",
+            "Maintain Radiation Filters, batteries, food, medicine, and spare construction materials."
+          ],
+          "baseRule": "Do not run every new processor at once if the base cannot also support repairs, meals, sleep, and medical recovery.",
+          "failurePrevented": "Earthquakes, radiation waves, and overloaded production can turn one damaged module into a chain of stalled research and exhausted Alters."
+        },
+        {
+          "title": "Reserve Cryosleep Organics",
+          "timing": "Before the last day of every cool phase",
+          "requirements": [
+            "50 Organics for each Jan entering cryosleep.",
+            "100 Organics for Jan Scientist plus one Alter.",
+            "150 Organics for Jan Scientist plus two Alters."
+          ],
+          "baseRule": "Treat this Organics reserve as untouchable. Field Lab assignees remain outside the base and do not add to the chamber's current occupant cost.",
+          "failurePrevented": "Spending the reserve on food, modules, or experiments can leave the crew unable to end the cycle safely."
+        },
+        {
+          "title": "Run the Final-Day Checklist",
+          "timing": "Evening or night of the final day",
+          "requirements": [
+            "Finish urgent research and personal conversations.",
+            "Heal injuries, lower radiation, feed the crew, and restore sleep and morale.",
+            "Assign the selected Alter to a Field Lab only after his important base work is complete.",
+            "Dismantle any surface structures named in the cycle warning so their parts return to storage.",
+            "Enter cryosleep after all final shifts and collection runs are complete."
+          ],
+          "baseRule": "Do not sleep early unless the surface is already exhausted; the final day is valuable for stockpiling, samples, and relationship events.",
+          "failurePrevented": "Low readiness can trigger an Alter Revolt, while forgotten surface hardware and unfinished conversations create shortages or missable story progress after waking."
+        },
+        {
+          "title": "Rebuild in the Correct Wake-Up Order",
+          "timing": "First morning after planetary cooldown",
+          "requirements": [
+            "Restore the Organics Outpost first.",
+            "Replace dismantled pipelines, Phasers, Extractors, Outposts, and support structures.",
+            "Inspect base damage and crew readiness before assigning full shifts.",
+            "Visit active Field Labs and collect new research progress.",
+            "Use the short cooldown to explore newly transformed terrain and collect samples."
+          ],
+          "baseRule": "Restore survival income before rebuilding optional production branches.",
+          "failurePrevented": "Reconnecting rare-resource chains before food and Organics can create an impressive factory with no safe path to the next cryosleep."
+        }
+      ]
+    },
+    "terraformingOasisResearch": {
+      "title": "The Alters Last Variable Terraforming and Research Arenas",
+      "intro": "The map contains nine connected arenas: the Oasis plus eight regions transformed through three Terraformer tiers. Every transformation changes routes, exposes new construction sites and pickables, and advances the Phased Rapidium, Proxylium, and Megafluid research chain. Planetary activity rises as the project expands, so the safest route is to transform one research stage at a time, rebuild protection, and explore immediately during the next cooldown.",
+      "arenas": [
+        {
+          "arena": "Oasis",
+          "terraformer": "Reference biome; no Terraformer placement",
+          "surfaceRole": "The protected living ecosystem at the center of Jan Scientist's investigation.",
+          "keyPickables": [
+            "3 early Electric Algae samples"
+          ],
+          "resourceOrUnlock": "Initial Rapidium access, the first biological evidence, and the Sample Analysis Module research path.",
+          "researchPriority": "Collect all three opening samples, repair the Laboratory, and build the Sample Analysis Module before expanding the experiment tree.",
+          "hazardResponse": "Use the Oasis as the comparison point for every transformed region; do not spend the early cooldown only mining."
+        },
+        {
+          "arena": "Rocky Valley",
+          "terraformer": "Terraformer I",
+          "surfaceRole": "First full terraforming test and the location of the first Field Lab site.",
+          "keyPickables": [
+            "3 Polymer Gas",
+            "1 Obsidian Crystal"
+          ],
+          "resourceOrUnlock": "Metal access, root-barrier progression, Field Lab deployment, and early Phased Rapidium infrastructure.",
+          "researchPriority": "Transform first, finish the main Metal upgrades, then place the first Field Lab only after choosing which specialist can leave base work.",
+          "hazardResponse": "Expect newly opened paths and stronger planetary reactions; carry protection charges and combine every trip with sample collection."
+        },
+        {
+          "arena": "Base",
+          "terraformer": "Terraformer I",
+          "surfaceRole": "Central logistics arena linking the underground base to Organics, processing equipment, and multiple regional routes.",
+          "keyPickables": [
+            "4 Old Technology Debris",
+            "1 Polymer Gas"
+          ],
+          "resourceOrUnlock": "New building space, processing connections, Organics access, and technology experiments based on recovered debris.",
+          "researchPriority": "Keep the Organics route reliable, recover all debris, and leave clear pipeline corridors for later multi-resource production.",
+          "hazardResponse": "Rebuild this region first after cryosleep because failures here can disconnect several other arenas at once."
+        },
+        {
+          "arena": "Narrow Cliff",
+          "terraformer": "Terraformer I",
+          "surfaceRole": "Early expansion zone with Enriched Metal and a compact set of mixed samples.",
+          "keyPickables": [
+            "2 Polymer Gas",
+            "1 Electric Algae",
+            "1 Old Technology Debris"
+          ],
+          "resourceOrUnlock": "Enriched Metal supply and additional data for extraction, outpost, and radiation-support experiments.",
+          "researchPriority": "Secure the Enriched Metal Outpost, then clear caves and dead ends before the next hot phase.",
+          "hazardResponse": "Short routes make it suitable for a late-day sweep, but narrow passages punish low battery or radiation protection."
+        },
+        {
+          "arena": "Misty Gorge",
+          "terraformer": "Terraformer II",
+          "surfaceRole": "Midgame research hub and location of the second Field Lab.",
+          "keyPickables": [
+            "1 Polymer Gas",
+            "2 Obsidian Crystals",
+            "2 Old Technology Debris"
+          ],
+          "resourceOrUnlock": "Second Field Lab access, advanced sample experiments, and a key junction for later Phased Rapidium and Megafluid pipelines.",
+          "researchPriority": "Terraform before assigning a second Alter, collect the upper-path samples, and preserve a clean route for Splitters and pipelines.",
+          "hazardResponse": "Roots and vertical paths increase travel time; enter with upgraded climbing, battery capacity, and a defined sample route."
+        },
+        {
+          "arena": "Volcano",
+          "terraformer": "Terraformer II",
+          "surfaceRole": "High-value mineral and processing region used by the final rare-resource network.",
+          "keyPickables": [
+            "1 Polymer Gas",
+            "4 Obsidian Crystals",
+            "1 Mushroom"
+          ],
+          "resourceOrUnlock": "Mineral extraction and a transformed input required for the Megafluid production chain.",
+          "researchPriority": "Collect the dense Obsidian set, establish the Mineral line, and prepare Phaser and Splitter connections before rebuilding the final network.",
+          "hazardResponse": "Use strong radiation protection and finish the region in one planned circuit; repeated partial trips waste the short cooldown."
+        },
+        {
+          "arena": "Remains Hollow",
+          "terraformer": "Terraformer II",
+          "surfaceRole": "Ruined research zone containing technology debris, story objects, and a mineral input for rare-resource production.",
+          "keyPickables": [
+            "1 Polymer Gas",
+            "3 Old Technology Debris",
+            "1 Mushroom"
+          ],
+          "resourceOrUnlock": "Proxylium-related infrastructure, Chemist story progress, and additional permanent experiment bonuses.",
+          "researchPriority": "Search the ruined base and long upper route before leaving; several objectives can be cleared in the same expedition.",
+          "hazardResponse": "Earthquake and radiation pressure increase by this stage, so avoid entering without filters, healing supplies, and enough time to return."
+        },
+        {
+          "arena": "Waterfall",
+          "terraformer": "Terraformer III",
+          "surfaceRole": "Late-game biological and geological sample zone opened after advanced root and terraforming research.",
+          "keyPickables": [
+            "2 Electric Algae",
+            "1 Polymer Gas",
+            "1 Obsidian Crystal",
+            "1 Mushroom"
+          ],
+          "resourceOrUnlock": "Late Sample Analysis Module experiments and final evidence connecting transformed land to Oasis survival.",
+          "researchPriority": "Use drilling upgrades to open the route, collect the entire mixed sample set, and complete remaining permanent bonuses.",
+          "hazardResponse": "Treat it as a single high-priority cooldown expedition because access is late and the planet's defense is already severe."
+        },
+        {
+          "arena": "Far Hill",
+          "terraformer": "Terraformer III",
+          "surfaceRole": "Final high-tier region and location of the third Field Lab.",
+          "keyPickables": [
+            "2 Electric Algae",
+            "1 Obsidian Crystal",
+            "2 Mushrooms"
+          ],
+          "resourceOrUnlock": "Third Field Lab access, final research data, and the last major step toward the ENC Generator sequence.",
+          "researchPriority": "Terraform, reach the highest level, place the third Field Lab, collect every remaining sample, and finish specialist storylines before activating the final device.",
+          "hazardResponse": "Bring maximum practical radiation protection and leave enough time for the long vertical return route."
+        }
+      ]
+    },
+    "endingsChoicesAchievements": {
+      "title": "The Alters Last Variable Endings and Achievements",
+      "intro": "Last Variable follows the base-game branch in which Jan Scientist remains on the planet to study the Oasis. Most ordinary dialogue choices shape conversations rather than the ending; the decisive branch comes in the final exchange with JanBot. Field Lab assignments, specialist aging, unfinished personal stories, and the timing of the ENC Generator still change what the final journey feels like and determine whether completion objectives remain available.",
+      "items": [
+        {
+          "type": "details",
+          "heading": "Story Prerequisite: The Scientist Stayed",
+          "spoilerLevel": "Premise spoiler",
+          "summary": "The expansion begins from the base-game ending where Jan Scientist remains behind while the other Jans leave the planet.",
+          "details": [
+            "The DLC is launched as its own story route and does not require the player's original ending save.",
+            "The old research effort, underground base, Oasis mystery, and JanBot form the starting point.",
+            "Playing the base game first provides the full context for Jan Scientist's choice and obsession."
+          ]
+        },
+        {
+          "type": "details",
+          "heading": "Field Lab Choices and Specialist Fate",
+          "spoilerLevel": "Major gameplay spoiler",
+          "summary": "Each Field Lab assignment removes one specialist from normal base work and exposes him to the passage of years outside Jan Scientist's cryosleep.",
+          "details": [
+            "The first Field Lab is reached through Rocky Valley, the second through Misty Gorge, and the third through Far Hill.",
+            "Finish the selected specialist's urgent research, useful production work, and personal conversations before assignment.",
+            "Assigned Alters continue the Oasis project across cycles and visibly age while Jan Scientist sleeps.",
+            "The same specialist type can be created again later, which also unlocks the Wait, you can do that? achievement."
+          ]
+        },
+        {
+          "type": "ending",
+          "heading": "Ending One: Create a Successor",
+          "spoilerLevel": "Full ending spoiler",
+          "summary": "Jan accepts a continuing succession of researchers so the Oasis project can outlive the current crew.",
+          "requirements": [
+            "Reach the final JanBot conversation after the ENC Generator sequence.",
+            "Choose Create a Successor."
+          ],
+          "outcome": "Jan Scientist's legacy becomes a self-perpetuating research program: a new Alter and JanBot continue the work instead of allowing the unanswered question to end with one lifetime.",
+          "theme": "Knowledge, continuity, and obsession are placed above closure."
+        },
+        {
+          "type": "ending",
+          "heading": "Ending Two: Break the Cycle",
+          "spoilerLevel": "Full ending spoiler",
+          "summary": "Jan rejects the succession model and chooses to end the endless research cycle.",
+          "requirements": [
+            "Reach the final JanBot conversation after the ENC Generator sequence.",
+            "Choose Break the Cycle."
+          ],
+          "outcome": "Jan Scientist refuses to make another life carry the same burden and accepts that the project must stop, even if the Oasis cannot be reduced to a final complete answer.",
+          "theme": "Mortality, restraint, and acceptance are placed above unlimited discovery."
+        },
+        {
+          "type": "details",
+          "heading": "What the Oasis Means at the End",
+          "spoilerLevel": "Full interpretation spoiler",
+          "summary": "The Oasis becomes a test of whether scientific curiosity justifies an endless chain of created lives.",
+          "details": [
+            "Terraforming produces knowledge but also provokes stronger earthquakes, radiation waves, and defensive planetary reactions.",
+            "The final choice reframes the Oasis from a simple puzzle into an ethical boundary.",
+            "Create a Successor treats the mystery as important enough to continue indefinitely.",
+            "Break the Cycle treats acceptance and responsibility as more important than total explanation."
+          ]
+        },
+        {
+          "type": "missables",
+          "heading": "Best Save Points and Missable Objectives",
+          "spoilerLevel": "Completion spoiler",
+          "summary": "Use three practical checkpoints to protect storylines and view both endings efficiently.",
+          "savePoints": [
+            "Before permanently assigning each Alter to a Field Lab: finish his available conversations and specialist projects.",
+            "Before activating the ENC Generator: complete remaining personal incidents, experiments, sample collection, and base preparation.",
+            "At the final JanBot conversation: the completion autosave returns to this branch, allowing both endings without replaying the full expansion."
+          ],
+          "missables": [
+            "Complete all four Scientist-Alter storylines before the final sequence for Caring after all.",
+            "Respond to new conversation icons after each cryosleep and major research step.",
+            "Collect region samples and finish optional Sample Analysis Module experiments before ending the project.",
+            "Create a specialist type for a second time before completion for Wait, you can do that?."
+          ]
+        },
+        {
+          "type": "achievements",
+          "heading": "Last Variable Achievement and Trophy Checklist",
+          "spoilerLevel": "Achievement spoilers",
+          "summary": "The expansion adds seven achievements worth 210 Gamerscore on Xbox and seven trophies on PlayStation.",
+          "achievements": [
+            {
+              "name": "Space Gardener",
+              "requirement": "Place the first Terraformer."
+            },
+            {
+              "name": "Mastering Rapidium",
+              "requirement": "Start production of Phased Rapidium."
+            },
+            {
+              "name": "Mix and match",
+              "requirement": "Start production of Proxylium."
+            },
+            {
+              "name": "Substance Genius",
+              "requirement": "Start production of Megafluid."
+            },
+            {
+              "name": "Wait, you can do that?",
+              "requirement": "Create the same Alter for a second time."
+            },
+            {
+              "name": "Caring after all",
+              "requirement": "Complete all Scientist's Alters' storylines."
+            },
+            {
+              "name": "The reason I stayed",
+              "requirement": "Finish the Last Variable DLC."
+            }
+          ]
         }
       ]
     }
@@ -749,31 +933,31 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about The Alters: Last Variable",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "Do I need to own The Alters to play The Alters: Last Variable?",
+        "answer": "Yes. The Alters: Last Variable is a paid story DLC, not a standalone game. You must own and install the original The Alters on the same storefront and account before the expansion can launch."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "How long is The Alters: Last Variable and how much does it cost?",
+        "answer": "The Alters: Last Variable offers roughly 20 hours of new campaign content and costs $14.99 on Steam, Epic Games Store, GOG, PlayStation 5 and Xbox Series X|S."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "Which platforms is The Alters: Last Variable available on?",
+        "answer": "The Alters: Last Variable launched on July 13, 2026 for Windows PC (Steam, Epic and GOG), PlayStation 5 and Xbox Series X|S, and is also included with eligible Deluxe Edition purchases."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "Do I need a completed save to start The Alters: Last Variable?",
+        "answer": "No. The Alters: Last Variable runs as its own separate campaign and does not require your original ending save. However, playing the base game first gives full context for why Jan Scientist remains on the planet."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "Who are the four specialist Alters in The Alters: Last Variable?",
+        "answer": "The Alters: Last Variable lets you create Jan Geologist, Jan Physicist, Jan Chemist and Jan Biologist. Jan Geologist is the strongest first pick because early Metal income and geology research unlock almost every other upgrade."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "How many endings does The Alters: Last Variable have?",
+        "answer": "The Alters: Last Variable has two conclusions reached through the final JanBot conversation: Create a Successor and Break the Cycle. A completion autosave near the ending lets you view both without replaying the full expansion."
       }
     ]
   },

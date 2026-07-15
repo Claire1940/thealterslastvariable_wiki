@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { ExternalLink, Play } from "lucide-react";
 
 interface VideoFeatureProps {
@@ -15,21 +15,47 @@ export function VideoFeature({
   poster = "/images/hero.webp",
 }: VideoFeatureProps) {
   const [playing, setPlaying] = useState(false);
+  const containerRef = useRef<HTMLDivElement>(null);
 
   const watchUrl = useMemo(
     () => `https://www.youtube.com/watch?v=${videoId}`,
     [videoId],
   );
 
+  // 自动播放：mute+loop+playlist（YouTube loop 需配合 playlist 指向同一 videoId）
   const embedUrl = useMemo(
     () =>
-      `https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&playsinline=1&rel=0`,
+      `https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&loop=1&playlist=${videoId}&playsinline=1&rel=0`,
     [videoId],
   );
+
+  // IntersectionObserver：视频进入视口 50% 时自动播放（点击 poster 为后备）
+  useEffect(() => {
+    if (playing) return;
+    const el = containerRef.current;
+    if (!el || typeof IntersectionObserver === "undefined") return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting && entry.intersectionRatio >= 0.5) {
+            setPlaying(true);
+            observer.disconnect();
+            break;
+          }
+        }
+      },
+      { threshold: 0.5 },
+    );
+
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, [playing]);
 
   return (
     <div className="space-y-4">
       <div
+        ref={containerRef}
         className="relative w-full overflow-hidden rounded-lg bg-black"
         style={{ paddingBottom: "56.25%" }}
       >
