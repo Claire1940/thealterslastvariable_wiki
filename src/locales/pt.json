@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Wiki de Lucid Blocks - Fabricação, Biomas e Conquistas",
-      "description": "A Wiki de Lucid Blocks abrange fabricação, biomas, criaturas, itens, conquistas, finais e dicas de sobrevivência para a aventura sandbox de voxel surreal no Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, fabricação, biomas, conquistas, sobrevivência, Steam",
-      "ogTitle": "Wiki de Lucid Blocks - Fabricação, Biomas e Conquistas",
-      "ogDescription": "A Wiki de Lucid Blocks abrange fabricação, biomas, criaturas, itens, conquistas, finais e dicas de sobrevivência para a aventura sandbox de voxel surreal no Steam.",
-      "twitterTitle": "Wiki de Lucid Blocks - Fabricação, Biomas e Conquistas",
-      "twitterDescription": "A Wiki de Lucid Blocks abrange fabricação, biomas, criaturas, itens, conquistas e dicas de sobrevivência para o sandbox de voxel surreal no Steam."
+      "title": "The Alters Last Variable Wiki - Walkthrough & Endings",
+      "description": "The Alters Last Variable Wiki offers a complete walkthrough, endings, Alter builds, terraforming, Oasis research, resources, achievements, and fixes.",
+      "keywords": "The Alters Last Variable, walkthrough, endings, Alters, terraforming, Oasis, achievements",
+      "ogTitle": "The Alters Last Variable Wiki - Walkthrough & Endings",
+      "ogDescription": "The Alters Last Variable Wiki offers a complete walkthrough, endings, Alter builds, terraforming, Oasis research, resources, achievements, and fixes.",
+      "twitterTitle": "The Alters Last Variable Wiki - Walkthrough & Endings",
+      "twitterDescription": "Complete The Alters: Last Variable walkthrough, Alter builds, terraforming, Oasis research, endings, achievements, and fixes."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Artigos em breve"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ Sandbox de Sobrevivência Voxel",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore biomas oníricos, combine itens com Apotheosis, construa livremente e sobreviva a criaturas estranhas neste sandbox surreal de mundo aberto no Steam.",
-    "getFreeCodesCTA": "Explore o Guia de Criação",
-    "playOnSteamCTA": "Jogue no Steam",
+    "badge": "20-Hour Sci-Fi Survival Expansion",
+    "title": "The Alters Last Variable Wiki",
+    "description": "Follow Jan Scientist into a new survival story featuring an underground base, four specialist Alters, nine terraforming arenas, cryosleep cycles, advanced research and the mystery of the Oasis.",
+    "getFreeCodesCTA": "Read Walkthrough",
+    "playOnSteamCTA": "Buy on Steam",
     "stats": {
       "stat1": {
-        "value": "1.325",
-        "label": "Jogadores Online"
+        "value": "Jul 13, 2026",
+        "label": "Release Date"
       },
       "stat2": {
-        "value": "1.986",
-        "label": "Pico de CCU"
+        "value": "20 Hours",
+        "label": "Story Length"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Avaliações Positivas"
+        "value": "4",
+        "label": "New Specialist Alters"
       },
       "stat4": {
-        "value": "12 de mar. de 2026",
-        "label": "Data de Lançamento"
+        "value": "9",
+        "label": "Terraforming Arenas"
       }
     }
   },
@@ -785,27 +785,27 @@
     ]
   },
   "cta": {
-    "title": "Pronto para explorar Lucid Blocks?",
-    "description": "Junte-se à comunidade de Lucid Blocks no Discord para guias, atualizações e discussões!",
-    "joinCommunity": "Entrar no Discord",
-    "joinGame": "Jogue no Steam"
+    "title": "Ready to Survive The Alters: Last Variable?",
+    "description": "Grab the full walkthrough, Alter builds, terraforming routes, and endings, plus the latest fixes and community discussion on Discord.",
+    "joinCommunity": "Join Discord",
+    "joinGame": "Buy on Steam"
   },
   "footer": {
-    "title": "Wiki de Lucid Blocks",
-    "description": "Seu centro de recursos completo para crafting, biomas, criaturas, conquistas e guias de sobrevivência de Lucid Blocks.",
-    "resources": "Recursos",
-    "community": "Comunidade",
+    "title": "The Alters Last Variable Wiki",
+    "description": "Your complete resource hub for The Alters: Last Variable walkthrough, Alters, research, terraforming, the Oasis, endings, and achievements.",
+    "resources": "Resources",
+    "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Comunidade Steam",
-    "steamStore": "Loja Steam",
-    "about": "Sobre",
-    "privacy": "Política de Privacidade",
-    "terms": "Termos de Serviço",
+    "reddit": "Reddit",
+    "youtube": "YouTube",
+    "about": "About",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Wiki de Lucid Blocks. Não afiliada aos desenvolvedores de Lucid Blocks.",
-    "disclaimer": "Site de recursos não oficial feito por fãs."
+    "copyright": "© 2026 The Alters Last Variable Wiki. Not affiliated with 11 bit studios.",
+    "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
     "guides": {

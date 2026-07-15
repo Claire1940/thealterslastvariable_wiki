@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "description": "Lucid Blocks Wikiでは、Steamで展開される超現実的なボクセルサンドボックスアドベンチャーのクラフト、バイオーム、クリーチャー、アイテム、実績、エンディング、サバイバルのヒントについて解説しています。",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, クラフト, バイオーム, 実績, サバイバル, Steam",
-      "ogTitle": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "ogDescription": "Lucid Blocks Wikiでは、Steamで展開される超現実的なボクセルサンドボックスアドベンチャーのクラフト、バイオーム、クリーチャー、アイテム、実績、エンディング、サバイバルのヒントについて解説しています。",
-      "twitterTitle": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "twitterDescription": "Lucid Blocks Wikiでは、Steamの超現実的なボクセルサンドボックスにおけるクラフト、バイオーム、クリーチャー、アイテム、実績、サバイバルのヒントを網羅しています。"
+      "title": "The Alters Last Variable Wiki - Walkthrough & Endings",
+      "description": "The Alters Last Variable Wiki offers a complete walkthrough, endings, Alter builds, terraforming, Oasis research, resources, achievements, and fixes.",
+      "keywords": "The Alters Last Variable, walkthrough, endings, Alters, terraforming, Oasis, achievements",
+      "ogTitle": "The Alters Last Variable Wiki - Walkthrough & Endings",
+      "ogDescription": "The Alters Last Variable Wiki offers a complete walkthrough, endings, Alter builds, terraforming, Oasis research, resources, achievements, and fixes.",
+      "twitterTitle": "The Alters Last Variable Wiki - Walkthrough & Endings",
+      "twitterDescription": "Complete The Alters: Last Variable walkthrough, Alter builds, terraforming, Oasis research, endings, achievements, and fixes."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "記事は近日公開予定です"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ ボクセル・サバイバル・サンドボックス",
-    "title": "Lucid Blocks Wiki",
-    "description": "夢のようなバイオームを探索し、Apotheosisでアイテムを融合、自由に建築を楽しみましょう。Steamで繰り広げられるこのシュールなオープンワールド・サンドボックスで、奇妙なクリーチャーから生き延びてください。",
-    "getFreeCodesCTA": "クラフトガイドを見る",
-    "playOnSteamCTA": "Steamでプレイ",
+    "badge": "20-Hour Sci-Fi Survival Expansion",
+    "title": "The Alters Last Variable Wiki",
+    "description": "Follow Jan Scientist into a new survival story featuring an underground base, four specialist Alters, nine terraforming arenas, cryosleep cycles, advanced research and the mystery of the Oasis.",
+    "getFreeCodesCTA": "Read Walkthrough",
+    "playOnSteamCTA": "Buy on Steam",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "オンラインプレイヤー"
+        "value": "Jul 13, 2026",
+        "label": "Release Date"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "最大同時接続数"
+        "value": "20 Hours",
+        "label": "Story Length"
       },
       "stat3": {
-        "value": "97%",
-        "label": "好評"
+        "value": "4",
+        "label": "New Specialist Alters"
       },
       "stat4": {
-        "value": "2026年3月12日",
-        "label": "リリース日"
+        "value": "9",
+        "label": "Terraforming Arenas"
       }
     }
   },
@@ -785,27 +785,27 @@
     ]
   },
   "cta": {
-    "title": "Lucid Blocksを探索する準備はできましたか？",
-    "description": "DiscordのLucid Blocksコミュニティに参加して、ガイドや最新情報、ディスカッションをチェックしましょう！",
-    "joinCommunity": "Discordに参加",
-    "joinGame": "Steamでプレイ"
+    "title": "Ready to Survive The Alters: Last Variable?",
+    "description": "Grab the full walkthrough, Alter builds, terraforming routes, and endings, plus the latest fixes and community discussion on Discord.",
+    "joinCommunity": "Join Discord",
+    "joinGame": "Buy on Steam"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Lucid Blocksのクラフト、バイオーム、クリーチャー、実績、サバイバルガイドに関する完全なリソースハブです。",
-    "resources": "リソース",
-    "community": "コミュニティ",
-    "legal": "法的情報",
+    "title": "The Alters Last Variable Wiki",
+    "description": "Your complete resource hub for The Alters: Last Variable walkthrough, Alters, research, terraforming, the Oasis, endings, and achievements.",
+    "resources": "Resources",
+    "community": "Community",
+    "legal": "Legal",
     "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Steam コミュニティ",
-    "steamStore": "Steam ストア",
-    "about": "このサイトについて",
-    "privacy": "プライバシーポリシー",
-    "terms": "利用規約",
-    "copyrightNotice": "著作権",
-    "copyright": "© 2026 Lucid Blocks Wiki. Lucid Blocksの開発元とは提携していません。",
-    "disclaimer": "非公式のファン作成リソースサイトです。"
+    "reddit": "Reddit",
+    "youtube": "YouTube",
+    "about": "About",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 The Alters Last Variable Wiki. Not affiliated with 11 bit studios.",
+    "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
     "guides": {

@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "description": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien, Crafting-Tipps, Steuerung, Mods und Community-Links für das Steam-Stealth-Heist-Spiel.",
-      "keywords": "Lucid Blocks Wiki, Lucid Blocks, Demo-Download, Anfängerleitfaden, Koop-Leitfaden, Crafting, Ausrüstung, Mods, BepInEx, Steam-Spiel, Stealth-Spiel",
-      "ogTitle": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "ogDescription": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien, Crafting-Tipps und Mods für das Steam-Stealth-Heist-Spiel.",
-      "twitterTitle": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "twitterDescription": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien und Crafting-Tipps."
+      "title": "The Alters Last Variable Wiki - Walkthrough & Endings",
+      "description": "The Alters Last Variable Wiki offers a complete walkthrough, endings, Alter builds, terraforming, Oasis research, resources, achievements, and fixes.",
+      "keywords": "The Alters Last Variable, walkthrough, endings, Alters, terraforming, Oasis, achievements",
+      "ogTitle": "The Alters Last Variable Wiki - Walkthrough & Endings",
+      "ogDescription": "The Alters Last Variable Wiki offers a complete walkthrough, endings, Alter builds, terraforming, Oasis research, resources, achievements, and fixes.",
+      "twitterTitle": "The Alters Last Variable Wiki - Walkthrough & Endings",
+      "twitterDescription": "Complete The Alters: Last Variable walkthrough, Alter builds, terraforming, Oasis research, endings, achievements, and fixes."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Artikel folgen bald"
   },
   "hero": {
-    "badge": "Winzige Gnome. Große Häuser. Stealth-Raubzüge mit Freunden.",
-    "title": "Lucid Blocks Wiki",
-    "description": "Deine zentrale Anlaufstelle für Lucid Blocks: wie die Raubzüge funktionieren, High-Gnome-Aufträge, Crafting & Upgrades, Gegner, Steuerung und die schnellsten Wege, um jeden Durchgang zu überleben.",
-    "getFreeCodesCTA": "Demo herunterladen",
-    "playOnSteamCTA": "Auf die Wunschliste bei Steam",
+    "badge": "20-Hour Sci-Fi Survival Expansion",
+    "title": "The Alters Last Variable Wiki",
+    "description": "Follow Jan Scientist into a new survival story featuring an underground base, four specialist Alters, nine terraforming arenas, cryosleep cycles, advanced research and the mystery of the Oasis.",
+    "getFreeCodesCTA": "Read Walkthrough",
+    "playOnSteamCTA": "Buy on Steam",
     "stats": {
       "stat1": {
-        "value": "15.000",
-        "label": "Gleichzeitige Spieler (Demo)"
+        "value": "Jul 13, 2026",
+        "label": "Release Date"
       },
       "stat2": {
-        "value": "6",
-        "label": "Koop-Spieler"
+        "value": "20 Hours",
+        "label": "Story Length"
       },
       "stat3": {
-        "value": "31.01.2026",
-        "label": "Demo-Veröffentlichung"
+        "value": "4",
+        "label": "New Specialist Alters"
       },
       "stat4": {
-        "value": "PC (Steam)",
-        "label": "Plattform"
+        "value": "9",
+        "label": "Terraforming Arenas"
       }
     }
   },
@@ -819,27 +819,27 @@
     ]
   },
   "cta": {
-    "title": "Bereit, mit dem Raub zu beginnen?",
-    "description": "Tritt der Lucid Blocks Community auf Discord bei, um Koop-Gruppen, Updates und Mod-Diskussionen zu erhalten!",
-    "joinCommunity": "Discord beitreten",
-    "joinGame": "Demo auf Steam herunterladen"
+    "title": "Ready to Survive The Alters: Last Variable?",
+    "description": "Grab the full walkthrough, Alter builds, terraforming routes, and endings, plus the latest fixes and community discussion on Discord.",
+    "joinCommunity": "Join Discord",
+    "joinGame": "Buy on Steam"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Dein komplettes Ressourcenzentrum für Lucid Blocks Stealth-Raubzüge, Koop-Strategien, Mods und Community-Leitfäden.",
-    "resources": "Ressourcen",
+    "title": "The Alters Last Variable Wiki",
+    "description": "Your complete resource hub for The Alters: Last Variable walkthrough, Alters, research, terraforming, the Oasis, endings, and achievements.",
+    "resources": "Resources",
     "community": "Community",
-    "legal": "Rechtliches",
+    "legal": "Legal",
     "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
-    "about": "Über uns",
-    "privacy": "Datenschutzrichtlinie",
-    "terms": "Nutzungsbedingungen",
-    "copyrightNotice": "Urheberrecht",
-    "copyright": "© 2026 Lucid Blocks Wiki. Nicht mit den Entwicklern von Lucid Blocks verbunden.",
-    "disclaimer": "Inoffizielle von Fans erstellte Ressourcen-Website."
+    "reddit": "Reddit",
+    "youtube": "YouTube",
+    "about": "About",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 The Alters Last Variable Wiki. Not affiliated with 11 bit studios.",
+    "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
     "guides": {

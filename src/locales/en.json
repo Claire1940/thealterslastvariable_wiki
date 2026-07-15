@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "The Alters Last Variable Wiki - Walkthrough & Endings",
+      "description": "The Alters Last Variable Wiki offers a complete walkthrough, endings, Alter builds, terraforming, Oasis research, resources, achievements, and fixes.",
+      "keywords": "The Alters Last Variable, walkthrough, endings, Alters, terraforming, Oasis, achievements",
+      "ogTitle": "The Alters Last Variable Wiki - Walkthrough & Endings",
+      "ogDescription": "The Alters Last Variable Wiki offers a complete walkthrough, endings, Alter builds, terraforming, Oasis research, resources, achievements, and fixes.",
+      "twitterTitle": "The Alters Last Variable Wiki - Walkthrough & Endings",
+      "twitterDescription": "Complete The Alters: Last Variable walkthrough, Alter builds, terraforming, Oasis research, endings, achievements, and fixes."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "20-Hour Sci-Fi Survival Expansion",
+    "title": "The Alters Last Variable Wiki",
+    "description": "Follow Jan Scientist into a new survival story featuring an underground base, four specialist Alters, nine terraforming arenas, cryosleep cycles, advanced research and the mystery of the Oasis.",
+    "getFreeCodesCTA": "Read Walkthrough",
+    "playOnSteamCTA": "Buy on Steam",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "Jul 13, 2026",
+        "label": "Release Date"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "20 Hours",
+        "label": "Story Length"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "4",
+        "label": "New Specialist Alters"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "9",
+        "label": "Terraforming Arenas"
       }
     }
   },
@@ -785,26 +785,26 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
+    "title": "Ready to Survive The Alters: Last Variable?",
+    "description": "Grab the full walkthrough, Alter builds, terraforming routes, and endings, plus the latest fixes and community discussion on Discord.",
     "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "joinGame": "Buy on Steam"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "The Alters Last Variable Wiki",
+    "description": "Your complete resource hub for The Alters: Last Variable walkthrough, Alters, research, terraforming, the Oasis, endings, and achievements.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "reddit": "Reddit",
+    "youtube": "YouTube",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 The Alters Last Variable Wiki. Not affiliated with 11 bit studios.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
