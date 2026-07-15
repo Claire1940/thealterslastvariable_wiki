@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return {
     title: 'About The Alters Last Variable Wiki - Your Ultimate Steam Game Resource',
-    description: 'Learn about The Alters Last Variable Wiki, a community-driven resource hub providing comprehensive guides, crafting tips, creature info, and strategies for The Alters: Last Variable Steam game.',
+    description: 'Learn about The Alters Last Variable Wiki, a community-driven resource hub providing walkthroughs, Alter builds, terraforming guides, and strategies for The Alters: Last Variable sci-fi survival DLC.',
     robots: {
       index: false,
       follow: true,
@@ -74,8 +74,8 @@ export default function About() {
             <h2>Welcome to The Alters Last Variable Wiki</h2>
             <p>
               The Alters Last Variable Wiki is an <strong>unofficial, fan-made resource website</strong> dedicated to helping players
-              master the Steam game "The Alters: Last Variable". We are a community-driven platform that provides comprehensive guides,
-              crafting tips, biome information, creature details, and strategic insights to enhance your gaming experience.
+              master the sci-fi survival DLC "The Alters: Last Variable". We are a community-driven platform that provides comprehensive walkthroughs,
+              specialist Alter builds, terraforming and research guides, base-building tips, and strategic insights to enhance your playthrough.
             </p>
             <p>
               Whether you're a new player just starting your survival journey or a seasoned veteran looking to optimize your strategies,
@@ -96,7 +96,7 @@ export default function About() {
             </p>
             <ul>
               <li><strong>Provide reliable information:</strong> Keep our content updated with the latest game changes, new items, and balance updates</li>
-              <li><strong>Build useful tools:</strong> Develop guides, crafting calculators, and planners that help players make informed decisions</li>
+              <li><strong>Build useful tools:</strong> Develop guides, build planners, and resource trackers that help players make informed decisions</li>
               <li><strong>Foster community:</strong> Create a welcoming space where players can learn, share strategies, and grow together</li>
               <li><strong>Stay accessible:</strong> Keep all resources free and easy to use for players of all skill levels</li>
             </ul>
@@ -105,7 +105,7 @@ export default function About() {
             <p>
               We envision The Alters Last Variable Wiki as the <strong>go-to destination</strong> for every The Alters: Last Variable player seeking
               to improve their gameplay. We want to be the resource that players trust and rely on, whether they need
-              crafting guides, want to explore new biomes, or are looking for advanced survival tactics.
+              walkthrough guides, want to optimize their Alter roster, or are looking for advanced terraforming and base-building tactics.
             </p>
           </div>
         </div>
@@ -119,39 +119,39 @@ export default function About() {
             {/* Feature Card 1 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
               <div className="text-2xl mb-3">🔨</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Crafting Guides</h3>
+              <h3 className="text-xl font-semibold text-white mb-2">Walkthrough & Quest Guides</h3>
               <p className="text-slate-300">
-                Comprehensive crafting recipes and Apotheosis fusion guides to help you create powerful items.
-                Master the art of item synthesis!
+                Step-by-step campaign walkthroughs, main-quest breakdowns, and cycle-by-cycle progression guides
+                to carry you through the full story.
               </p>
             </div>
 
             {/* Feature Card 2 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
               <div className="text-2xl mb-3">🌍</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Biome Information</h3>
+              <h3 className="text-xl font-semibold text-white mb-2">Terraforming & The Oasis</h3>
               <p className="text-slate-300">
-                Detailed guides on all biomes, their unique features, resources, and dangers.
-                Explore every corner of the surreal world safely.
+                Detailed guides on all nine terraforming arenas, their resources, hazards, and research priorities.
+                Explore every surface and uncover the mystery of the Oasis.
               </p>
             </div>
 
             {/* Feature Card 3 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
               <div className="text-2xl mb-3">🦋</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Creature Database</h3>
+              <h3 className="text-xl font-semibold text-white mb-2">Specialist Alters</h3>
               <p className="text-slate-300">
-                Complete information on all creatures, their behaviors, drops, and how to deal with them.
-                Know your friends from your foes.
+                Complete information on every specialist Alter, their scientific specialties, research contributions,
+                and best assignments. Build the optimal crew for your base.
               </p>
             </div>
 
             {/* Feature Card 4 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
               <div className="text-2xl mb-3">🎯</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Achievement Guides</h3>
+              <h3 className="text-xl font-semibold text-white mb-2">Endings & Achievements</h3>
               <p className="text-slate-300">
-                Step-by-step guides to unlock all 19 achievements in the game.
+                Step-by-step guides to every ending, choice, and achievement in the DLC.
                 Complete your collection with our detailed walkthroughs.
               </p>
             </div>
@@ -159,10 +159,10 @@ export default function About() {
             {/* Feature Card 5 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
               <div className="text-2xl mb-3">📚</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Survival Strategies</h3>
+              <h3 className="text-xl font-semibold text-white mb-2">Base Building & Survival</h3>
               <p className="text-slate-300">
-                Essential survival tips, building strategies, and exploration guides.
-                Learn how to thrive in the surreal sandbox world.
+                Essential base-building strategies, cryosleep-cycle management, and resource guides.
+                Learn how to thrive on the hostile planet.
               </p>
             </div>
 
@@ -171,8 +171,7 @@ export default function About() {
               <div className="text-2xl mb-3">🌍</div>
               <h3 className="text-xl font-semibold text-white mb-2">Multilingual Support</h3>
               <p className="text-slate-300">
-                Content available in multiple languages including English, Russian, Portuguese,
-                German, Spanish, Japanese, Korean, and French.
+                Content available in multiple languages including English, Russian, German, and Japanese.
               </p>
             </div>
           </div>
@@ -195,7 +194,7 @@ export default function About() {
               <li><strong>Meta shifts:</strong> We track gameplay trends and update guides based on real player experiences</li>
             </ul>
             <p>
-              <strong>Want to contribute?</strong> Whether you've discovered a new crafting recipe, found a hidden biome,
+              <strong>Want to contribute?</strong> Whether you've found a new Alter build strategy, uncovered a hidden research path,
               or have suggestions for new guides, we'd love to hear from you! Reach out through our contact channels below.
             </p>
           </div>
@@ -222,7 +221,7 @@ export default function About() {
               <li><strong>Community management:</strong> Listening to player feedback and fostering a positive environment</li>
             </ul>
             <p className="text-slate-400 italic text-sm">
-              Project Codename: "Dreamscape" – Navigating the surreal together.
+              Project Codename: "Last Variable" – Surviving the unknown together.
             </p>
           </div>
         </div>

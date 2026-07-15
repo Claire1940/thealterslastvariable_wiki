@@ -1,46 +1,43 @@
 {
   "categories": [
     {
-      "category": "指南",
+      "category": "攻略",
       "keywords": [
-        "lucid blocks 指南"
+        "The Alters Last Variable 攻略",
+        "The Alters Last Variable 新手指南"
       ]
     },
     {
-      "category": "合成",
+      "category": "剧情",
       "keywords": [
-        "lucid blocks 合成配方",
-        "lucid blocks 神化系统"
+        "The Alters Last Variable 剧情",
+        "The Alters Last Variable 结局"
       ]
     },
     {
-      "category": "物品",
+      "category": "DLC",
       "keywords": [
-        "lucid blocks 信仰法杖",
-        "lucid blocks 蜜蜂滑翔器",
-        "lucid blocks 箱子",
-        "lucid blocks 锇"
+        "The Alters Last Variable DLC",
+        "The Alters Last Variable 安装"
       ]
     },
     {
-      "category": "生物群系",
+      "category": "购买",
       "keywords": [
-        "lucid blocks 提亚玛纳地脉"
+        "The Alters Last Variable 价格",
+        "The Alters Last Variable 平台"
       ]
     },
     {
-      "category": "建造",
+      "category": "评测",
       "keywords": [
-        "lucid blocks 感质空间"
+        "The Alters Last Variable 评测"
       ]
     },
     {
-      "category": "技术支持",
+      "category": "媒体",
       "keywords": [
-        "lucid blocks steam deck",
-        "lucid blocks 全屏",
-        "lucid blocks 多人模式",
-        "lucid blocks 安卓版"
+        "The Alters Last Variable 预告片"
       ]
     }
   ]

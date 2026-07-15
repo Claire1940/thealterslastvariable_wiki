@@ -1,10 +1,1116 @@
 {
+  "seo": {
+    "home": {
+      "title": "The Alters Last Variable Wiki – Komplettlösung & Enden",
+      "description": "Das The Alters Last Variable Wiki bietet eine vollständige Komplettlösung, Enden, Alter-Builds, Terraforming, Oasis-Forschung, Ressourcen, Erfolge und Fixes.",
+      "keywords": "The Alters Last Variable, Komplettlösung, Enden, Alters, Terraforming, Oasis, Erfolge",
+      "ogTitle": "The Alters Last Variable Wiki – Komplettlösung & Enden",
+      "ogDescription": "Das The Alters Last Variable Wiki bietet eine vollständige Komplettlösung, Enden, Alter-Builds, Terraforming, Oasis-Forschung, Ressourcen, Erfolge und Fixes.",
+      "twitterTitle": "The Alters Last Variable Wiki – Komplettlösung & Enden",
+      "twitterDescription": "Vollständige Komplettlösung zu The Alters: Last Variable, Alter-Builds, Terraforming, Oasis-Forschung, Enden, Erfolge und Fixes."
+    }
+  },
   "nav": {
-    "guide": "Leitfaden",
+    "guide": "Guide",
     "story": "Story",
     "dlc": "DLC",
     "availability": "Verfügbarkeit",
     "reviews": "Rezensionen",
     "media": "Medien"
+  },
+  "common": {
+    "home": "Startseite",
+    "more": "Mehr",
+    "playNow": "Auf Steam spielen",
+    "switchLanguage": "Sprache wechseln",
+    "switchTheme": "Design wechseln",
+    "lightMode": "Heller Modus",
+    "darkMode": "Dunkler Modus",
+    "notFound": "Seite nicht gefunden",
+    "notFoundDescription": "Die von dir gesuchte Seite existiert nicht.",
+    "backToHome": "Zurück zur Startseite",
+    "relatedArticles": "Ähnliche Artikel",
+    "readMore": "Mehr lesen",
+    "articlesComingSoon": "Artikel folgen in Kürze"
+  },
+  "hero": {
+    "badge": "20-stündige Sci-Fi-Survival-Erweiterung",
+    "title": "The Alters Last Variable Wiki",
+    "description": "Begleite Jan Scientist in eine neue Survival-Geschichte mit einer unterirdischen Basis, vier spezialisierten Alters, neun Terraforming-Arenen, Kryoschlaf-Zyklen, fortschrittlicher Forschung und dem Geheimnis der Oasis.",
+    "getFreeCodesCTA": "Komplettlösung lesen",
+    "playOnSteamCTA": "Auf Steam kaufen",
+    "stats": {
+      "stat1": {
+        "value": "13. Juli 2026",
+        "label": "Release-Datum"
+      },
+      "stat2": {
+        "value": "20 Stunden",
+        "label": "Story-Länge"
+      },
+      "stat3": {
+        "value": "4",
+        "label": "Neue Spezialisten-Alters"
+      },
+      "stat4": {
+        "value": "9",
+        "label": "Terraforming-Arenen"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "The Alters Last Variable Gameplay",
+    "description": "Baue eine unterirdische Basis auf, verwalte vier Spezialisten-Alters, terraforme neun lebensfeindliche Arenen und lüfte das Geheimnis der Oase in diesem Sci-Fi-Survival-DLC von 11 bit studios."
+  },
+  "tools": {
+    "title": "The Alters Last Variable",
+    "titleHighlight": "Guide-Hub",
+    "subtitle": "Alles, was du zum Überleben in The Alters: Last Variable brauchst – Release-Infos, DLC-Setup, Walkthroughs, Spezialisten-Alters, Basisbau, Terraforming und Enden.",
+    "cards": [
+      {
+        "icon": "Rocket",
+        "title": "Release-Datum & Plattformen",
+        "description": "Launch-Datum, 14,99 $ Preis und alle unterstützten Stores"
+      },
+      {
+        "icon": "Download",
+        "title": "DLC-Zugang & Setup",
+        "description": "Besitze das Hauptspiel, installiere und starte die Erweiterung"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Einsteiger-Guide",
+        "description": "Route für den ersten Zyklus und Ressourcenprioritäten"
+      },
+      {
+        "icon": "Map",
+        "title": "Walkthrough & Quests",
+        "description": "Die komplette Kampagne, unterteilt nach Zyklus und Hauptquest"
+      },
+      {
+        "icon": "Users",
+        "title": "Spezialisten-Alters",
+        "description": "Vier Wissenschaftler, Reihenfolge der Erstellung und beste Zuweisungen"
+      },
+      {
+        "icon": "Pickaxe",
+        "title": "Unterirdische Basis & Kryoschlaf",
+        "description": "Basislayout, Bodenregeln und Vorbereitung auf die Heißphase"
+      },
+      {
+        "icon": "Blatt",
+        "title": "Terraforming & Forschung",
+        "description": "Neun Arenen, Proben und neue Technologie"
+      },
+      {
+        "icon": "Trophäe",
+        "title": "Enden & Erfolge",
+        "description": "Finale Entscheidungen, Verpassbares und die Trophäenliste"
+      }
+    ]
+  },
+  "modules": {
+    "releaseDatePlatformsPrice": {
+      "title": "The Alters Last Variable – Release-Datum, Preis und Plattformen",
+      "intro": "Last Variable erschien am 13. Juli 2026 als kostenpflichtige Erweiterung für The Alters. Vergleiche Preis, Plattformverfügbarkeit, Besitzvoraussetzungen und shop-spezifische Features.",
+      "platforms": [
+        {
+          "platform": "Steam",
+          "releaseDate": "13. Juli 2026",
+          "price": "14,99 $",
+          "availability": "Windows-PC",
+          "baseGameRequired": "Ja",
+          "features": "Steam-Errungenschaften, Steam Cloud, Familienfreigabe und Controller-Unterstützung"
+        },
+        {
+          "platform": "Epic Games Store",
+          "releaseDate": "13. Juli 2026",
+          "price": "14,99 $",
+          "availability": "Windows-PC",
+          "baseGameRequired": "Ja",
+          "features": "Einzelspielerkampagne und Epic-Erfolge"
+        },
+        {
+          "platform": "GOG",
+          "releaseDate": "13. Juli 2026",
+          "price": "14,99 $",
+          "availability": "Windows-PC",
+          "baseGameRequired": "Ja",
+          "features": "DRM-freier Offline-Installer mit optionalen GOG Galaxy-Funktionen"
+        },
+        {
+          "platform": "PlayStation Store",
+          "releaseDate": "13. Juli 2026",
+          "price": "14,99 $",
+          "availability": "PlayStation 5",
+          "baseGameRequired": "Ja",
+          "features": "Offline-Einzelspielermodus, DualSense-Vibration und Barrierefreiheitsoptionen"
+        },
+        {
+          "platform": "Microsoft Store",
+          "releaseDate": "13. Juli 2026",
+          "price": "14,99 $",
+          "availability": "Xbox Series X|S und PC",
+          "baseGameRequired": "Ja",
+          "features": "Auch in berechtigten Käufen der Deluxe Edition und des Deluxe Edition Upgrades enthalten"
+        },
+        {
+          "platform": "Erweiterungsübersicht",
+          "releaseDate": "Jetzt verfügbar",
+          "price": "14,99 $",
+          "availability": "PC, PlayStation 5 und Xbox Series X|S",
+          "baseGameRequired": "Ja",
+          "features": "Ungefähr 20 Stunden neue Kampagneninhalte"
+        }
+      ]
+    },
+    "dlcAccessStoryPrerequisites": {
+      "title": "The Alters Last Variable DLC – Zugriff und Installation",
+      "intro": "Die Erweiterung läuft als separate Kampagne und erfordert keinen bereits vorhandenen, abgeschlossenen Spielstand. Befolge diese Schritte, um den Besitz zu bestätigen, den DLC zu installieren und seine Geschichte zu beginnen.",
+      "steps": [
+        {
+          "title": "Besitze das Hauptspiel „The Alters“",
+          "description": "Kaufe oder installiere das originale „The Alters“ auf derselben Plattform und demselben Konto, die für die Erweiterung „Last Variable“ verwendet werden. Der DLC kann nicht als eigenständiges Spiel ausgeführt werden."
+        },
+        {
+          "title": "Kaufe oder verifiziere „Last Variable“",
+          "description": "Kaufe die Erweiterung separat oder bestätige, dass sie in deinen berechtigten Inhalten der Deluxe Edition enthalten ist. Überprüfe die Add-on-Verwaltungsseite der Plattform, falls der DLC nicht automatisch erkannt wird."
+        },
+        {
+          "title": "Installiere das neueste Spiel-Update",
+          "description": "Aktualisiere „The Alters“, bevor du es startest. Öffne auf Konsolen den Add-on-Verwaltungsbildschirm des Spiels und bestätige, dass „Last Variable“ installiert und nicht nur im Besitz ist."
+        },
+        {
+          "title": "Öffne das Menü „Neues Spiel“",
+          "description": "Starte „The Alters“, wähle „Neues Spiel starten“ und wähle die Kampagne „Last Variable“ aus. Das Laden eines abgeschlossenen Spielstands aus dem Hauptspiel ist nicht erforderlich."
+        },
+        {
+          "title": "Beginne mit einem separaten Kampagnenstatus",
+          "description": "Die Erweiterung erstellt ihren eigenen Fortschrittspfad, ihre eigene Forschungssequenz, eigene Ziele, Ressourcen und Speicherdateien. Strukturen und Inventar aus dem Hauptspiel werden nicht in die neue Geschichte übernommen."
+        },
+        {
+          "title": "Überprüfe die Story-Voraussetzungen",
+          "description": "„Last Variable“ knüpft an das Ende an, in dem Jan Scientist auf dem Planeten zurückbleibt. Schließe zuerst die Originalkampagne ab, um die Beziehungen, ethischen Entscheidungen und Ereignisse zu verstehen, auf die in der Erweiterung Bezug genommen wird."
+        },
+        {
+          "title": "Probleme mit fehlenden DLCs prüfen",
+          "description": "Starte den Store-Client neu, verifiziere die installierten Spieldateien, stelle sicher, dass das Hauptspiel und der DLC dasselbe regionale Konto verwenden, und installiere das Add-on neu, falls Last Variable nicht im Menü erscheint."
+        }
+      ]
+    },
+    "beginnerGuide": {
+      "title": "The Alters: Last Variable – Einsteiger-Guide",
+      "intro": "Der erste Zyklus wird durch eine 14-tägige Frist für die Kryoschlaf-Kammer bestimmt. Priorisiere wichtige Reparaturen, Ressourcen-Außenposten, das Abzweigungsverfahren und deinen ersten Alter, bevor du Materialien für optionale Module oder unnötiges Crafting ausgibst.",
+      "steps": [
+        {
+          "timeframe": "Zyklus 1, Tag 1",
+          "title": "Schließe „Berühmte letzte Worte“ ab",
+          "objectives": [
+            "Sprich mit dem Alten Wissenschaftler und erfülle seine letzte Bitte.",
+            "Begrabe ihn und kehre zu JanBot zurück.",
+            "Untersuche das beschädigte Forschungslabor und den gesperrten Quantencomputer."
+          ],
+          "keyCosts": "Halte mindestens 10 Metalle für ein Reparatur-Kit bereit.",
+          "avoid": "Gib die Start-Metalle nicht für optionale Ausrüstung aus, bevor du die beschädigten Anlagen untersucht hast."
+        },
+        {
+          "timeframe": "Zyklus 1, Tag 1",
+          "title": "Starte „Neues Zuhause“ und „Erzwungene Ruhephase“",
+          "objectives": [
+            "Überprüfe die neuen Basisziele, nachdem du mit JanBot gesprochen hast.",
+            "Behalte die 14-tägige Frist für den Bau der Kryoschlaf-Kammer im Auge.",
+            "Reserviere Ressourcen für die Kammer, während du die Produktion ausbaust."
+          ],
+          "keyCosts": "Kryoschlaf-Kammer: 50 Metalle und 65 Rapidium.",
+          "avoid": "Betrachte die Frist nicht als optional; eine Verzögerung der Kernforschung kann dazu führen, dass zu wenig Zeit für den Bau bleibt."
+        },
+        {
+          "timeframe": "Zyklus 1, Tag 1",
+          "title": "Errichte den ersten Metall-Außenposten",
+          "objectives": [
+            "Reise von der Basis aus nach Süden und mache das nahegelegene Metallvorkommen ausfindig.",
+            "Baue einen Metall-Außenposten und verbinde ihn mit dem Basisnetzwerk.",
+            "Sammle genug Metalle für Reparaturen, Pylone und erforderliche Module."
+          ],
+          "keyCosts": "Reparatur-Kit: 10 Metalle.",
+          "avoid": "Verlasse dich nicht nur auf manuell gesammelte Oberflächenressourcen; für die anfängliche Baureihenfolge ist eine automatisierte Metallproduktion erforderlich."
+        },
+        {
+          "timeframe": "Zyklus 1, Tag 2",
+          "title": "Repariere das Forschungslabor",
+          "objectives": [
+            "Benutze das Reparatur-Kit am beschädigten Forschungslabor.",
+            "Untersuche das Whiteboard im Labor.",
+            "Sprich mit JanBot, um die Route zur Oase freizuschalten."
+          ],
+          "keyCosts": "Die Forschung „Neues Verzweigungsverfahren“ verbraucht 20 Rapidium und dauert 2 Arbeitsstunden.",
+          "avoid": "Beende den Tag nicht, bevor du eine kritische Forschung gestartet hast, wenn noch genügend Arbeitszeit verbleibt."
+        },
+        {
+          "timeframe": "Zyklus 1, Tage 2–3",
+          "title": "Erschaffe den ersten Alter",
+          "objectives": [
+            "Sammle Rapidium vom Vorkommen südlich des Metall-Außenpostens.",
+            "Schließe das Neue Verzweigungsverfahren ab.",
+            "Wähle den ersten Alter entsprechend dem Ressourcenengpass, den du beheben möchtest."
+          ],
+          "alterOptions": [
+            "Geologe: 50 % schnellerer Metallabbau.",
+            "Physiker: 50 % schnellere Basiswartung und Fertigung in der Werkstatt.",
+            "Biologe: 100 % schnellere Arbeit im Gewächshaus und achtmal schnellere Heilung auf der Krankenstation.",
+            "Chemiker: 50 % schnelleres Raffinieren und schnelleres Kochen."
+          ],
+          "avoid": "Entscheide dich nicht nur nach der Persönlichkeit; stimme den Produktionsbonus des Alters auf die Einrichtungen ab, die du am häufigsten nutzen willst."
+        },
+        {
+          "timeframe": "Zyklus 1, Tag 3",
+          "title": "Untersuche die Oase",
+          "objectives": [
+            "Betritt die Oase und sammle alle drei erforderlichen Proben.",
+            "Kehre zurück, bevor das Erkundungsfenster des Tages abläuft.",
+            "Starte die Analyse der Proben im Forschungslabor."
+          ],
+          "keyCosts": "Die Analyse der Proben dauert 4 Arbeitsstunden.",
+          "avoid": "Verlasse die Oase nicht, nachdem du nur eine oder zwei Proben gesammelt hast, da eine zweite Reise einen weiteren großen Teil des Tages in Anspruch nimmt."
+        },
+        {
+          "timeframe": "Zyklus 1, Tage 3–5",
+          "title": "Baue das Probenanalysemodul",
+          "objectives": [
+            "Sichere Metalle, Rapidium und organische Stoffe.",
+            "Füge der Basis das Probenanalysemodul hinzu.",
+            "Setze die Oasen-Forschungskette fort, ohne die Produktion essenzieller Ressourcen zu unterbrechen."
+          ],
+          "keyCosts": "Probenanalysemodul: 60 Metalle, 50 Rapidium und 60 organische Stoffe.",
+          "avoid": "Beginne nicht mit dem Bau, bevor die Reserven der Kryoschlafkammer und das Basis-Produktionsnetzwerk gesichert sind."
+        },
+        {
+          "timeframe": "Zyklus 1, Tage 4–6",
+          "title": "Stabilisiere die Basiswirtschaft",
+          "objectives": [
+            "Baue einen Schlafsaal für die wachsende Besatzung.",
+            "Errichte einen Außenposten für organische Stoffe hinter der Basis.",
+            "Stelle Bohrkartuschen her, wenn blockierte Vorkommen geöffnet werden müssen.",
+            "Verlängere die Pylone in Richtung des Oasis-Rapidium-Vorkommens.",
+            "Füge eine Raffinerie erst hinzu, wenn ihre Ausgangsmaterialien und die Besetzung bereit sind."
+          ],
+          "keyCosts": "Bohrkartuschen: 20 Metalle.",
+          "avoid": "Vermeide es, mehrere unbesetzte Einrichtungen zu bauen, Nahrung überzuproduzieren oder Jan und jeden Alter gleichzeitig für langwierige Projekte einzuteilen."
+        }
+      ]
+    },
+    "walkthroughQuestGuide": {
+      "title": "The Alters Last Variable Komplettlösung und Quest-Guide",
+      "intro": "Die Kampagne schreitet durch sich wiederholende Erkundungs-, Forschungs-, Produktions-, Feldlabor-, Terraformer- und Kryoschlaf-Phasen voran. Schließe dringende Bauarbeiten vor dem Ende jedes Zyklus ab und nutze dann die verbleibenden Stunden für Alter-Anfragen, Anomalien, Upgrades und zusätzliche Ressourcenreserven.",
+      "cycles": [
+        {
+          "section": "Zyklus 1: Die erste Verzweigung",
+          "mainQuests": [
+            "Berühmte letzte Worte",
+            "Neues Zuhause",
+            "Mehr Eierköpfe benötigt",
+            "Das Wichtigste zuerst",
+            "Erzwungener Ruhezustand",
+            "Finde einen Weg in die Oasis"
+          ],
+          "requiredActions": [
+            "Schließe die letzte Bitte des alten Wissenschaftlers ab und sprich mit JanBot.",
+            "Inspeziere und repariere das Forschungslabor.",
+            "Baue den ersten Metall-Außenposten.",
+            "Erforsche das Neue Verzweigungsverfahren und erschaffe den ersten Alter.",
+            "Sammle drei Oasis-Proben und schließe die Analyse der Proben ab.",
+            "Baue das Probenanalysemodul und die Kryoschlafkammer."
+          ],
+          "requiredResearch": [
+            "Neues Verzweigungsverfahren",
+            "Analyse der Proben",
+            "Vorläufige Analyse",
+            "Phasen-Rapidium",
+            "Terraformer-Technologie"
+          ],
+          "importantCosts": [
+            "Kryoschlafkammer: 50 Metalle und 65 Rapidium.",
+            "Probenanalysemodul: 60 Metalle, 50 Rapidium und 60 Organika.",
+            "Erster Terraformer: 30 Metalle, 50 Rapidium und 50 Phasen-Rapidium.",
+            "Kryoschlaf-Vorbereitung: 50 Organika für jede Person, die in der Basis verbleibt."
+          ],
+          "optionalObjectives": [
+            "Auf der Jagd nach Anomalien für den Geologen.",
+            "Ohne Hilfe für den Physiker geht es nicht.",
+            "Persönlichkeitsreplikation.",
+            "Baue die Krankenstation vor dem Humantest des Geologen."
+          ],
+          "completionCheckpoint": "Installiere den Terraformer im Rocky Valley, erfülle dringende Alter-Anfragen, lagere Organik ein und begib dich in den Kryoschlaf, bevor der Zyklus endet."
+        },
+        {
+          "section": "Zyklus 2: Oasis 2.0",
+          "mainQuests": [
+            "Oasis 2.0",
+            "Die Wurzel des Problems",
+            "Augenzeuge"
+          ],
+          "requiredActions": [
+            "Stelle die während des Übergangs abgebauten Ressourcenstrukturen wieder her.",
+            "Erforsche eine Methode, um die Wurzelbarrieren zu überwinden.",
+            "Erkunde die wiedereröffneten Oasis-Routen.",
+            "Errichte das erste Feldlabor auf der zweiten Ebene nahe dem Metall-Außenposten.",
+            "Weise dem Feldlabor am letzten Forschungstag einen Alter zu."
+          ],
+          "requiredResearch": [
+            "Durch Wurzelbarrieren bohren",
+            "Feldlabor"
+          ],
+          "importantCosts": [
+            "Feldlabor: 50 Metalle, 50 Mineralien und 100 Organik.",
+            "Bauzeit des Feldlabors: 2 Arbeitsstunden.",
+            "Forschung im Feldlabor: 10 Stunden für die meisten Arbeiter oder etwa 6 Stunden 15 Minuten für den Chemiker."
+          ],
+          "optionalObjectives": [
+            "Baue das Ressourcennetzwerk wieder auf, bevor du in optionale Module expandierst.",
+            "Bereite genug Organik für jede Person vor, die während des Kryoschlafs in der Basis bleibt."
+          ],
+          "completionCheckpoint": "Schließe den Auftrag im Feldlabor ab, sammle alle verfügbaren Ressourcen und begib dich in den Kryoschlaf, sobald die Untersuchung des Zyklus abgeschlossen ist."
+        },
+        {
+          "section": "Zyklus 3: Proxilium und Misty Gorge",
+          "mainQuests": [
+            "Setze die Untersuchung im Feldlabor fort",
+            "Expandiere in die Misty Gorge",
+            "Analysiere die neuen Planetenproben"
+          ],
+          "requiredActions": [
+            "Besuche das Feldlabor und sprich mit JanBot, um Proxilium freizuschalten.",
+            "Baue einen Proxilium-Tank und weite die Produktion aus.",
+            "Baue den Splitter, der für fortgeschrittene Materialien benötigt wird.",
+            "Erforsche und installiere einen Stufe-II-Terraformer in Misty Gorge.",
+            "Erweitere das Probenanalyse-Modul mit einem Magnetometer.",
+            "Magnetometrische Analyse abschließen."
+          ],
+          "requiredResearch": [
+            "Proxilium-Produktion",
+            "Stufe-II-Terraformer",
+            "Magnetometer",
+            "Magnetometrische Analyse"
+          ],
+          "importantCosts": [
+            "Proxilium-Tank: 150 Metalle und 40 Mineralien.",
+            "Splitter: 300 Metalle, 150 Mineralien und 100 Organika.",
+            "Stufe-II-Terraformer: 60 Metalle, 100 Rapidium und 100 Proxilium.",
+            "Magnetometer: 30 Metalle und 30 Mineralien.",
+            "Magnetometrische Analyse: 12 Arbeitsstunden."
+          ],
+          "optionalObjectives": [
+            "Wellen unserer Erinnerung für den Chemiker.",
+            "Doctor Janhattan und das Rematerialisierer-Projekt.",
+            "Projekt Rehabilitation und Verwendung von Schleim für den Biologen."
+          ],
+          "completionCheckpoint": "Misty Gorge terraformen, die Probenanalyse abschließen und die aktuellen Alter-Ziele vor dem Kryoschlaf erfüllen."
+        },
+        {
+          "section": "Zyklus 4: Quanten-Biofeld",
+          "mainQuests": [
+            "Quanten-Biofeld",
+            "Strahlungskristallisation",
+            "Errichtung des zweiten Feldlabors"
+          ],
+          "requiredActions": [
+            "Die neue Energie- und Strahlungsuntersuchung verfolgen.",
+            "Das Experiment zur Strahlungskristallisation abschließen.",
+            "Den erhöhten zentralen Bereich von Misty Gorge erreichen.",
+            "Das zweite Feldlabor errichten.",
+            "Einen Alter zuweisen, um die Arbeit im Feldlabor vor Zyklusende abzuschließen."
+          ],
+          "requiredResearch": [
+            "Strahlungskristallisation",
+            "Technologien des zweiten Feldlabors"
+          ],
+          "importantCosts": [
+            "Experiment zur Strahlungskristallisation: 12 Arbeitsstunden.",
+            "Bauressourcen vor dem Beginn optionaler Anlagen-Upgrades reservieren."
+          ],
+          "optionalObjectives": [
+            "Ungelöste persönliche Quests aus früheren Zyklen abschließen.",
+            "Produktionskapazität für später benötigte fortgeschrittene Ressourcen erhöhen."
+          ],
+          "completionCheckpoint": "Den zweiten Feldlabor-Auftrag abschließen und mit einer Reserve an fortgeschrittenen Materialien in den Kryoschlaf gehen."
+        },
+        {
+          "section": "Fortgeschrittene Zyklen: Megafluid und Terraforming-Stufe III",
+          "mainQuests": [
+            "Fortgeschritteneres Terraforming",
+            "Radioaktiver Zerfall",
+            "Kolossale Energie"
+          ],
+          "requiredActions": [
+            "Sammle Daten aus beiden Feldlaboren, um Megafluid freizuschalten.",
+            "Stelle die für zwei Terraformer der Stufe III benötigten Materialien her.",
+            "Installiere Terraformer in Far Hill und Waterfall.",
+            "Werte das Probenanalysemodul mit einem Massenspektrometer auf.",
+            "Schließe die massenspektrometrische Analyse ab.",
+            "Baue das dritte Feldlabor in Far Hill."
+          ],
+          "requiredResearch": [
+            "Megafluid-Produktion",
+            "Terraformer der Stufe III",
+            "Massenspektrometer",
+            "Massenspektrometrische Analyse"
+          ],
+          "importantCosts": [
+            "Jeder Terraformer der Stufe III: 90 Metalle, 200 Rapidium und 75 Megafluid.",
+            "Massenspektrometer: 50 Metalle und 50 Mineralien.",
+            "Massenspektrometrische Analyse: 12 Arbeitsstunden."
+          ],
+          "optionalObjectives": [
+            "Erforsche das Mental-Stimulans.",
+            "Erkunde die verborgene Route nach Waterfall.",
+            "Finde den pinkfarbenen Koffer mit dem Tagebuch von Wissenschaftler Jan."
+          ],
+          "completionCheckpoint": "Aktiviere beide Terraformer, schließe den Auftrag für das dritte Feldlabor ab und beende die Untersuchung der kolossalen Energie."
+        },
+        {
+          "section": "Letzter Zyklus: Energieextraktion",
+          "mainQuests": [
+            "Energieextraktion",
+            "Seltsames Phänomen",
+            "ENC-Generator-Projekt"
+          ],
+          "requiredActions": [
+            "Baue die für das endgültige Energiesystem benötigten Widerstandsblöcke.",
+            "Schließe die Planetenkernanalyse ab.",
+            "Erforsche und fertige den ENC-Generator-Alternator an.",
+            "Montiere den Generator und installiere ihn in Rocky Valley.",
+            "Aktiviere den Generator und kehre zur Basis zurück.",
+            "Untersuche die Labortafel, errichte den zusätzlichen Aufzugabschnitt und begib dich nach unten."
+          ],
+          "requiredResearch": [
+            "Kernanalyse",
+            "ENC-Generator-Alternator"
+          ],
+          "importantCosts": [
+            "Widerstandsblöcke: 50 Metalle, 300 Phasen-Rapidium, 200 Proxilium und 100 Megafluid.",
+            "Bauzeit der Widerstandsblöcke: 4 Arbeitsstunden.",
+            "Kernanalyse: 12 Arbeitsstunden.",
+            "Alternator-Forschung: 100 Phasen-Rapidium, 100 Proxilium und 100 Megafluid.",
+            "Alternator-Fertigung: 50 Metalle, 50 Organika und 160 Spezialressourcen.",
+            "Generatormontage: 4 Arbeitsstunden."
+          ],
+          "optionalObjectives": [
+            "Schließe alle verbleibenden Alter-Gespräche ab, bevor du die Finalsequenz aktivierst.",
+            "Erstelle einen manuellen Spielstand, bevor du die endgültige Entscheidung triffst."
+          ],
+          "completionCheckpoint": "Betritt den finalen Bereich und wähle, wie Jan auf die letzte Variable des Planeten reagiert."
+        },
+        {
+          "section": "Enden und Post-Game",
+          "mainQuests": [
+            "Einen Nachfolger erschaffen",
+            "Den Kreislauf durchbrechen"
+          ],
+          "requiredActions": [
+            "Überprüfe die letzte Entdeckung und wähle einen der beiden Abschlusswege.",
+            "Beende die Abspannsequenz und die Credits.",
+            "Lade den letzten Autosave, um das alternative Ende zu erleben."
+          ],
+          "requiredResearch": [],
+          "importantCosts": [],
+          "optionalObjectives": [
+            "Vervollständige fehlende Alter-Storylines, bevor du das Finale wiederholst.",
+            "Nutze frühere Spielstände, um verschiedene Produktionswege und die Auswahl des ersten Alters zu testen."
+          ],
+          "completionCheckpoint": "Beide finalen Entscheidungen können angesehen werden, ohne die gesamte Kampagne erneut zu spielen, indem der Autosave kurz vor dem Ende genutzt wird."
+        }
+      ]
+    },
+    "specialistAlters": {
+      "title": "The Alters Last Variable – Beste Spezialisten-Alters",
+      "intro": "Jan Geologe ist die stärkste erste Schöpfung, da das frühe Metalleinkommen und die Geologieforschung fast jedes andere Upgrade steuern. Jan Physiker ist die beste zweite Wahl für Werkstatt-Output, Wartung und Verarbeitungstechnologie; Jan Chemiker und Jan Biologe werden zunehmend wertvoller, sobald Feldlabore, seltene Ressourcenketten, Terraforming, das Gewächshaus und die Crew-Erholung auf den Plan treten.",
+      "specialists": [
+        {
+          "tier": "S",
+          "creationPriority": 1,
+          "specialist": "Jan Geologe",
+          "scientificSpecialty": "Geologie, Vorkommen, Geländebarrieren, Anomalien und fortschrittliche Ressourcenextraktion.",
+          "researchContribution": [
+            "Beschleunigt die Phasen-Rapidium-Forschung.",
+            "Hervorragend bei Wurzelbarrieren-Bohrungen, Magnetometer, Stufe-III-Terraformer, Anomalie-Repulsor und der späten Oasis-Geräteforschung.",
+            "Bietet den stärksten frühen Boost für die Metallwirtschaft."
+          ],
+          "workEfficiency": "50 % Effizienz beim Abbau von Metall, was ihn zum nützlichsten Ressourcenspezialisten für den Startzyklus macht.",
+          "bestAssignments": [
+            "Metallgewinnung während des Startzyklus",
+            "Geologie- und Anomalieforschung",
+            "Wurzelrodung und Vorbereitung für Terraforming höherer Stufen",
+            "Oberflächenexpeditionen, die Vorkommen, Proben und Story-Ziele kombinieren"
+          ],
+          "personality": "Enthusiastisch, abenteuerlustig und begierig darauf, kühne Ideen zu testen. Er reagiert am besten, wenn Jan seine Entdeckungen ernst nimmt und kontrollierte Experimente unterstützt.",
+          "fieldLabTiming": "Behalte ihn in der Basis, bis die wichtigsten Extraktions-Upgrades, der Wurzelzugriff, der Anomalieschutz und seine persönliche Storyline abgeschlossen sind.",
+          "relationshipRule": "Unterstütze seine Neugier, repariere Experimentalschäden schnell und gönne ihm nach langen Bergbau- oder Oberflächenschichten Ruhe."
+        },
+        {
+          "tier": "A",
+          "creationPriority": 2,
+          "specialist": "Jan Physiker",
+          "scientificSpecialty": "Physik, fortschrittliche Instrumente, Ressourcenverarbeitungs-Netzwerke, Ausrüstung und Basissysteme.",
+          "researchContribution": [
+            "Beschleunigt die Splitter-Forschung von sechs Stunden auf vier Stunden und fünfundvierzig Minuten.",
+            "Spezialisiert auf Projekte wie den Stufe-II-Terraformer, den Polygon-Scanner, den Rematerialisierer und das Massenspektrometer.",
+            "Gestaltet den Übergang von der einfachen Extraktion zu Produktionsketten mit mehreren Inputs deutlich reibungsloser."
+          ],
+          "workEfficiency": "50 % Effizienz bei der Basiswartung und 50 % Effizienz bei der Herstellung von Werkstattgegenständen.",
+          "bestAssignments": [
+            "Werkstatt-Warteschlangen und Reparaturkit-Produktion",
+            "Basiswartung während Zyklen mit hohem Schadensaufkommen",
+            "Forschung an Splitter, Scanner und Verarbeitungsnetzwerk",
+            "Crafting am Ende des Tages, während andere Alters Ressourcen sammeln"
+          ],
+          "personality": "Äußerst selbstbewusst und statusbewusst, mit einem starken Bedürfnis, die Wichtigkeit seiner Arbeit zu spüren.",
+          "fieldLabTiming": "Schicke ihn erst los, wenn die Forschung am Splitter und den wichtigsten Instrumenten abgeschlossen ist und die Basis über genügend Reparaturkits und Ersatzteile verfügt.",
+          "relationshipRule": "Erkenne seine Expertise an, vermeide herablassende Dialoge und sorge für einen Ausgleich seiner Arbeitsbelastung durch Erholung oder persönliche Gespräche."
+        },
+        {
+          "tier": "A",
+          "creationPriority": 3,
+          "specialist": "Jan Chemiker",
+          "scientificSpecialty": "Chemie, veredelte Materialien, Lebensmittelproduktion, Probenarbeit und Feldlabor-Technologie.",
+          "researchContribution": [
+            "Schließt die Feldlabor-Forschung in sechs Stunden und fünfzehn Minuten ab, statt der üblichen zehn Stunden.",
+            "Unterstützt chemische Verarbeitung, Probenanalyse, Arbeit an Anomalie-Gegenmaßnahmen und die Produktion seltener Ressourcen.",
+            "Wird besonders nützlich, wenn sich die Ketten von Phasen-Rapidium, Proxylium und Megafluid zu überschneiden beginnen."
+          ],
+          "workEfficiency": "50 % Effizienz beim Veredeln von angereichertem Metall in Metall und Organika; zudem bereitet er Nahrung schneller zu.",
+          "bestAssignments": [
+            "Feldlabor-Forschung",
+            "Veredelung und Verarbeitung seltener Ressourcen",
+            "Kochen während Phasen mit hohem Nahrungsmittelbedarf",
+            "Probenexperimente und chemische Story-Projekte"
+          ],
+          "personality": "Präzise, emotional zurückhaltend und pragmatisch. Er schätzt klare Fakten, effiziente Pläne und direkte Antworten.",
+          "fieldLabTiming": "Erschaffe ihn vor dem ersten Forschungsengpass im Feldlabor und behalte ihn in der Basis, bis die zentralen chemischen Projekte und seine Storyline abgeschlossen sind.",
+          "relationshipRule": "Nutze sachliche Dialoge, halte Versprechen und vermeide es, ihn mit unwichtigen Aufgaben zu betrauen, solange wichtige Laborprojekte anstehen."
+        },
+        {
+          "tier": "A",
+          "creationPriority": 4,
+          "specialist": "Jan Biologe",
+          "scientificSpecialty": "Biologie, lebende Proben, Pflanzenwachstum, medizinische Genesung, Schleimforschung und Reaktionen des Ökosystems.",
+          "researchContribution": [
+            "Beschleunigt die Terraformer-Forschung und das Projekt „Verwendung von Schleim“.",
+            "Stärkt die Arbeit mit biologischen Proben und die Überlebensplanung für lange Zyklen.",
+            "Unterstützt den Forschungspfad, der die Oase, das Pflanzenleben, die Erholung von Strahlung und transformierte Regionen verbindet."
+          ],
+          "workEfficiency": "100 % Effizienz beim Anbau von Gewächshauspflanzen und achtmal schnellere Heilung in der Krankenstation.",
+          "bestAssignments": [
+            "Gewächshausproduktion",
+            "Genesung in der Krankenstation",
+            "Terraforming und Forschung an biologischen Proben",
+            "Moralerholung durch pflanzenfokussierte Projekte"
+          ],
+          "personality": "Idealistisch, aber von vergangenen Misserfolgen zermürbt. Er braucht Ermutigung und sichtbare Beweise dafür, dass seine Arbeit der Crew noch immer helfen kann.",
+          "fieldLabTiming": "Halte ihn verfügbar, solange Verletzungen, die Nahrungsmittelversorgung, der Gewächshausertrag oder die biologische Forschung instabil bleiben.",
+          "relationshipRule": "Ermutige ihn bei seiner Arbeit, erfülle pflanzenbezogene Anfragen und vermeide es, ihn wegzuschicken, solange die Basis noch auf seine Heilung oder seinen Erntebonus angewiesen ist."
+        }
+      ]
+    },
+    "undergroundBaseCryosleep": {
+      "title": "The Alters: Last Variable – Untergrundbasis und Kryoschlaf",
+      "intro": "Die Untergrundbasis rollt nicht vor der Gefahr davon. Jede Kältephase ist ein Vorbereitungsfenster, bevor eine dreizehnjährige Hitzephase die verbleibende Crew in den Kryoschlaf zwingt. Baue die Kryoschlaf-Kammer innerhalb des 14-Tage-Ziels, schütze kritische Produktions- und Lebenserhaltungsmodule und betrachte den letzten Abend eher als strikte Logistik-Deadline und nicht als normale Arbeitsschicht.",
+      "steps": [
+        {
+          "title": "Forschungskern wiederherstellen",
+          "timing": "Zyklus 1, sofort nach Erhalt der Kontrolle",
+          "requirements": [
+            "Baue ein Reparaturkit in der Werkstatt für 10 Metall.",
+            "Repariere das beschädigte Forschungslabor.",
+            "Erforsche das neue Verzweigungsverfahren, um den Spezialisten-Pfad für die Crew freizuschalten."
+          ],
+          "baseRule": "Verbrauche die anfängliche Metallreserve nicht für Komfortmodule, bevor das Labor und die grundlegende Extraktion einsatzbereit sind.",
+          "failurePrevented": "Ein verzögertes Forschungslabor blockiert die Erschaffung von Alters, die Vorbereitung auf den Kryoschlaf, die Terraformer-Arbeit und die gesamte Technologiekette."
+        },
+        {
+          "title": "Baue die Kryoschlaf-Kammer",
+          "timing": "Schließe das Ziel „Erzwungene Ruhephase“ innerhalb von 14 Tagen ab",
+          "requirements": [
+            "50 Metall",
+            "65 Rapidium",
+            "Ein gültiges unterirdisches Platzierungsfeld, das mit der aktiven Basis verbunden ist"
+          ],
+          "baseRule": "Platziere die Kammer früh genug, damit ihre Grundfläche keine künftigen Korridore, große Module oder Expansionswege durch den unterschiedlichen Untergrund blockiert.",
+          "failurePrevented": "Ohne die Kammer kann die Crew die jahrelange Hitzephase des Planeten nicht sicher überstehen."
+        },
+        {
+          "title": "Plane unter Berücksichtigung der Bodenbeschaffenheit und Modulgrundflächen",
+          "timing": "Vor jeder größeren Expansion",
+          "requirements": [
+            "Nutze die Platzierungsvorschau, um bebaubaren Boden zu identifizieren.",
+            "Reserviere zusammenhängenden Platz für Labor, Werkstatt, Lager, Schlaf-, Verpflegungs-, Medizin-, Moral- und Energieversorgungsfunktionen.",
+            "Halte Produktionsmodule nah an Lager- und Werkstattwegen, während Ruhebereiche von ständiger Notfallarbeit getrennt werden sollten."
+          ],
+          "baseRule": "Baue zuerst die obligatorische Kette und fülle die verbleibenden Felder dann mit Komfortmodulen. Ein kompaktes Layout verkürzt die Laufwege und verhindert, dass kritische Räume durch ungünstigen Boden isoliert werden.",
+          "failurePrevented": "Eine schlechte Platzierung kann die einzigen praktikablen Felder für spätere Module verbrauchen und teure Umbaumaßnahmen während einer kurzen Abkühlphase erzwingen."
+        },
+        {
+          "title": "Erstelle einen Puffer für kritische Energie und Reparaturen",
+          "timing": "In der Mitte des Zyklus, bevor die fortgeschrittene Verarbeitung erweitert wird",
+          "requirements": [
+            "Halte Lebenserhaltung, Labor, Werkstatt, Lager und die essenzielle Verarbeitung in Betrieb, bevor optionale Komfortsysteme aktiviert werden.",
+            "Lagere Reparatursets und Metall für Erdbebenschäden ein.",
+            "Halte Strahlungsfilter, Batterien, Nahrung, Medizin und Ersatzbaumaterialien bereit."
+          ],
+          "baseRule": "Betreibe nicht alle neuen Prozessoren gleichzeitig, wenn die Basis nicht auch Reparaturen, Mahlzeiten, Schlaf und medizinische Erholung unterstützen kann.",
+          "failurePrevented": "Erdbeben, Strahlungswellen und eine überlastete Produktion können ein einzelnes beschädigtes Modul in eine Kette aus stagnierender Forschung und erschöpften Alters verwandeln."
+        },
+        {
+          "title": "Reserviere Organik für den Kälteschlaf",
+          "timing": "Vor dem letzten Tag jeder Abkühlphase",
+          "requirements": [
+            "50 Organik für jeden Jan, der in den Kälteschlaf geht.",
+            "100 Organik für Jan Scientist plus einen Alter.",
+            "150 Organik für Jan Scientist plus zwei Alters."
+          ],
+          "baseRule": "Behandle diese Organikreserve als unantastbar. Mitarbeiter im Feldlabor bleiben außerhalb der Basis und erhöhen nicht die aktuellen Belegungskosten der Kammer.",
+          "failurePrevented": "Wenn die Reserve für Nahrung, Module oder Experimente ausgegeben wird, kann die Crew den Zyklus möglicherweise nicht sicher beenden."
+        },
+        {
+          "title": "Gehe die Checkliste für den letzten Tag durch",
+          "timing": "Abend oder Nacht des letzten Tages",
+          "requirements": [
+            "Beende dringende Forschung und persönliche Gespräche.",
+            "Heile Verletzungen, senke die Strahlung, versorge die Crew mit Nahrung und stelle Schlaf und Moral wieder her.",
+            "Weise den ausgewählten Alter erst einem Field Lab zu, wenn seine wichtige Basisarbeit abgeschlossen ist.",
+            "Baue alle in der Zykluswarnung genannten Oberflächenstrukturen ab, damit deren Teile wieder ins Lager zurückkehren.",
+            "Begib dich in den Kryoschlaf, sobald alle letzten Schichten und Sammelrunden abgeschlossen sind."
+          ],
+          "baseRule": "Gehe nicht vorzeitig schlafen, es sei denn, die Oberfläche ist bereits erschöpft; der letzte Tag ist wertvoll für das Anlegen von Vorräten, Proben und Beziehungsereignisse.",
+          "failurePrevented": "Eine geringe Bereitschaft kann eine Alter-Revolte auslösen, während vergessene Oberflächen-Hardware und unvollendete Gespräche nach dem Aufwachen zu Engpässen oder verpassbarem Story-Fortschritt führen."
+        },
+        {
+          "title": "Baue in der richtigen Aufwach-Reihenfolge wieder auf",
+          "timing": "Erster Morgen nach der planetaren Abkühlung",
+          "requirements": [
+            "Stelle zuerst den Organics Outpost wieder her.",
+            "Ersetze abgebaute Pipelines, Phaser, Extractors, Outposts und Unterstützungsstrukturen.",
+            "Überprüfe die Basisschäden und die Bereitschaft der Crew, bevor du volle Schichten zuweist.",
+            "Besuche aktive Field Labs und sammle neue Forschungsergebnisse.",
+            "Nutze die kurze Abkühlphase, um neu transformiertes Terrain zu erkunden und Proben zu sammeln."
+          ],
+          "baseRule": "Stelle die überlebenswichtigen Erträge wieder her, bevor du optionale Produktionszweige wieder aufbaust.",
+          "failurePrevented": "Das erneute Anschließen von Ketten seltener Ressourcen vor Nahrung und Organics kann eine beeindruckende Fabrik hervorbringen, die jedoch keinen sicheren Weg zum nächsten Kryoschlaf bietet."
+        }
+      ]
+    },
+    "terraformingOasisResearch": {
+      "title": "The Alters Last Variable Terraforming- und Forschungsarenen",
+      "intro": "Die Karte enthält neun miteinander verbundene Arenen: die Oasis sowie acht Regionen, die durch drei Terraformer-Stufen transformiert werden. Jede Transformation verändert Routen, legt neue Baustellen sowie Sammelobjekte frei und bringt die Forschungskette für Phased Rapidium, Proxylium und Megafluid voran. Da die planetare Aktivität mit der Erweiterung des Projekts zunimmt, besteht der sicherste Weg darin, jeweils eine Forschungsstufe nach der anderen zu transformieren, den Schutz wieder aufzubauen und während der nächsten Abkühlphase sofort zu erkunden.",
+      "arenas": [
+        {
+          "arena": "Oasis",
+          "terraformer": "Referenzbiom; keine Terraformer-Platzierung",
+          "surfaceRole": "Das geschützte, lebendige Ökosystem im Zentrum von Jan Scientists Untersuchungen.",
+          "keyPickables": [
+            "3 frühe Electric Algae-Proben"
+          ],
+          "resourceOrUnlock": "Erster Rapidium-Zugang, die ersten biologischen Beweise und der Forschungspfad für das Sample Analysis Module.",
+          "researchPriority": "Sammle alle drei Anfangsproben, repariere das Labor und baue das Sample Analysis Module, bevor du den Experimentenbaum erweiterst.",
+          "hazardResponse": "Nutze die Oasis als Vergleichspunkt für jede transformierte Region; verbringe die frühe Abkühlphase nicht nur mit Bergbau."
+        },
+        {
+          "arena": "Rocky Valley",
+          "terraformer": "Terraformer I",
+          "surfaceRole": "Erster vollständiger Terraforming-Test und der Standort des ersten Field Labs.",
+          "keyPickables": [
+            "3 Polymer Gas",
+            "1 Obsidiankristall"
+          ],
+          "resourceOrUnlock": "Metallzugang, Wurzelbarrieren-Fortschritt, Field Lab-Einsatz und frühe Infrastruktur für Phased Rapidium.",
+          "researchPriority": "Transformiere zuerst, schließe die wichtigsten Metall-Upgrades ab und platziere das erste Field Lab erst, nachdem du entschieden hast, welcher Spezialist die Basisarbeit verlassen kann.",
+          "hazardResponse": "Rechne mit neu geöffneten Pfaden und stärkeren planetaren Reaktionen; trage Schutzladungen bei dir und verbinde jeden Ausflug mit dem Sammeln von Proben."
+        },
+        {
+          "arena": "Basis",
+          "terraformer": "Terraformer I",
+          "surfaceRole": "Zentrale Logistikarena, die die unterirdische Basis mit den Organics, Verarbeitungsanlagen und mehreren regionalen Routen verbindet.",
+          "keyPickables": [
+            "4 Trümmer alter Technologie",
+            "1 Polymergas"
+          ],
+          "resourceOrUnlock": "Neuer Bauplatz, Verarbeitungsverbindungen, Zugang zu Organics und Technologieexperimente basierend auf geborgenen Trümmern.",
+          "researchPriority": "Halte die Organics-Route zuverlässig, birg alle Trümmer und lasse freie Pipeline-Korridore für die spätere Produktion verschiedener Ressourcen.",
+          "hazardResponse": "Baue diese Region nach dem Kryoschlaf zuerst wieder auf, da Ausfälle hier mehrere andere Arenen auf einmal abschneiden können."
+        },
+        {
+          "arena": "Schmale Klippe",
+          "terraformer": "Terraformer I",
+          "surfaceRole": "Frühe Expansionszone mit angereichertem Metall und einer kompakten Auswahl gemischter Proben.",
+          "keyPickables": [
+            "2 Polymergas",
+            "1 Elektrische Alge",
+            "1 Trümmer alter Technologie"
+          ],
+          "resourceOrUnlock": "Versorgung mit angereichertem Metall und zusätzliche Daten für Extraktions-, Außenposten- und Strahlenschutz-Experimente.",
+          "researchPriority": "Sichere den Außenposten für angereichertes Metall, säubere dann Höhlen und Sackgassen vor der nächsten heißen Phase.",
+          "hazardResponse": "Kurze Routen machen sie ideal für einen Kontrollgang am späten Tag, aber enge Passagen bestrafen eine schwache Batterie oder mangelnden Strahlenschutz."
+        },
+        {
+          "arena": "Nebelige Schlucht",
+          "terraformer": "Terraformer II",
+          "surfaceRole": "Forschungszentrum für das Midgame und Standort des zweiten Feldlabors.",
+          "keyPickables": [
+            "1 Polymergas",
+            "2 Obsidiankristalle",
+            "2 Trümmer alter Technologie"
+          ],
+          "resourceOrUnlock": "Zugang zum zweiten Feldlabor, fortgeschrittene Probenexperimente und eine Schlüsselkreuzung für spätere Phasen-Rapidium- und Megafluid-Pipelines.",
+          "researchPriority": "Terraformiere, bevor du einen zweiten Alter zuweist, sammle die Proben des oberen Pfads und halte eine saubere Route für Splitter und Pipelines frei.",
+          "hazardResponse": "Wurzeln und vertikale Pfade verlängern die Reisezeit; betritt das Gebiet mit verbesserter Kletterausrüstung, Batteriekapazität und einer festgelegten Probenroute."
+        },
+        {
+          "arena": "Vulkan",
+          "terraformer": "Terraformer II",
+          "surfaceRole": "Wertvolle Mineralien- und Verarbeitungsregion, die vom finalen Netzwerk für seltene Ressourcen genutzt wird.",
+          "keyPickables": [
+            "1 Polymergas",
+            "4 Obsidiankristalle",
+            "1 Pilz"
+          ],
+          "resourceOrUnlock": "Mineralextraktion und ein transformierter Input sind für die Megafluid-Produktionskette erforderlich.",
+          "researchPriority": "Sammle das dichte Obsidian-Set, errichte die Minerallinie und bereite Phaser- und Splitter-Verbindungen vor, bevor du das finale Netzwerk wiederaufbaust.",
+          "hazardResponse": "Nutze starken Strahlenschutz und schließe die Region in einem geplanten Durchgang ab; wiederholte Teilausflüge verschwenden die kurze Abkühlzeit."
+        },
+        {
+          "arena": "Hohle Überreste",
+          "terraformer": "Terraformer II",
+          "surfaceRole": "Ruinierte Forschungszone mit Technologie-Trümmern, Story-Objekten und einem Mineral-Input für die Produktion seltener Ressourcen.",
+          "keyPickables": [
+            "1 Polymergas",
+            "3 Trümmer alter Technologie",
+            "1 Pilz"
+          ],
+          "resourceOrUnlock": "Proxylium-bezogene Infrastruktur, Story-Fortschritt des Chemikers und zusätzliche permanente Experiment-Boni.",
+          "researchPriority": "Durchsuche die ruinierte Basis und die lange obere Route, bevor du aufbrichst; mehrere Ziele können in derselben Expedition abgeschlossen werden.",
+          "hazardResponse": "Erdbeben- und Strahlungsdruck nehmen in dieser Phase zu, vermeide daher den Zutritt ohne Filter, Heilvorräte und genügend Zeit für die Rückkehr."
+        },
+        {
+          "arena": "Wasserfall",
+          "terraformer": "Terraformer III",
+          "surfaceRole": "Biologische und geologische Probenzone für das Late-Game, die nach fortgeschrittener Wurzel- und Terraforming-Forschung freigeschaltet wird.",
+          "keyPickables": [
+            "2 Elektrische Algen",
+            "1 Polymergas",
+            "1 Obsidiankristall",
+            "1 Pilz"
+          ],
+          "resourceOrUnlock": "Späte Experimente im Probenanalysemodul und letzte Beweise, die das transformierte Land mit dem Überleben der Oase verbinden.",
+          "researchPriority": "Nutze Bohrer-Upgrades, um die Route zu öffnen, sammle das gesamte gemischte Probenset und schließe die verbleibenden permanenten Boni ab.",
+          "hazardResponse": "Behandle es als eine einzige Expedition mit hoher Priorität für die Abkühlzeit, da der Zugang spät erfolgt und die Verteidigung des Planeten bereits heftig ist."
+        },
+        {
+          "arena": "Ferner Hügel",
+          "terraformer": "Terraformer III",
+          "surfaceRole": "Finale High-Tier-Region und Standort des dritten Feldlabors.",
+          "keyPickables": [
+            "2 Elektrische Algen",
+            "1 Obsidiankristall",
+            "2 Pilze"
+          ],
+          "resourceOrUnlock": "Zugang zum dritten Feldlabor, finale Forschungsdaten und der letzte große Schritt in Richtung der ENC-Generator-Sequenz.",
+          "researchPriority": "Terraforme, erreiche die höchste Stufe, platziere das dritte Feldlabor, sammle alle verbleibenden Proben und schließe die Handlungsstränge der Spezialisten ab, bevor du das finale Gerät aktivierst.",
+          "hazardResponse": "Bringe maximalen praktischen Strahlenschutz mit und plane genug Zeit für den langen vertikalen Rückweg ein."
+        }
+      ]
+    },
+    "endingsChoicesAchievements": {
+      "title": "The Alters: Last Variable – Enden und Erfolge",
+      "intro": "Last Variable folgt dem Pfad des Hauptspiels, in dem Jan Scientist auf dem Planeten bleibt, um die Oase zu studieren. Die meisten gewöhnlichen Dialogentscheidungen prägen eher die Gespräche als das Ende; die entscheidende Verzweigung erfolgt im letzten Austausch mit JanBot. Die Zuweisungen zu den Feldlaboren, das Altern der Spezialisten, unvollendete persönliche Geschichten und der Zeitpunkt des ENC-Generators verändern dennoch das Gefühl der letzten Reise und bestimmen, ob Abschlussziele verfügbar bleiben.",
+      "items": [
+        {
+          "type": "Details",
+          "heading": "Story-Voraussetzung: Der Wissenschaftler blieb",
+          "spoilerLevel": "Spoiler zur Prämisse",
+          "summary": "Die Erweiterung beginnt mit dem Ende des Hauptspiels, in dem Jan Scientist zurückbleibt, während die anderen Jans den Planeten verlassen.",
+          "details": [
+            "Der DLC wird als eigener Story-Pfad gestartet und erfordert nicht den ursprünglichen Endspielstand des Spielers.",
+            "Die alten Forschungsbemühungen, die unterirdische Basis, das Geheimnis der Oase und JanBot bilden den Ausgangspunkt.",
+            "Zuerst das Hauptspiel zu spielen, liefert den vollen Kontext für Jan Scientists Entscheidung und Besessenheit."
+          ]
+        },
+        {
+          "type": "Details",
+          "heading": "Feldlabor-Entscheidungen und das Schicksal der Spezialisten",
+          "spoilerLevel": "Großer Gameplay-Spoiler",
+          "summary": "Jede Zuweisung zu einem Feldlabor entfernt einen Spezialisten von der normalen Basisarbeit und setzt ihn dem Vergehen der Jahre außerhalb von Jan Scientists Kryoschlaf aus.",
+          "details": [
+            "Das erste Feldlabor wird über das Rocky Valley erreicht, das zweite über die Misty Gorge und das dritte über den Far Hill.",
+            "Schließe die dringende Forschung, nützliche Produktionsarbeit und persönlichen Gespräche des ausgewählten Spezialisten vor der Zuweisung ab.",
+            "Zugewiesene Alter setzen das Oase-Projekt über Zyklen hinweg fort und altern sichtlich, während Jan Scientist schläft.",
+            "Derselbe Spezialistentyp kann später erneut erschaffen werden, was auch den Erfolg „Warte, das kannst du machen?“ freischaltet."
+          ]
+        },
+        {
+          "type": "Ende",
+          "heading": "Ende Eins: Einen Nachfolger erschaffen",
+          "spoilerLevel": "Vollständiger Spoiler zum Ende",
+          "summary": "Jan akzeptiert eine fortlaufende Nachfolge von Forschern, damit das Oase-Projekt die aktuelle Crew überdauern kann.",
+          "requirements": [
+            "Erreiche das letzte Gespräch mit JanBot nach der ENC-Generator-Sequenz.",
+            "Wähle „Einen Nachfolger erschaffen“."
+          ],
+          "outcome": "Jan Scientists Vermächtnis wird zu einem sich selbst tragenden Forschungsprogramm: Ein neuer Alter und JanBot setzen die Arbeit fort, anstatt zuzulassen, dass die unbeantwortete Frage mit einer Lebensspanne endet.",
+          "theme": "Wissen, Kontinuität und Besessenheit stehen über dem Abschluss."
+        },
+        {
+          "type": "Ende",
+          "heading": "Ende Zwei: Den Kreislauf durchbrechen",
+          "spoilerLevel": "Vollständiger Spoiler zum Ende",
+          "summary": "Jan lehnt das Nachfolgemodell ab und entscheidet sich dafür, den endlosen Forschungszyklus zu beenden.",
+          "requirements": [
+            "Erreiche das letzte JanBot-Gespräch nach der ENC-Generator-Sequenz.",
+            "Wähle „Den Kreislauf durchbrechen“."
+          ],
+          "outcome": "Jan Scientist weigert sich, einem anderen Leben dieselbe Last aufzubürden, und akzeptiert, dass das Projekt enden muss, selbst wenn die Oasis nicht auf eine letzte, vollständige Antwort reduziert werden kann.",
+          "theme": "Sterblichkeit, Zurückhaltung und Akzeptanz werden über unbegrenzte Entdeckung gestellt."
+        },
+        {
+          "type": "Details",
+          "heading": "Was die Oasis am Ende bedeutet",
+          "spoilerLevel": "Vollständiger Spoiler zur Interpretation",
+          "summary": "Die Oasis wird zu einer Prüfung, ob wissenschaftliche Neugier eine endlose Kette erschaffener Leben rechtfertigt.",
+          "details": [
+            "Terraforming bringt Erkenntnisse, löst aber auch stärkere Erdbeben, Strahlungswellen und defensive Reaktionen des Planeten aus.",
+            "Die finale Entscheidung rückt die Oasis in ein neues Licht: weg von einem einfachen Rätsel, hin zu einer ethischen Grenze.",
+            "„Einen Nachfolger erschaffen“ betrachtet das Geheimnis als wichtig genug, um es unendlich fortzuführen.",
+            "„Den Kreislauf durchbrechen“ betrachtet Akzeptanz und Verantwortung als wichtiger als eine vollständige Erklärung."
+          ]
+        },
+        {
+          "type": "Verpassbares",
+          "heading": "Die besten Speicherpunkte und verpassbare Ziele",
+          "spoilerLevel": "Spoiler zum Abschluss",
+          "summary": "Nutze drei praktische Speicherpunkte, um Handlungsstränge zu sichern und beide Enden effizient zu sehen.",
+          "savePoints": [
+            "Bevor du jeden Alter dauerhaft einem Field Lab zuweist: Beende seine verfügbaren Gespräche und Spezialistenprojekte.",
+            "Vor der Aktivierung des ENC-Generators: Schließe verbleibende persönliche Vorfälle, Experimente, das Sammeln von Proben und die Basisvorbereitung ab.",
+            "Beim letzten JanBot-Gespräch: Die automatische Speicherung nach Abschluss kehrt zu diesem Zweig zurück, sodass beide Enden möglich sind, ohne die gesamte Erweiterung erneut spielen zu müssen."
+          ],
+          "missables": [
+            "Schließe alle vier Handlungsstränge der Scientist-Alters vor der finalen Sequenz ab, um „Caring after all“ freizuschalten.",
+            "Reagiere auf neue Gesprächssymbole nach jedem Kryoschlaf und jedem wichtigen Forschungsschritt.",
+            "Sammle Regionsproben und beende optionale Experimente im Sample Analysis Module, bevor du das Projekt beendest.",
+            "Erschaffe einen Spezialistentyp ein zweites Mal vor dem Abschluss, um „Wait, you can do that?“ freizuschalten."
+          ]
+        },
+        {
+          "type": "Erfolge",
+          "heading": "Checkliste für Erfolge und Trophäen von „Last Variable“",
+          "spoilerLevel": "Spoiler zu Erfolgen",
+          "summary": "Die Erweiterung fügt sieben Erfolge im Wert von 210 Gamerscore auf der Xbox und sieben Trophäen auf der PlayStation hinzu.",
+          "achievements": [
+            {
+              "name": "Weltraumgärtner",
+              "requirement": "Platziere den ersten Terraformer."
+            },
+            {
+              "name": "Rapidium-Meisterschaft",
+              "requirement": "Beginne mit der Produktion von Phasen-Rapidium."
+            },
+            {
+              "name": "Mix und Match",
+              "requirement": "Beginne mit der Produktion von Proxylium."
+            },
+            {
+              "name": "Substanz-Genie",
+              "requirement": "Beginne mit der Produktion von Megafluid."
+            },
+            {
+              "name": "Moment, das geht?",
+              "requirement": "Erstelle denselben Alter ein zweites Mal."
+            },
+            {
+              "name": "Am Ende doch fürsorglich",
+              "requirement": "Schließe alle Storylines der Alters von Jan Scientist ab."
+            },
+            {
+              "name": "Der Grund, warum ich blieb",
+              "requirement": "Schließe den DLC „Last Variable“ ab."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Häufig gestellte",
+    "titleHighlight": "Fragen",
+    "subtitle": "Alles, was du über The Alters: Last Variable wissen musst",
+    "questions": [
+      {
+        "question": "Muss ich The Alters besitzen, um The Alters: Last Variable spielen zu können?",
+        "answer": "Ja. The Alters: Last Variable ist ein kostenpflichtiger Story-DLC und kein eigenständiges Spiel. Du musst das ursprüngliche The Alters auf derselben Plattform und demselben Konto besitzen und installiert haben, bevor die Erweiterung gestartet werden kann."
+      },
+      {
+        "question": "Wie lang ist The Alters: Last Variable und wie viel kostet es?",
+        "answer": "The Alters: Last Variable bietet etwa 20 Stunden neue Kampagneninhalte und kostet 14,99 $ auf Steam, im Epic Games Store, bei GOG sowie auf PlayStation 5 und Xbox Series X|S."
+      },
+      {
+        "question": "Auf welchen Plattformen ist The Alters: Last Variable verfügbar?",
+        "answer": "The Alters: Last Variable erschien am 13. Juli 2026 für Windows PC (Steam, Epic und GOG), PlayStation 5 und Xbox Series X|S und ist auch in berechtigten Käufen der Deluxe Edition enthalten."
+      },
+      {
+        "question": "Benötige ich einen abgeschlossenen Spielstand, um The Alters: Last Variable zu starten?",
+        "answer": "Nein. The Alters: Last Variable läuft als eigene, separate Kampagne und erfordert nicht deinen ursprünglichen Endspielstand. Das Hauptspiel zuerst zu spielen, liefert jedoch den vollen Kontext dafür, warum Jan Scientist auf dem Planeten bleibt."
+      },
+      {
+        "question": "Wer sind die vier Spezialisten-Alters in The Alters: Last Variable?",
+        "answer": "In The Alters: Last Variable kannst du Jan Geologe, Jan Physiker, Jan Chemiker und Jan Biologe erstellen. Jan Geologe ist die stärkste erste Wahl, da frühes Metalleinkommen und Geologieforschung fast alle anderen Upgrades freischalten."
+      },
+      {
+        "question": "Wie viele Enden hat The Alters: Last Variable?",
+        "answer": "The Alters: Last Variable hat zwei Enden, die durch das letzte Gespräch mit JanBot erreicht werden: „Einen Nachfolger erschaffen“ und „Den Kreislauf durchbrechen“. Ein automatischer Speicherpunkt kurz vor dem Ende ermöglicht es dir, beide zu sehen, ohne die gesamte Erweiterung erneut spielen zu müssen."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Bereit, in The Alters: Last Variable zu überleben?",
+    "description": "Hol dir die vollständige Komplettlösung, Alter-Builds, Terraforming-Routen und Enden sowie die neuesten Fixes und Community-Diskussionen auf Discord.",
+    "joinCommunity": "Discord beitreten",
+    "joinGame": "Auf Steam kaufen"
+  },
+  "footer": {
+    "title": "The Alters Last Variable Wiki",
+    "description": "Dein umfassendes Ressourcen-Hub für The Alters: Last Variable – Komplettlösungen, Alters, Forschung, Terraforming, die Oase, Enden und Erfolge.",
+    "resources": "Ressourcen",
+    "community": "Community",
+    "legal": "Rechtliches",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "reddit": "Reddit",
+    "youtube": "YouTube",
+    "about": "Über uns",
+    "privacy": "Datenschutzerklärung",
+    "terms": "Nutzungsbedingungen",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 The Alters Last Variable Wiki. Nicht verbunden mit 11 bit studios.",
+    "disclaimer": "Inoffizielle, von Fans erstellte Ressourcen-Website."
+  },
+  "pages": {
+    "guide": {
+      "title": "The Alters Last Variable Guide",
+      "description": "Vollständige Komplettlösungen vom Einstieg bis hin zu spezialisierten Alter-Builds, Layouts für die Untergrundbasis und Terraforming-Zyklen.",
+      "metaTitle": "The Alters Last Variable Guide – Komplettlösung & Builds",
+      "metaDescription": "Meistere The Alters Last Variable mit vollständigen Komplettlösungen, Einsteiger-Guides, der Freischaltreihenfolge für Alters, Tier-Listen und Strategien zum Bau der Untergrundbasis.",
+      "categoryLabel": "KOMPLETTLÖSUNGEN & GUIDES",
+      "whatIs": "Was sind Guides?",
+      "whatIsDescription": "Tiefgehende Komplettlösungen für jeden Planetenzyklus, spezialisierte Alter-Builds, Layouts für die Untergrundbasis und den Weg zu jedem Story-Ende.",
+      "why": "Warum Guides lesen?",
+      "whySteps": {
+        "step1Title": "Lerne die Zyklen kennen",
+        "step1Description": "Verstehe die Planetenzyklen, den täglichen Fortschritt und die Cryosleep-Deadline",
+        "step2Title": "Erschaffe die richtigen Alters",
+        "step2Description": "Wähle die beste Freischaltreihenfolge der Spezialisten-Alters für deinen Spielstil",
+        "step3Title": "Erreiche jedes Ende",
+        "step3Description": "Navigiere durch unumkehrbare Entscheidungen und die Bedingungen für jedes Ende"
+      },
+      "featured": "Beliebt & Essenziell",
+      "all": "Alle Guides"
+    },
+    "story": {
+      "title": "Die Story von The Alters Last Variable",
+      "description": "Die Storyline von Jan Scientist, jedes Ende, geheime verschlüsselte Nachrichten und die gesamte Handlung erklärt.",
+      "metaTitle": "Die Story von The Alters Last Variable - Enden & Lore",
+      "metaDescription": "Erforsche die Story von The Alters Last Variable, alle Enden, geheime Enden, verschlüsselte Nachrichten und die komplette Geschichte von Jan Scientist.",
+      "categoryLabel": "STORY & ENDEN",
+      "whatIs": "Worum geht es in der Story?",
+      "whatIsDescription": "Der Handlungsbogen von Jan Scientist auf dem Planeten, einschließlich jedes Endes, geheimer verschlüsselter Nachrichten und der Entscheidungen, die das Ergebnis beeinflussen.",
+      "why": "Warum der Story folgen?",
+      "whySteps": {
+        "step1Title": "Schalte jedes Ende frei",
+        "step1Description": "Entdecke die genauen Bedingungen, die jedes Ende auslösen",
+        "step2Title": "Entschlüssele Geheimnisse",
+        "step2Description": "Finde und interpretiere die geheimen verschlüsselten Nachrichten",
+        "step3Title": "Entscheidungen verstehen",
+        "step3Description": "Sieh, wie deine Entscheidungen das Endergebnis verändern"
+      },
+      "featured": "Beliebt & Essenziell",
+      "all": "Alle Story-Artikel"
+    },
+    "dlc": {
+      "title": "Der DLC „The Alters Last Variable“",
+      "description": "Alles über die „Last Variable“-Erweiterung: Zugang, Preis, Speicheranforderungen, Spielzeit und die neuesten Patchnotizen.",
+      "metaTitle": "The Alters Last Variable DLC - Zugang, Preis & Updates",
+      "metaDescription": "Komplette Berichterstattung zum DLC „The Alters Last Variable“: Wie man auf die Erweiterung zugreift, Preise, Speicheranforderungen, Spielzeit und Patchnotizen zu Update 2.0.1.",
+      "categoryLabel": "DLC & ERWEITERUNG",
+      "whatIs": "Was ist der DLC?",
+      "whatIsDescription": "„Last Variable“ ist eine kostenpflichtige Story-Erweiterung für The Alters, die eine 20-stündige Kampagne, vier Spezialisten-Alters und neun Terraforming-Arenen hinzufügt.",
+      "why": "Warum DLC-Infos lesen?",
+      "whySteps": {
+        "step1Title": "Zugriff auf die Erweiterung",
+        "step1Description": "Erfahre die Voraussetzungen des Hauptspiels und wie du den DLC startest",
+        "step2Title": "Kenne den Preis",
+        "step2Description": "Vergleiche die Preise auf Steam, Epic, GOG, PS5 und Xbox",
+        "step3Title": "Updates verfolgen",
+        "step3Description": "Folge den neuesten Patches und Inhaltsänderungen wie Update 2.0.1"
+      },
+      "featured": "Highlights & Essentials",
+      "all": "Alle DLC-Artikel"
+    },
+    "availability": {
+      "title": "Verfügbarkeit von The Alters Last Variable",
+      "description": "Veröffentlichungsdatum, unterstützte Plattformen, Store-Links, Preise und ob sich die Erweiterung lohnt.",
+      "metaTitle": "The Alters Last Variable Verfügbarkeit – Plattformen & Preise",
+      "metaDescription": "Finde das Veröffentlichungsdatum von The Alters Last Variable, Plattformen (Steam, Epic, GOG, PS5, Xbox), Preise und eine Wertanalyse vor dem Kauf.",
+      "categoryLabel": "RELEASE & PLATTFORMEN",
+      "whatIs": "Was bedeutet Verfügbarkeit?",
+      "whatIsDescription": "Details zum Veröffentlichungsdatum, allen unterstützten Plattformen und Stores, regionalen Preisen und ein klarer Blick auf den Wert der Erweiterung.",
+      "why": "Warum die Verfügbarkeit prüfen?",
+      "whySteps": {
+        "step1Title": "Finde deine Plattform",
+        "step1Description": "PC-, PS5- oder Xbox Series X|S-Unterstützung bestätigen",
+        "step2Title": "Preise vergleichen",
+        "step2Description": "Preise auf Steam, Epic und GOG einsehen",
+        "step3Title": "Den Wert beurteilen",
+        "step3Description": "Entscheide, ob sich der Kauf der Erweiterung für dich lohnt"
+      },
+      "featured": "Highlights & Essentials",
+      "all": "Alle Verfügbarkeits-Artikel"
+    },
+    "reviews": {
+      "title": "The Alters Last Variable Bewertungen",
+      "description": "Kritiker- und Spielerbewertungen, Eindrücke vor dem Kauf und Langzeitfazits nach 100 % Abschluss.",
+      "metaTitle": "The Alters Last Variable Bewertungen – Lohnt sich der Kauf?",
+      "metaDescription": "Lies Bewertungen zu The Alters Last Variable, Eindrücke vor dem Kauf und Fazits nach 100 % Abschluss, um zu entscheiden, ob die Erweiterung deine Zeit wert ist.",
+      "categoryLabel": "BEWERTUNGEN & FAZITS",
+      "whatIs": "Was sind Bewertungen?",
+      "whatIsDescription": "Aggregierte Kritiker- und Community-Bewertungen, frühe Eindrücke vor dem Kauf und tiefgreifende Fazits von Spielern, die die gesamte Kampagne abgeschlossen haben.",
+      "why": "Warum Bewertungen lesen?",
+      "whySteps": {
+        "step1Title": "Vor dem Kauf",
+        "step1Description": "Erhalte erste Eindrücke und die wichtigsten Erkenntnisse",
+        "step2Title": "Langzeit-Fazit",
+        "step2Description": "Erfahre, was Completionists nach 100 % Spielabschluss sagen",
+        "step3Title": "Highlights entdecken",
+        "step3Description": "Erfahre mehr über die herausragenden Features und nennenswerten Schwächen"
+      },
+      "featured": "Vorgestellt & Essenziell",
+      "all": "Alle Rezensionen"
+    },
+    "media": {
+      "title": "The Alters Last Variable – Medien",
+      "description": "Offizielles Key Art, Cover-Art, Gameplay-Trailer, Launch-Trailer und Reveal-Trailer von 11 bit studios.",
+      "metaTitle": "The Alters Last Variable – Medien: Artwork & Trailer",
+      "metaDescription": "Durchsuche Medien zu The Alters Last Variable: offizielles Key Art, Cover-Art, Gameplay-Trailer, Launch-Trailer und den DLC-Termin-Reveal-Trailer.",
+      "categoryLabel": "ARTWORK & TRAILER",
+      "whatIs": "Was sind Medien?",
+      "whatIsDescription": "Die offiziellen visuellen und Video-Assets für die Erweiterung, einschließlich Key Art, Cover-Art und jedem von 11 bit studios veröffentlichten Trailer.",
+      "why": "Warum Medien ansehen?",
+      "whySteps": {
+        "step1Title": "Sieh dir das Bildmaterial an",
+        "step1Description": "Entdecke das offizielle Key Art und Cover-Art",
+        "step2Title": "Trailer ansehen",
+        "step2Description": "Sieh dir Gameplay-, Launch- und Reveal-Trailer an",
+        "step3Title": "Lass dich hypen",
+        "step3Description": "Erlebe die Stimmung und Atmosphäre, bevor du spielst"
+      },
+      "featured": "Vorgestellt & Essenziell",
+      "all": "Alle Medien"
+    }
   }
 }
