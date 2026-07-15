@@ -1,0 +1,175 @@
+import { Map, Shield, Swords, Target, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "The Alters Last Variable Base Building Guide: Layouts & Upgrades",
+  description: "Master underground base building in The Alters Last Variable. Learn optimal module layouts, soil restrictions, power management, and cryosleep prep.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/252b3b/ff3b9c?text=Base+Building+Guide",
+  date: "2026-07-15",
+  author: "The Alters Last Variable Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **The Alters Last Variable base building guide**: Establish a modular underground network that balances power, production, and survival.
+- **Soil Restrictions**: Place heavy modules only in stable soil cells to prevent structural collapse.
+- **Power Buffer**: Maintain a minimum 20% power surplus before adding advanced resource refiners.
+- **Cryosleep Deadline**: Construct the Cryosleep Chamber within the first 14 days to survive the hot phase.
+- **Resource Priority**: Focus on automated Metal and Organics outposts before investing in comfort modules.
+</Callout>
+
+<Section icon={Map} title="Core Mechanics of Underground Construction">
+
+Building a functional underground base in *The Alters: Last Variable* requires a deep understanding of structural layouts, soil restrictions, and module connectivity. Unlike the mobile base of the main game, your underground facility is fixed in place, meaning poor initial planning can permanently block essential expansion pathways. 
+
+The underground grid consists of distinct soil types that dictate where specific modules can be placed. Building over unstable soil without proper reinforcement will lead to frequent structural damage, especially during the planet's recurring earthquakes.
+
+| Soil Type | Structural Stability | Best Module Matches | Construction Restrictions |
+|---|---|---|---|
+| **Stable Rock** | Excellent | Heavy machinery, Workshop, Refinery | None; ideal for high-load rooms |
+| **Loose Soil** | Low | Dormitories, Infirmary, Greenhouse | Requires reinforcement; high damage risk |
+| **Fissured Soil** | Critical | Power lines, simple corridors | Do not place production modules here |
+
+<Callout type="warning" title="Soil Warning">
+Never place the Research Lab or the Workshop in Fissured Soil cells. An earthquake will instantly disable these facilities, halting your active research projects and item crafting queues.
+</Callout>
+
+### Base Layout Priorities
+An efficient base layout minimizes the transit time of Jan and his Alters while keeping high-risk production modules isolated from resting quarters. Use the table below to plan your early, mid, and late-game module configurations.
+
+| Phase | Core Modules | Power Demand | Primary Focus |
+|---|---|---|---|
+| **Early** | Research Lab, Workshop, Dormitory | Low | Basic survival, repairing the core, first Alter |
+| **Mid** | Splitter, Refinery, Sample Analysis | Medium | Advanced resource processing, Field Labs |
+| **Late** | ENC Generator, Mass Spectrometer | High | Final energy extraction, planetary core analysis |
+
+</Section>
+
+<Section icon={Shield} title="The Alters Last Variable Base Building Guide: Step-by-Step Layout">
+
+To successfully establish your underground base and survive the strict 14-day Cryosleep Chamber deadline in Cycle 1, you must follow a highly optimized build order. Wasting starting Metals on non-essential structures will leave you vulnerable to early resource bottlenecks.
+
+<Steps>
+  <Step num="1" title="Restore the Research Core">
+    Immediately construct a Repair Kit in the Workshop using **10 Metals**. Use it to repair the damaged Research Lab. Once online, interact with the laboratory whiteboard and begin researching the **New Branching Procedure** to unlock the specialist crew path.
+  </Step>
+  <Step num="2" title="Establish Resource Outposts">
+    Travel south from your base to locate the nearest Metals deposit. Build a Metals Outpost and connect it to your base network. This automated supply is crucial for sustaining your daily construction requirements.
+  </Step>
+  <Step num="3" title="Build the Cryosleep Chamber">
+    Before Day 14, you must construct the Cryosleep Chamber to survive the upcoming hot phase. This requires **50 Metals and 65 Rapidium**. Ensure you place this module in a central, easily accessible cell connected to your main power lines.
+  </Step>
+  <Step num="4" title="Construct the Sample Analysis Module">
+    After collecting the three essential samples from the Oasis, invest **60 Metals, 50 Rapidium, and 60 Organics** to construct the Sample Analysis Module. This unlocks the advanced research tree required for higher-tier terraforming.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Build Order Tip">
+Always maintain a reserve of **20 Metals** in your inventory. This ensures you can instantly craft Drill Cartridges or Repair Kits if an earthquake blocks your resource pipelines or damages your life support.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Power Planning and Resource Processing Pipelines">
+
+Power management is the most common point of failure for mid-game bases. As you transition from basic extraction to multi-input production chains, your power grid will experience severe strain. Advanced modules like the Splitter and the Proxilium Tank require dedicated power planning.
+
+<CardGrid cols={3}>
+  <Card title="The Splitter">
+    - **Cost**: 300 Metals, 150 Minerals, 100 Organics
+    - **Function**: Processes raw minerals into advanced components
+    - **Power Load**: High; requires dedicated grid planning
+  </Card>
+  <Card title="Proxilium Tank">
+    - **Cost**: 150 Metals, 40 Minerals
+    - **Function**: Stores and processes rare Proxilium fuel
+    - **Power Load**: Medium; place near primary storage
+  </Card>
+  <Card title="Refinery">
+    - **Cost**: 100 Metals, 50 Organics
+    - **Function**: Refines Enriched Metal and food inputs
+    - **Power Load**: Low; run only when fully staffed
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Efficiency Boost">
+Assign **Jan Physicist** to the Workshop and base maintenance. He provides a **50% efficiency boost** when crafting items and performing repairs, significantly reducing the resource cost of maintaining your power grid.
+</Callout>
+
+### Resource Processing Efficiency
+To prevent resource bottlenecks, match your processing modules with the correct specialist Alters. The table below details the optimal assignments for resource refining.
+
+| Processing Module | Primary Input | Output Product | Best Specialist | Processing Bonus |
+|---|---|---|---|---|
+| **Refinery** | Enriched Metal | Standard Metal | **Jan Chemist** | 50% faster refining |
+| **Splitter** | Raw Minerals | Advanced Materials | **Jan Physicist** | 25% power reduction |
+| **Greenhouse** | Organics / Seeds | Food / Medicine | **Jan Biologist** | 100% crop growth |
+
+</Section>
+
+<Section icon={Target} title="Cryosleep Cycle Preparation Checklist">
+
+The planetary cycle shifts between a cool exploration phase and a devastating 13-year hot phase. Before entering the Cryosleep Chamber, you must complete a rigorous preparation checklist to ensure your base and crew survive the transition without critical shortages.
+
+<Checklist
+  id="cryosleep-prep"
+  title="Final Day Logistics Checklist:"
+  items={[
+    "Secure 50 Organics for each person entering the Cryosleep Chamber.",
+    "Dismantle all surface structures named in the cycle warning to recover 100% of their construction materials.",
+    "Assign one specialist Alter to an active Field Lab to continue Oasis research during the hot phase.",
+    "Heal all crew injuries in the Infirmary and clear active radiation levels.",
+    "Craft at least 3 Repair Kits and store them in the central inventory."
+  ]}
+/>
+
+<Callout type="warning" title="Organics Penalty">
+Failing to secure the required Organics reserve (**50 per person**) before entering cryosleep will result in severe health penalties or the permanent loss of an Alter when you wake up.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Advanced Base Upgrades & Tech Tree Priorities">
+
+In the later cycles of the expansion, your base must support high-tier research projects like the ENC Generator and Mass Spectrometric Analysis. These structures require massive material investments and must be prioritized based on your current terraforming goals.
+
+| Advanced Upgrade | Construction Cost | Research Time | Primary Benefit |
+|---|---|---|---|
+| **Magnetometer** | 30 Metals, 30 Minerals | 12 Hours | Unlocks Magnetometric Analysis |
+| **Mass Spectrometer** | 50 Metals, 50 Minerals | 12 Hours | Unlocks Mass Spectrometric Analysis |
+| **Resistor Blocks** | 50 Metals, 300 Phased Rapidium | 4 Hours | Required for final ENC Generator |
+| **ENC Alternator** | 50 Metals, 50 Organics | 16 Hours | Powers the final planetary core analysis |
+
+<Callout type="info" title="Research Tip">
+Use **Jan Chemist** to complete Field Laboratory research projects. He completes these assignments in **6 hours and 15 minutes**, compared to the standard 10 hours required by other Alters.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Base Building FAQ">
+
+<FAQ items={[
+  {
+    question: "What is the most important rule in this The Alters Last Variable base building guide?",
+    answer: "The most important rule is to respect soil restrictions and plan your layout around the 14-day Cryosleep Chamber deadline. Always secure your automated Metal and Organics outposts before building optional modules."
+  },
+  {
+    question: "Can I move a module after constructing it?",
+    answer: "No, modules cannot be moved. You must dismantle them to recover a portion of the resources, then rebuild them in a new cell. This is why initial layout planning is critical."
+  },
+  {
+    question: "How do I prevent base damage during earthquakes?",
+    answer: "Ensure all heavy production machinery is built on Stable Rock cells. Additionally, keep Jan Physicist on maintenance duty and stock plenty of Repair Kits in your inventory."
+  },
+  {
+    question: "What happens to surface outposts during the hot phase?",
+    answer: "Most surface structures will be destroyed by the extreme heat. Always run the final-day checklist and dismantle your surface pipelines and extractors to recover their materials before entering cryosleep."
+  }
+]} />
+
+</Section>

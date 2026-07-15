@@ -1,1 +1,10 @@
-{}
+{
+  "nav": {
+    "guide": "ガイド",
+    "story": "ストーリー",
+    "dlc": "DLC",
+    "availability": "入手方法",
+    "reviews": "レビュー",
+    "media": "メディア"
+  }
+}

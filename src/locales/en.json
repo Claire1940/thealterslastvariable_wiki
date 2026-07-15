@@ -10,7 +10,14 @@
       "twitterDescription": "Complete The Alters: Last Variable walkthrough, Alter builds, terraforming, Oasis research, endings, achievements, and fixes."
     }
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guide",
+    "story": "Story",
+    "dlc": "DLC",
+    "availability": "Availability",
+    "reviews": "Reviews",
+    "media": "Media"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -985,125 +992,125 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
-      "categoryLabel": "GAME GUIDES",
+    "guide": {
+      "title": "The Alters Last Variable Guide",
+      "description": "Complete walkthroughs from beginner setup to specialist Alter builds, underground base layouts, and terraforming cycles.",
+      "metaTitle": "The Alters Last Variable Guide - Walkthrough & Builds",
+      "metaDescription": "Master The Alters Last Variable with full walkthroughs, beginner guides, Alter unlock order, tier lists, and underground base building strategies.",
+      "categoryLabel": "WALKTHROUGH & GUIDES",
       "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
+      "whatIsDescription": "In-depth walkthroughs covering every planetary cycle, specialist Alter builds, underground base layouts, and the road to each story ending.",
       "why": "Why read guides?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step1Title": "Learn the Cycles",
+        "step1Description": "Understand planetary cycles, daily progression, and the Cryosleep deadline",
+        "step2Title": "Build the Right Alters",
+        "step2Description": "Choose the best specialist Alter unlock order for your playstyle",
+        "step3Title": "Reach Every Ending",
+        "step3Description": "Navigate irreversible choices and the conditions for each ending"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+    "story": {
+      "title": "The Alters Last Variable Story",
+      "description": "The Jan Scientist storyline, every ending, secret encrypted messages, and the full narrative explained.",
+      "metaTitle": "The Alters Last Variable Story - Endings & Lore",
+      "metaDescription": "Explore The Alters Last Variable story, all endings, secret endings, encrypted messages, and the complete narrative of Jan Scientist.",
+      "categoryLabel": "STORY & ENDINGS",
+      "whatIs": "What is the Story?",
+      "whatIsDescription": "The narrative arc of Jan Scientist on the planet, including every ending, secret encrypted messages, and the choices that shape the outcome.",
+      "why": "Why follow the story?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Unlock Every Ending",
+        "step1Description": "Discover the exact conditions that trigger each ending",
+        "step2Title": "Decode Secrets",
+        "step2Description": "Find and interpret the secret encrypted messages",
+        "step3Title": "Understand Choices",
+        "step3Description": "See how your decisions change the final outcome"
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Story Articles"
     },
-    "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+    "dlc": {
+      "title": "The Alters Last Variable DLC",
+      "description": "Everything about the Last Variable expansion: access, price, save requirements, playtime, and the latest patch notes.",
+      "metaTitle": "The Alters Last Variable DLC - Access, Price & Updates",
+      "metaDescription": "Complete The Alters Last Variable DLC coverage: how to access the expansion, pricing, save requirements, playtime, and update 2.0.1 patch notes.",
+      "categoryLabel": "DLC & EXPANSION",
+      "whatIs": "What is the DLC?",
+      "whatIsDescription": "The Last Variable is a paid story expansion for The Alters, adding a 20-hour campaign, four specialist Alters, and nine terraforming arenas.",
+      "why": "Why read DLC info?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Access the Expansion",
+        "step1Description": "Learn base-game requirements and how to start the DLC",
+        "step2Title": "Know the Price",
+        "step2Description": "Compare pricing across Steam, Epic, GOG, PS5, and Xbox",
+        "step3Title": "Track Updates",
+        "step3Description": "Follow the latest patches and content changes like update 2.0.1"
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All DLC Articles"
     },
-    "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+    "availability": {
+      "title": "The Alters Last Variable Availability",
+      "description": "Release date, supported platforms, store links, pricing, and whether the expansion is worth it.",
+      "metaTitle": "The Alters Last Variable Availability - Platforms & Price",
+      "metaDescription": "Find The Alters Last Variable release date, platforms (Steam, Epic, GOG, PS5, Xbox), pricing, and value analysis before you buy.",
+      "categoryLabel": "RELEASE & PLATFORMS",
+      "whatIs": "What is Availability?",
+      "whatIsDescription": "Details on the release date, every supported platform and store, regional pricing, and a clear look at the expansion value.",
+      "why": "Why check availability?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Find Your Platform",
+        "step1Description": "Confirm PC, PS5, or Xbox Series X|S support",
+        "step2Title": "Compare Prices",
+        "step2Description": "See pricing across Steam, Epic, and GOG",
+        "step3Title": "Judge the Value",
+        "step3Description": "Decide if the expansion is worth buying for you"
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Availability Articles"
     },
-    "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+    "reviews": {
+      "title": "The Alters Last Variable Reviews",
+      "description": "Critical and player reviews, before-you-buy impressions, and long-term verdicts after 100% completion.",
+      "metaTitle": "The Alters Last Variable Reviews - Should You Buy?",
+      "metaDescription": "Read The Alters Last Variable reviews, before-you-buy impressions, and 100% completion verdicts to decide if the expansion is worth your time.",
+      "categoryLabel": "REVIEWS & VERDICTS",
+      "whatIs": "What are Reviews?",
+      "whatIsDescription": "Aggregated critical and community reviews, early before-you-buy impressions, and in-depth verdicts from players who finished the full campaign.",
+      "why": "Why read reviews?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Before You Buy",
+        "step1Description": "Get early impressions and the key takeaways",
+        "step2Title": "Long-Term Verdict",
+        "step2Description": "See what completionists say after reaching 100%",
+        "step3Title": "Spot the Highlights",
+        "step3Description": "Learn the standout features and the notable flaws"
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Reviews"
     },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+    "media": {
+      "title": "The Alters Last Variable Media",
+      "description": "Official key art, cover art, gameplay trailers, launch trailer, and reveal trailers from 11 bit studios.",
+      "metaTitle": "The Alters Last Variable Media - Art & Trailers",
+      "metaDescription": "Browse The Alters Last Variable media: official key art, cover art, gameplay trailer, launch trailer, and the DLC date reveal trailer.",
+      "categoryLabel": "ART & TRAILERS",
+      "whatIs": "What is Media?",
+      "whatIsDescription": "The official visual and video assets for the expansion, including key art, cover art, and every trailer released by 11 bit studios.",
+      "why": "Why browse media?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "See the Visuals",
+        "step1Description": "Explore the official key art and cover art",
+        "step2Title": "Watch Trailers",
+        "step2Description": "View gameplay, launch, and reveal trailers",
+        "step3Title": "Get Hyped",
+        "step3Description": "Catch the mood and tone before you play"
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Media"
     }
   }
 }

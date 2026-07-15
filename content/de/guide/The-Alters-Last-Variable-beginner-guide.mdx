@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Activity, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "The Alters Last Variable Einsteiger-Guide: Die beste Startroute",
+  description: "Meistere den ersten Zyklus von The Alters Last Variable. Lerne die optimale Baureihenfolge, Tipps zum Ressourcenmanagement und wie du deinen ersten Alter erschaffst.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/33292c/ff66b2?text=Beginner+Survival+Guide",
+  date: "2026-07-15",
+  author: "The Alters Last Variable Wiki-Team"
+}
+
+<Callout type="info" title="Schnellstart-Guide">
+- **Hauptziel**: Stabilisiere deine Basiswirtschaft innerhalb der 14-tägigen Frist für die Kryoschlafkammer in Zyklus 1.
+- **Ressourcenpriorität**: Konzentriere dich stark auf den automatisierten Metallabbau, bevor du in fortgeschrittene Verarbeitung investierst.
+- **Erster Alter**: Wähle zuerst Jan Geologe, um die Abbaugeschwindigkeit zu beschleunigen und frühe Ressourcenengpässe zu umgehen.
+- **Schlüsselmechanik**: Verwalte die täglichen Arbeitsstunden deiner Crew effizient, um Erschöpfung im frühen Spiel oder Forschungsverzögerungen zu vermeiden.
+</Callout>
+
+<Section icon={Map} title="Einführung in den Last Variable DLC">
+
+Die kostenpflichtige Erweiterungskampagne von **The Alters: Last Variable** versetzt dich als Jan Scientist zurück auf den feindseligen Planeten. Im Gegensatz zum Hauptspiel führt diese Erweiterung ein komplexes unterirdisches Basislayout, vier hochspezialisierte wissenschaftliche Alters und neun einzigartige Terraforming-Arenen ein. Das Überleben erfordert ein präzises Management deines Tagesablaufs, einen sorgfältigen Basisbau und eine strategische Erkundung während der kurzen Abkühlungsphasen des Planeten.
+
+Um in dieser anspruchsvollen Kampagne erfolgreich zu sein, musst du lernen, deinen täglichen Ressourcenabbau mit kritischen Forschungsprojekten in Einklang zu bringen. Ein schlechtes Management deiner ersten Tage kann schnell zu strukturellen Fehlern, Ressourcenknappheit oder einem frühen Game Over führen.
+
+| Feature | Detail |
+| :--- | :--- |
+| **Kampagnenlänge** | Ca. 20 Stunden |
+| **Plattformen** | PC (Steam, GOG, Epic), PS5, Xbox Series X/S |
+| **Hauptspiel erforderlich** | Ja (Kostenpflichtige DLC-Erweiterung) |
+| **Neue Spezialisten-Alters** | 4 (Geologe, Physiker, Chemiker, Biologe) |
+| **Terraforming-Arenen** | 9 verschiedene Regionen |
+
+<Callout type="tip" title="Tipp zum DLC-Zugriff">
+Die Erweiterung funktioniert als separate Kampagne. Du kannst sie direkt aus dem Hauptmenü starten, ohne einen abgeschlossenen Spielstand des Hauptspiels zu benötigen.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="The Alters Last Variable Einsteiger-Guide: Route für Zyklus 1">
+
+Das Navigieren durch den ersten Zyklus in diesem **The Alters Last Variable Einsteiger-Guide** erfordert die strikte Einhaltung einer bestimmten Baureihenfolge. Dein Hauptziel ist es, eine automatisierte Ressourcensammlung aufzubauen, deine Kernforschungseinrichtungen zu reparieren und die Kryoschlafkammer zu errichten, bevor die 14-tägige Frist abläuft.
+
+### Vergleich der Start-Baureihenfolge
+
+| Phase | Hauptziel | Wichtige Ressourcenkosten | Hauptgefahr |
+| :--- | :--- | :--- | :--- |
+| **Tage 1–2** | Forschungslabor reparieren & Metall-Außenposten bauen | 10 Metalle (Reparaturset) | Ressourcenknappheit |
+| **Tage 3–4** | Ersten Alter erschaffen & Oase untersuchen | 50 Metalle, 65 Rapidium | Zeitdruck |
+| **Tage 5–6** | Probenanalysemodul konstruieren | 60 Metalle, 50 Rapidium, 60 Organika | Stromüberlastung |
+
+<Steps>
+  <Step num="1" title="Schließe 'Famous Last Words' ab">
+    Sprich mit dem alten Wissenschaftler, um seine letzte Bitte zu erfüllen. Begrabe ihn, kehre zu JanBot zurück und inspiziere das beschädigte Forschungslabor sowie den gesperrten Quantencomputer. Spare deine Startmetalle; stelle noch keine optionale Ausrüstung her.
+  </Step>
+  <Step num="2" title="Errichte den Metall-Außenposten">
+    Gehe südlich der Basis, um das nächste Metallvorkommen zu lokalisieren. Errichte einen Metall-Außenposten und verbinde ihn mit deinem Basisnetzwerk. Stelle in der Werkstatt ein Reparaturset aus 10 Metallen her und repariere das Forschungslabor.
+  </Step>
+  <Step num="3" title="Erforsche das neue Verzweigungsverfahren">
+    Baue Rapidium aus dem Vorkommen südlich des Metall-Außenpostens ab. Nutze dein neu repariertes Forschungslabor, um das Neue Verzweigungsverfahren zu erforschen. Dieses Projekt kostet 20 Rapidium und dauert 2 Arbeitsstunden.
+  </Step>
+  <Step num="4" title="Erschaffe deinen ersten Alter">
+    Greife auf den Quantencomputer zu, um deinen ersten Spezialisten-Alter zu erschaffen. Wähle für die optimale Startroute Jan Geologe, um Engpässe beim Ressourcenabbau im frühen Spiel zu lösen.
+  </Step>
+  <Step num="5" title="Untersuche die Oase">
+    Reise zur Oase und sammle alle drei Elektroalgen-Proben. Gehe nicht vorzeitig; das Sammeln aller drei Proben in einem einzigen Durchgang spart wertvolle Erkundungsstunden. Kehre ins Labor zurück und beginne mit der Analyse der Proben.
+  </Step>
+  <Steps num="6" title="Baue die Kryoschlafkammer">
+    Konstruiere die Kryoschlafkammer mit 50 Metallen und 65 Rapidium. Stelle sicher, dass du sie in einer Zelle platzierst, die zukünftige Korridorerweiterungen durch den unterirdischen Boden nicht blockiert.
+  </Steps>
+</Steps>
+
+<Callout type="warning" title="Frist-Warnung">
+Wenn du den Bau der Kryoschlafkammer über Tag 14 hinaus verzögerst, führt dies zu einem sofortigen Scheitern der Kampagne, sobald die Heißphase einsetzt.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Spezialisten-Alters und beste Zuweisungen">
+
+Die Wahl des richtigen Alters zur richtigen Zeit bestimmt, wie reibungslos deine Basis läuft. Jeder Spezialist bietet enorme Produktionsboni, bringt aber auch einzigartige Persönlichkeitsmerkmale und Forschungsbeiträge mit.
+
+<CardGrid cols={2}>
+  <Card title="Jan Geologe (S-Tier)">
+    - **Erstellungspriorität**: Zuerst
+    - **Effizienz**: +50% Metallabbau-Geschwindigkeit
+    - **Beste Verwendung**: Frühe Ressourcensammlung, Beseitigung von Wurzelbarrieren und Analyse planetarer Anomalien.
+  </Card>
+  <Card title="Jan Physiker (A-Tier)">
+    - **Erstellungspriorität**: Zweiter
+    - **Effizienz**: +50% Werkstattherstellung und Basiswartung
+    - **Beste Verwendung**: Massenproduktion von Reparatursets, Upgrade von Basissystemen und Durchführung der Splitter-Forschung.
+  </Card>
+  <Card title="Jan Chemiker (A-Tier)">
+    - **Erstellungspriorität**: Dritter
+    - **Effizienz**: +50% Raffinierungsgeschwindigkeit und schnelleres Kochen
+    - **Beste Verwendung**: Feldlaborforschung, Verarbeitung seltener Materialien und Verwaltung von Nahrungsvorräten.
+  </Card>
+  <Card title="Jan Biologe (A-Tier)">
+    - **Erstellungspriorität**: Vierter
+    - **Effizienz**: +100% Gewächshausgeschwindigkeit, 8x schnellere Heilung
+    - **Beste Verwendung**: Medizinische Genesung, Anbau von Organika und Verwaltung der Crew-Moral.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Zuweisungsregel für das Feldlabor">
+Wenn du einen Alter einem Feldlabor zuweist, trägt er nicht mehr zu den täglichen Basisaufgaben bei. Schließe seine persönlichen Quests und die basisseitige Forschung ab, bevor du ihn wegschickst.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Untergrund Basis und Kryoschlaf-Wartung">
+
+Die unterirdische Basis erfordert eine sorgfältige räumliche Planung. Bodenvariationen schränken ein, wo du bestimmte Module platzieren kannst, weshalb effiziente Layouts entscheidend sind, um Laufwege und Stromverbrauch zu minimieren.
+
+### Kritischer Organika-Bedarf für den Kryoschlaf
+
+Um den Übergang zwischen den planetaren Zyklen zu überleben, musst du eine bestimmte Menge an Organika ansammeln, bevor du den Kryoschlaf antrittst.
+
+| Crew-Größe | Benötigte Organika | Überlebensergebnis |
+| :--- | :--- | :--- |
+| **Nur Jan Scientist** | 50 Organika | Sicherer Übergang zum nächsten Zyklus |
+| **Jan + 1 Alter** | 100 Organika | Sicherer Übergang zum nächsten Zyklus |
+| **Jan + 2 Alters** | 150 Organika | Sicherer Übergang zum nächsten Zyklus |
+| **Jede Crew-Größe** | Weniger als benötigt | Kritisches Verhungern / Crew-Verlust |
+
+<Callout type="success" title="Abbautipp">
+Baue am letzten Abend eines Zyklus deine Oberflächenstrukturen (Außenposten, Phaser, Pipelines) ab. Dadurch werden ihre Baumaterialien direkt in dein Basisinventar zurückgeführt, was deren Verfall verhindert.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checkliste für Terraforming und Erkundung">
+
+Der Planet reagiert defensiv, wenn du seine Oberfläche terraformst. Um Umweltgefahren zu minimieren, erkunde sofort während der Abkühlungsphasen und verbessere deine Schutzausrüstung frühzeitig.
+
+<Checklist
+  id="exploration-milestones"
+  title="Wichtige Ziele für die Abkühlungsphase:"
+  items={[
+    "Sammle alle drei Elektroalgen-Proben aus der Oase",
+    "Errichte einen sicheren Pipeline-Korridor durch die Basis-Arena",
+    "Berge alle 4 Trümmer alter Technologie aus der Basis-Region",
+    "Baue das erste Feldlabor im Felsental",
+    "Verbessere die Strahlungsfilter, bevor du die Vulkan-Arena betrittst"
+  ]}
+/>
+
+</Section>
+
+<Section icon={HelpCircle} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Welchen Alter sollte ich in The Alters Last Variable zuerst erschaffen?",
+    answer: "Du solltest zuerst Jan Geologe erschaffen. Sein Bonus von 50 % auf die Metallabbau-Geschwindigkeit ist unerlässlich, um die Materialien zu sichern, die für deine frühen Basismodule und die Kryoschlafkammer benötigt werden."
+  },
+  {
+    question: "Was passiert, wenn ich vor dem Kryoschlaf nicht genug Organika habe?",
+    answer: "Wenn du den Organika-Bedarf (50 pro Person in der Basis) vor dem Eintritt in den Kryoschlaf nicht deckst, erleidet deine Crew beim Aufwachen im nächsten Zyklus schwere gesundheitliche Schäden oder stirbt."
+  },
+  {
+    question: "Benötigen Mitarbeiter im Feldlabor während des Kryoschlafs Organika?",
+    answer: "Nein. Alters, die aktiven Feldlaboren zugewiesen sind, bleiben während der Heißphase außerhalb der Basis und verbrauchen nicht die Organika-Reserven deiner Basis."
+  },
+  {
+    question: "Kann ich denselben Alter-Typ mehr als einmal erschaffen?",
+    answer: "Ja. Wenn ein Alter dauerhaft in einem Feldlabor stationiert ist oder verloren geht, kannst du diesen Spezialistentyp am Quantencomputer erneut klonen, was auch einen versteckten Erfolg freischaltet."
+  }
+]} />
+
+</Section>

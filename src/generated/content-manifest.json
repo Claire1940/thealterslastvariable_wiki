@@ -1,1 +1,666 @@
-{}
+{
+  "de": {
+    "availability": [
+      {
+        "slug": "The-Alters-Last-Variable-price",
+        "file": "The-Alters-Last-Variable-price"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-ps5",
+        "file": "The-Alters-Last-Variable-ps5"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-release-date",
+        "file": "The-Alters-Last-Variable-release-date"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-steam",
+        "file": "The-Alters-Last-Variable-steam"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-value",
+        "file": "The-Alters-Last-Variable-value"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-xbox",
+        "file": "The-Alters-Last-Variable-xbox"
+      }
+    ],
+    "dlc": [
+      {
+        "slug": "The-Alters-Last-Variable-dlc-access",
+        "file": "The-Alters-Last-Variable-dlc-access"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-dlc-playtime",
+        "file": "The-Alters-Last-Variable-dlc-playtime"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-dlc-price",
+        "file": "The-Alters-Last-Variable-dlc-price"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-dlc-requirements",
+        "file": "The-Alters-Last-Variable-dlc-requirements"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-dlc-review",
+        "file": "The-Alters-Last-Variable-dlc-review"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-dlc-save-requirements",
+        "file": "The-Alters-Last-Variable-dlc-save-requirements"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-dlc",
+        "file": "The-Alters-Last-Variable-dlc"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-expansion-how-to-play",
+        "file": "The-Alters-Last-Variable-expansion-how-to-play"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-update-2-0-1-patch",
+        "file": "The-Alters-Last-Variable-update-2.0.1-patch"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "The-Alters-Last-Variable-base-building-guide",
+        "file": "The-Alters-Last-Variable-base-building-guide"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-beginner-guide",
+        "file": "The-Alters-Last-Variable-beginner-guide"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-best-alters-unlock-order",
+        "file": "The-Alters-Last-Variable-best-alters-unlock-order"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-best-assignments",
+        "file": "The-Alters-Last-Variable-best-assignments"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-cryosleep-chamber-guide",
+        "file": "The-Alters-Last-Variable-cryosleep-chamber-guide"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-specialist-alters-guide",
+        "file": "The-Alters-Last-Variable-specialist-alters-guide"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-tier-list",
+        "file": "The-Alters-Last-Variable-tier-list"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-underground-base-guide",
+        "file": "The-Alters-Last-Variable-underground-base-guide"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-walkthrough",
+        "file": "The-Alters-Last-Variable-walkthrough"
+      }
+    ],
+    "media": [
+      {
+        "slug": "The-Alters-Last-Variable-cover-art",
+        "file": "The-Alters-Last-Variable-cover-art"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-gameplay-overview",
+        "file": "The-Alters-Last-Variable-gameplay-overview"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-gameplay-trailer",
+        "file": "The-Alters-Last-Variable-gameplay-trailer"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-key-art",
+        "file": "The-Alters-Last-Variable-key-art"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-launch-trailer",
+        "file": "The-Alters-Last-Variable-launch-trailer"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-reveal-trailer",
+        "file": "The-Alters-Last-Variable-reveal-trailer"
+      }
+    ],
+    "reviews": [
+      {
+        "slug": "The-Alters-Last-Variable-before-you-buy",
+        "file": "The-Alters-Last-Variable-before-you-buy"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-review-after-100-percent",
+        "file": "The-Alters-Last-Variable-review-after-100-percent"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-review",
+        "file": "The-Alters-Last-Variable-review"
+      }
+    ],
+    "story": [
+      {
+        "slug": "The-Alters-Last-Variable-ending-explained",
+        "file": "The-Alters-Last-Variable-ending-explained"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-endings",
+        "file": "The-Alters-Last-Variable-endings"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-scientist-story",
+        "file": "The-Alters-Last-Variable-scientist-story"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-secret-encrypted-messages",
+        "file": "The-Alters-Last-Variable-secret-encrypted-messages"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-secret-endings",
+        "file": "The-Alters-Last-Variable-secret-endings"
+      }
+    ]
+  },
+  "en": {
+    "availability": [
+      {
+        "slug": "The-Alters-Last-Variable-price",
+        "file": "The-Alters-Last-Variable-price"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-ps5",
+        "file": "The-Alters-Last-Variable-ps5"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-release-date",
+        "file": "The-Alters-Last-Variable-release-date"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-steam",
+        "file": "The-Alters-Last-Variable-steam"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-value",
+        "file": "The-Alters-Last-Variable-value"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-xbox",
+        "file": "The-Alters-Last-Variable-xbox"
+      }
+    ],
+    "dlc": [
+      {
+        "slug": "The-Alters-Last-Variable-dlc-access",
+        "file": "The-Alters-Last-Variable-dlc-access"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-dlc-playtime",
+        "file": "The-Alters-Last-Variable-dlc-playtime"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-dlc-price",
+        "file": "The-Alters-Last-Variable-dlc-price"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-dlc-requirements",
+        "file": "The-Alters-Last-Variable-dlc-requirements"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-dlc-review",
+        "file": "The-Alters-Last-Variable-dlc-review"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-dlc-save-requirements",
+        "file": "The-Alters-Last-Variable-dlc-save-requirements"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-dlc",
+        "file": "The-Alters-Last-Variable-dlc"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-expansion-how-to-play",
+        "file": "The-Alters-Last-Variable-expansion-how-to-play"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-update-2-0-1-patch",
+        "file": "The-Alters-Last-Variable-update-2.0.1-patch"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "The-Alters-Last-Variable-base-building-guide",
+        "file": "The-Alters-Last-Variable-base-building-guide"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-beginner-guide",
+        "file": "The-Alters-Last-Variable-beginner-guide"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-best-alters-unlock-order",
+        "file": "The-Alters-Last-Variable-best-alters-unlock-order"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-best-assignments",
+        "file": "The-Alters-Last-Variable-best-assignments"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-cryosleep-chamber-guide",
+        "file": "The-Alters-Last-Variable-cryosleep-chamber-guide"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-specialist-alters-guide",
+        "file": "The-Alters-Last-Variable-specialist-alters-guide"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-tier-list",
+        "file": "The-Alters-Last-Variable-tier-list"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-underground-base-guide",
+        "file": "The-Alters-Last-Variable-underground-base-guide"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-walkthrough",
+        "file": "The-Alters-Last-Variable-walkthrough"
+      }
+    ],
+    "media": [
+      {
+        "slug": "The-Alters-Last-Variable-cover-art",
+        "file": "The-Alters-Last-Variable-cover-art"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-gameplay-overview",
+        "file": "The-Alters-Last-Variable-gameplay-overview"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-gameplay-trailer",
+        "file": "The-Alters-Last-Variable-gameplay-trailer"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-key-art",
+        "file": "The-Alters-Last-Variable-key-art"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-launch-trailer",
+        "file": "The-Alters-Last-Variable-launch-trailer"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-reveal-trailer",
+        "file": "The-Alters-Last-Variable-reveal-trailer"
+      }
+    ],
+    "reviews": [
+      {
+        "slug": "The-Alters-Last-Variable-before-you-buy",
+        "file": "The-Alters-Last-Variable-before-you-buy"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-review-after-100-percent",
+        "file": "The-Alters-Last-Variable-review-after-100-percent"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-review",
+        "file": "The-Alters-Last-Variable-review"
+      }
+    ],
+    "story": [
+      {
+        "slug": "The-Alters-Last-Variable-ending-explained",
+        "file": "The-Alters-Last-Variable-ending-explained"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-endings",
+        "file": "The-Alters-Last-Variable-endings"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-scientist-story",
+        "file": "The-Alters-Last-Variable-scientist-story"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-secret-encrypted-messages",
+        "file": "The-Alters-Last-Variable-secret-encrypted-messages"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-secret-endings",
+        "file": "The-Alters-Last-Variable-secret-endings"
+      }
+    ]
+  },
+  "ja": {
+    "availability": [
+      {
+        "slug": "The-Alters-Last-Variable-price",
+        "file": "The-Alters-Last-Variable-price"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-ps5",
+        "file": "The-Alters-Last-Variable-ps5"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-release-date",
+        "file": "The-Alters-Last-Variable-release-date"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-steam",
+        "file": "The-Alters-Last-Variable-steam"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-value",
+        "file": "The-Alters-Last-Variable-value"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-xbox",
+        "file": "The-Alters-Last-Variable-xbox"
+      }
+    ],
+    "dlc": [
+      {
+        "slug": "The-Alters-Last-Variable-dlc-access",
+        "file": "The-Alters-Last-Variable-dlc-access"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-dlc-playtime",
+        "file": "The-Alters-Last-Variable-dlc-playtime"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-dlc-price",
+        "file": "The-Alters-Last-Variable-dlc-price"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-dlc-requirements",
+        "file": "The-Alters-Last-Variable-dlc-requirements"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-dlc-review",
+        "file": "The-Alters-Last-Variable-dlc-review"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-dlc-save-requirements",
+        "file": "The-Alters-Last-Variable-dlc-save-requirements"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-dlc",
+        "file": "The-Alters-Last-Variable-dlc"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-expansion-how-to-play",
+        "file": "The-Alters-Last-Variable-expansion-how-to-play"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-update-2-0-1-patch",
+        "file": "The-Alters-Last-Variable-update-2.0.1-patch"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "The-Alters-Last-Variable-base-building-guide",
+        "file": "The-Alters-Last-Variable-base-building-guide"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-beginner-guide",
+        "file": "The-Alters-Last-Variable-beginner-guide"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-best-alters-unlock-order",
+        "file": "The-Alters-Last-Variable-best-alters-unlock-order"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-best-assignments",
+        "file": "The-Alters-Last-Variable-best-assignments"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-cryosleep-chamber-guide",
+        "file": "The-Alters-Last-Variable-cryosleep-chamber-guide"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-specialist-alters-guide",
+        "file": "The-Alters-Last-Variable-specialist-alters-guide"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-tier-list",
+        "file": "The-Alters-Last-Variable-tier-list"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-underground-base-guide",
+        "file": "The-Alters-Last-Variable-underground-base-guide"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-walkthrough",
+        "file": "The-Alters-Last-Variable-walkthrough"
+      }
+    ],
+    "media": [
+      {
+        "slug": "The-Alters-Last-Variable-cover-art",
+        "file": "The-Alters-Last-Variable-cover-art"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-gameplay-overview",
+        "file": "The-Alters-Last-Variable-gameplay-overview"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-gameplay-trailer",
+        "file": "The-Alters-Last-Variable-gameplay-trailer"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-key-art",
+        "file": "The-Alters-Last-Variable-key-art"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-launch-trailer",
+        "file": "The-Alters-Last-Variable-launch-trailer"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-reveal-trailer",
+        "file": "The-Alters-Last-Variable-reveal-trailer"
+      }
+    ],
+    "reviews": [
+      {
+        "slug": "The-Alters-Last-Variable-before-you-buy",
+        "file": "The-Alters-Last-Variable-before-you-buy"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-review-after-100-percent",
+        "file": "The-Alters-Last-Variable-review-after-100-percent"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-review",
+        "file": "The-Alters-Last-Variable-review"
+      }
+    ],
+    "story": [
+      {
+        "slug": "The-Alters-Last-Variable-ending-explained",
+        "file": "The-Alters-Last-Variable-ending-explained"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-endings",
+        "file": "The-Alters-Last-Variable-endings"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-scientist-story",
+        "file": "The-Alters-Last-Variable-scientist-story"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-secret-encrypted-messages",
+        "file": "The-Alters-Last-Variable-secret-encrypted-messages"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-secret-endings",
+        "file": "The-Alters-Last-Variable-secret-endings"
+      }
+    ]
+  },
+  "ru": {
+    "availability": [
+      {
+        "slug": "The-Alters-Last-Variable-price",
+        "file": "The-Alters-Last-Variable-price"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-ps5",
+        "file": "The-Alters-Last-Variable-ps5"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-release-date",
+        "file": "The-Alters-Last-Variable-release-date"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-steam",
+        "file": "The-Alters-Last-Variable-steam"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-value",
+        "file": "The-Alters-Last-Variable-value"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-xbox",
+        "file": "The-Alters-Last-Variable-xbox"
+      }
+    ],
+    "dlc": [
+      {
+        "slug": "The-Alters-Last-Variable-dlc-access",
+        "file": "The-Alters-Last-Variable-dlc-access"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-dlc-playtime",
+        "file": "The-Alters-Last-Variable-dlc-playtime"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-dlc-price",
+        "file": "The-Alters-Last-Variable-dlc-price"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-dlc-requirements",
+        "file": "The-Alters-Last-Variable-dlc-requirements"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-dlc-review",
+        "file": "The-Alters-Last-Variable-dlc-review"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-dlc-save-requirements",
+        "file": "The-Alters-Last-Variable-dlc-save-requirements"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-dlc",
+        "file": "The-Alters-Last-Variable-dlc"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-expansion-how-to-play",
+        "file": "The-Alters-Last-Variable-expansion-how-to-play"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-update-2-0-1-patch",
+        "file": "The-Alters-Last-Variable-update-2.0.1-patch"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "The-Alters-Last-Variable-base-building-guide",
+        "file": "The-Alters-Last-Variable-base-building-guide"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-beginner-guide",
+        "file": "The-Alters-Last-Variable-beginner-guide"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-best-alters-unlock-order",
+        "file": "The-Alters-Last-Variable-best-alters-unlock-order"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-best-assignments",
+        "file": "The-Alters-Last-Variable-best-assignments"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-cryosleep-chamber-guide",
+        "file": "The-Alters-Last-Variable-cryosleep-chamber-guide"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-specialist-alters-guide",
+        "file": "The-Alters-Last-Variable-specialist-alters-guide"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-tier-list",
+        "file": "The-Alters-Last-Variable-tier-list"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-underground-base-guide",
+        "file": "The-Alters-Last-Variable-underground-base-guide"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-walkthrough",
+        "file": "The-Alters-Last-Variable-walkthrough"
+      }
+    ],
+    "media": [
+      {
+        "slug": "The-Alters-Last-Variable-cover-art",
+        "file": "The-Alters-Last-Variable-cover-art"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-gameplay-overview",
+        "file": "The-Alters-Last-Variable-gameplay-overview"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-gameplay-trailer",
+        "file": "The-Alters-Last-Variable-gameplay-trailer"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-key-art",
+        "file": "The-Alters-Last-Variable-key-art"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-launch-trailer",
+        "file": "The-Alters-Last-Variable-launch-trailer"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-reveal-trailer",
+        "file": "The-Alters-Last-Variable-reveal-trailer"
+      }
+    ],
+    "reviews": [
+      {
+        "slug": "The-Alters-Last-Variable-before-you-buy",
+        "file": "The-Alters-Last-Variable-before-you-buy"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-review-after-100-percent",
+        "file": "The-Alters-Last-Variable-review-after-100-percent"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-review",
+        "file": "The-Alters-Last-Variable-review"
+      }
+    ],
+    "story": [
+      {
+        "slug": "The-Alters-Last-Variable-ending-explained",
+        "file": "The-Alters-Last-Variable-ending-explained"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-endings",
+        "file": "The-Alters-Last-Variable-endings"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-scientist-story",
+        "file": "The-Alters-Last-Variable-scientist-story"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-secret-encrypted-messages",
+        "file": "The-Alters-Last-Variable-secret-encrypted-messages"
+      },
+      {
+        "slug": "The-Alters-Last-Variable-secret-endings",
+        "file": "The-Alters-Last-Variable-secret-endings"
+      }
+    ]
+  }
+}

@@ -1,0 +1,172 @@
+import { Map, Target, Shield, Layout, Sparkles, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "The Alters Last Variable: Leitfaden zur Untergrundbasis – Beste Layouts",
+  description: "Meistern Sie das Layout Ihrer Untergrundbasis in The Alters Last Variable. Erfahren Sie alles über optimale Modulplatzierung, Bodenmanagement, Energieplanung und die Vorbereitung auf den Kälteschlaf.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/332046/fff?text=Underground+Base+Guide",
+  date: "2026-07-15",
+  author: "The Alters Last Variable Wiki-Team",
+  keywords: "The Alters Last Variable, Untergrundbasis, Basis-Layout, Ressourcenmanagement, Kälteschlaf, Jan Scientist, Leitfaden"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Layouts der Untergrundbasis**: Eine ordnungsgemäße Bodenräumung und Korridorplatzierung verhindern Sackgassen in Ihrer Basisstruktur.
+- **Ressourcenmanagement**: Bauen Sie die Kälteschlafkammer frühzeitig, um die strikte 14-Tage-Frist des Zyklus einzuhalten.
+- **Energie & Wartung**: Halten Sie wichtige Räume in der Nähe von Lagerkorridoren und isolieren Sie lärmintensive Produktionsstätten.
+- **Vorbereitung auf den Kälteschlaf**: Reservieren Sie immer 50 Organika pro Person, bevor Sie eine kühle Phase beenden.
+</Callout>
+
+<Section icon={Map} title="The Alters Last Variable: Leitfaden zur Untergrundbasis – Grundlagen des Baus">
+
+Der Bau und Erhalt Ihrer Anlage ist der Kern von [The Alters: Last Variable](https://store.steampowered.com/app/3237520/The_Alters_Last_Variable/). Im Gegensatz zur mobilen Basis im Originalspiel beauftragt die Erweiterung Jan Scientist mit der Rückgewinnung einer vergrabenen, statischen Forschungsstation. Da Sie diese Basis nicht vor planetaren Gefahren wegbewegen können, entscheiden Ihre Layout-Entscheidungen, Stromnetze und Expansionsrouten über Ihr Überleben.
+
+Jeder Raum, den Sie bauen, muss in spezifische Untergrundgitter passen. Bodendichte, strukturelle Schäden durch Erdbeben und Strahlungswellen begrenzen, wo und wann Sie expandieren können.
+
+| Konstruktionselement | Hauptressource | Hauptfunktion | Platzierungsregel |
+|---|---|---|---|
+| **Korridore** | Metalle | Verbindet Räume | Zuerst immer das horizontale Rückgrat bauen |
+| **Strommasten** | Metalle, Rapidium | Erweitert die Netzreichweite | In der Nähe von äußeren Ressourcen-Außenposten platzieren |
+| **Lagermodule** | Metalle | Beinhaltet physische Gegenstände | Angrenzend an Werkstätten und Raffinerien halten |
+| **Lebenserhaltung** | Metalle, Organika | Erhält die Gesundheit der Crew | Von lauten Stromgeneratoren isolieren |
+
+<Callout type="tip" title="Warnung: Bodenbeschränkungen">
+Nicht alle Untergrundkacheln sind bebaubar. Hartes Gestein und radioaktive Bodenablagerungen erfordern spezifische Bohrer-Upgrades oder Anomalie-Repulsoren, bevor Sie sie räumen können. Prüfen Sie immer die Raumgrundrisse, bevor Sie kostbare Metalle investieren.
+</Callout>
+
+</Section>
+
+<Section icon={Layout} title="Optimierte Basis-Layouts für jede Kampagnenphase">
+
+Um die harten Zyklen auf diesem Planeten zu überleben, muss sich Ihr Basis-Layout weiterentwickeln. Das zufällige Platzieren von Räumen erhöht die Laufwege Ihrer Alters, senkt die Arbeitseffizienz und erhöht die Anfälligkeit des Stromnetzes. Die Gruppierung funktionaler Räume in spezialisierte Zonen maximiert die Produktivität.
+
+<CardGrid cols={3}>
+  <Card title="Layout für das frühe Spiel">
+    - Fokus auf **Metall- und Organika**-Außenposten.
+    - Das Forschungslabor direkt neben der Werkstatt halten.
+    - Korridorlänge minimieren, um Startmetalle zu sparen.
+  </Card>
+  <Card title="Layout für das mittlere Spiel">
+    - **Probenanalyse-Modul** hinzufügen.
+    - Separate Schlafsäle für Ihre Alters bauen.
+    - Einen eigenen Flügel für die Raffinerie einrichten.
+  </Card>
+  <Card title="Layout für das späte Spiel">
+    - Den **Splitter** und fortschrittliche Tanks konstruieren.
+    - Die massive ENC-Generator-Infrastruktur aufbauen.
+    - Experimentelle Räume mit hoher Strahlung isolieren.
+  </Card>
+</CardGrid>
+
+Nutzen Sie die untenstehenden Layout-Vorlagen, um Ihre Untergrundbasis zu strukturieren, während Ihre Crew wächst:
+
+| Layout-Phase | Zielräume | Hauptengpass | Effizienzbewertung |
+|---|---|---|---|
+| **Phase 1 (Tag 1–5)** | Labor, Werkstatt, Basis-Schlafsaal | Metallknappheit | ★★★☆☆ |
+| **Phase 2 (Tag 6–12)** | Probenmodul, Gewächshaus, Raffinerie | Energielimits | ★★★★☆ |
+| **Phase 3 (Tag 13+)** | Splitter, Split-Schlafsaal, Krankenstation | Laufwege | ★★★★★ |
+
+<Callout type="warning" title="Basis-Wartung">
+Erdbeben beschädigen zufällige Räume. Wenn ein Modul beschädigt ist, stoppen seine aktiven Boni. Halten Sie jederzeit einen Puffer von 10–20 Metallen und mindestens ein in der Werkstatt hergestelltes Reparaturset bereit, um Notfälle sofort zu beheben.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Wie man startet und die Kernmodule der Basis baut">
+
+Ein korrekter Start Ihrer Expansion verhindert den frühen Ressourcenbankrott. Folgen Sie diesem Schritt-für-Schritt-Pfad, um Ihre Kerninfrastruktur aufzubauen, Ihren ersten Spezialisten-Alter freizuschalten und Ihr Überleben vor der ersten Heißphase zu sichern.
+
+<Steps>
+  <Step num="1" title="Den Forschungskern reparieren">
+    Sammeln Sie an Tag 1 sofort Metalle an der Oberfläche. Bauen Sie ein Reparaturset in Ihrer Werkstatt für 10 Metalle und wenden Sie es auf das beschädigte Forschungslabor an. Dies schaltet das Whiteboard frei und ermöglicht es Ihnen, das neue Verzweigungsverfahren zu analysieren.
+  </Step>
+  <Step num="2" title="Automatisierte Ressourcenextraktion etablieren">
+    Verlassen Sie sich nicht auf manuelles Sammeln an der Oberfläche. Reisen Sie südlich Ihrer Basis, lokalisieren Sie das primäre Metallvorkommen und bauen Sie Ihren ersten Metall-Außenposten. Verbinden Sie ihn über Strommasten mit dem Basisnetz.
+  </Step>
+  <Step num="3" title="Die Kälteschlafkammer konstruieren">
+    Die Mission „Erzwungene Ruheruhe“ gibt Ihnen eine strikte 14-Tage-Frist. Reservieren Sie 50 Metalle und 65 Rapidium für den Bau der Kälteschlafkammer. Platzieren Sie diese auf einer zentralen, sicheren Bodenkachel, wo sie zukünftige Korridorerweiterungen nicht blockiert.
+  </Step>
+  <Step num="4" title="Das Probenanalyse-Modul einsetzen">
+    Sobald Sie sich in die Oase wagen und drei biologische Proben sammeln, erforschen Sie die „Vorläufige Analyse“. Bauen Sie das Probenanalyse-Modul mit 60 Metallen, 50 Rapidium und 60 Organika, um mit den fortgeschrittenen Technologiebäumen zu beginnen.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Ideale Erstellung des ersten Alters">
+Erstellen Sie **Jan Geologe** als Ihren ersten Alter. Sein Bonus von 50 % auf die Bergbaueffizienz für Metalle und der schnelle Fortschritt in den Geologie-Technologiebäumen werden die Ressourcenbelastung beim frühen Basisbau erheblich lindern.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Der Kälteschlaf-Zyklus: Checkliste zur Vorbereitung auf die Heißphase">
+
+Das Klima des Planeten wechselt zwischen kühlen Erkundungsphasen und sengenden, jahrelangen Heißphasen. Bevor Sie Jan und seine Alters in den Kälteschlaf versetzen, müssen Sie eine strikte Logistik-Checkliste durchgehen, um sicherzustellen, dass Sie nicht in einer kaputten Basis mit einer verhungerten Crew aufwachen.
+
+| Ressourcentyp | Mindestreserve für Kälteschlaf | Folge bei Misserfolg |
+|---|---|---|
+| **Organika** | 50 pro Person in der Basis | Verhungern der Crew / Gesundheitsverfall |
+| **Metalle** | 30 im Lager | Erdbebenschäden an Tag 1 können nicht repariert werden |
+| **Reparatursets** | 2 Sets in der Werkstatt | Kritische Systeme bleiben nach dem Aufwachen offline |
+| **Energiezellen** | 3 voll aufgeladen | Lebenserhaltung versagt während der Aufwachphase |
+
+<Checklist
+  id="cryosleep-prep"
+  title="Überlebens-Checkliste für den letzten Tag:"
+  items={[
+    "Reservieren Sie 50 Organika für jeden Jan, der in der Basis bleibt.",
+    "Demontieren Sie Oberflächenstrukturen, vor denen das System warnt, um Teile zurückzugewinnen.",
+    "Heilen Sie alle Verletzungen der Crew und beseitigen Sie die Strahlenkrankheit in der Krankenstation.",
+    "Weisen Sie Ihren ausgewählten Spezialisten-Alter einem aktiven Feldlabor zu.",
+    "Stellen Sie Basismaterialien in der Raffinerie in die Warteschlange, damit sie während des Schlafs verarbeitet werden."
+  ]}
+/>
+
+<Callout type="info" title="Strategie für Feldlabore">
+Alters, die Feldlaboren zugewiesen sind, bleiben während des Kälteschlafs außerhalb der Basis. Sie verbrauchen keine Organika-Reserven Ihrer Basis, altern jedoch sichtbar, während Jan Scientist schläft. Schließen Sie deren persönliche Handlungsstränge ab, bevor Sie sie aussenden.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Fortgeschrittene Basisverarbeitung und Ressourcenketten">
+
+Wenn Sie spätere Zyklen freischalten, müssen Sie vom einfachen Bergbau zu komplexer chemischer und physikalischer Veredelung übergehen. Dies erfordert spezialisierte Maschinen, die viel Platz und Energie verbrauchen.
+
+| Fortgeschrittene Maschine | Benötigte Inputs | Produzierte Outputs | Beste Personalbesetzung |
+|---|---|---|---|
+| **Raffinerie** | Angereichertes Metall, Organika | Standard-Metalle | Jan Chemiker (50 % schnelleres Raffinieren) |
+| **Splitter** | Mineralien, Rapidium | Proxylium, Phasen-Rapidium | Jan Physiker (50 % schnelleres Handwerk) |
+| **Gewächshaus** | Wasser, Organika | Nahrung, Fortschrittliche Medizin | Jan Biologe (100 % Ernteeffizienz) |
+
+<Callout type="warning" title="Überlastung des Stromnetzes">
+Das gleichzeitige Betreiben mehrerer Raffinerien und Splitter wird Ihr Stromnetz überlasten. Bauen Sie Batteriebänke und rüsten Sie Ihre Generatoren auf, bevor Sie Ihre Verarbeitungsflügel erweitern, da sonst die Lebenserhaltung abgeschaltet werden könnte.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Was passiert, wenn ich die 14-Tage-Frist für die Kälteschlafkammer verpasse?",
+    answer: "Wenn die Kälteschlafkammer nicht vor Ablauf der Frist gebaut wird, führt dies zu einem sofortigen Game Over, da die herannahende Heißphase Jan und alle aktiven Alters töten wird."
+  },
+  {
+    question: "Sollte ich frühzeitig Komfort- und Moralmodule bauen?",
+    answer: "Nein. Priorisieren Sie Ressourcenextraktion, Forschung und Lagermodule. Bauen Sie Komforteinrichtungen wie Aufenthaltsräume erst, wenn Ihr Metall- und Organika-Einkommen vollständig automatisiert ist."
+  },
+  {
+    question: "Benötigen Alters in Feldlaboren während des Kälteschlafs Nahrung?",
+    answer: "Nein. Alters, die in Feldlaboren stationiert sind, verbrauchen während des Übergangs zur Heißphase keine Organika-Reserven Ihrer Basis, was sie sehr ressourceneffizient macht."
+  },
+  {
+    question: "Wie entferne ich hartes Gestein, das meine Basiserweiterung blockiert?",
+    answer: "Sie müssen Jan Geologe erstellen und fortschrittliche Wurzelbarrieren-Bohrungen sowie geologische Ausgrabungstechnologien erforschen, um in eingeschränkte Bodenkacheln zu expandieren."
+  }
+]} />
+
+</Section>

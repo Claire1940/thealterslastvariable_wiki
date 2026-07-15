@@ -1,0 +1,195 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "The Alters Last Variable Best Assignments: Specialist Crew Guide",
+  description: "Maximize your base efficiency in The Alters: Last Variable with the best assignments, creation priorities, and Field Lab schedules for your specialist crew.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/33252e/fff?text=Best+Alters+Assignments",
+  date: "2026-07-15",
+  author: "The Alters Last Variable Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Focus**: This guide reveals **The Alters Last Variable best assignments** to optimize your underground base and manage the specialist crew.
+- **Creation Priority**: Always create **Jan Geologist first** to secure early Metal income and research, followed by Physicist, Chemist, and Biologist.
+- **Field Lab Strategy**: Station specialists in Field Labs only after completing their critical base upgrades and personal story arcs.
+- **Resource Management**: Maintain a strict buffer of **50 Organics per person** before triggering the Cryosleep Chamber at the end of each cycle.
+</Callout>
+
+<Section icon={Sparkles} title="Specialist Rankings & Creation Order">
+
+Building a highly functional scientific crew requires creating your specialist Alters in a deliberate sequence. In *The Alters: Last Variable*, early resource pressure dictates your progression. If you clone your specialists out of order, you run the risk of running out of Metals or failing to meet the tight 14-day Cryosleep Chamber deadline.
+
+The following tier list ranks each specialist based on their overall utility, research acceleration speed, and how urgently their bonuses are needed during the opening cycles of the expansion.
+
+<CardGrid cols={4}>
+  <Card title="S-Tier: Jan Geologist">
+    - **Creation Priority**: 1st
+    - **Mining Speed**: +50% Metal
+    - **Core Role**: Early Metal extraction and clearing terrain barriers.
+  </Card>
+  <Card title="A-Tier: Jan Physicist">
+    - **Creation Priority**: 2nd
+    - **Workshop Speed**: +50% Crafting
+    - **Core Role**: Base maintenance and advanced instrument research.
+  </Card>
+  <Card title="A-Tier: Jan Chemist">
+    - **Creation Priority**: 3rd
+    - **Field Lab Speed**: 6h 15m (vs 10h)
+    - **Core Role**: Rare-resource processing and Field Lab breakthroughs.
+  </Card>
+  <Card title="B-Tier: Jan Biologist">
+    - **Creation Priority**: 4th
+    - **Greenhouse Speed**: +100% Crop Growth
+    - **Core Role**: Crew healing, food supply, and ecosystem research.
+  </Card>
+</CardGrid>
+
+| Specialist | Creation Priority | Primary Research Specialty | Base Work Efficiency |
+| :--- | :--- | :--- | :--- |
+| **Jan Geologist** | **1st (S-Tier)** | Phased Rapidium, Anomaly Repulsors, drilling | +50% Metal mining speed |
+| **Jan Physicist** | **2nd (A-Tier)** | Splitters, scanners, Mass Spectrometer | +50% Workshop crafting & base repair |
+| **Jan Chemist** | **3rd (A-Tier)** | Field Labs, chemical processing, sample analysis | +50% refining speed (Enriched Metal) |
+| **Jan Biologist** | **4th (B-Tier)** | Terraformers, biological samples, slime projects | +100% Greenhouse speed, 8x healing speed |
+
+<Callout type="tip" title="Pro Tip: Match Creation to Bottlenecks">
+Do not choose your first Alter based purely on personality traits. Always align your creation order with the primary resource bottleneck you are trying to solve. In the first cycle, this is always Metals, making Jan Geologist the mandatory first pick.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="The Alters Last Variable Best Assignments">
+
+Assigning your specialists to the correct facilities is the difference between survival and a cascade of system failures. Each specialist has a designated home facility where they receive massive passive boosts, but they can also step in to cover secondary roles when emergencies strike.
+
+To get the most out of **The Alters Last Variable best assignments**, you must balance active resource extraction on the surface with research and maintenance inside the underground base.
+
+| Specialist | Best Primary Assignment | Best Secondary Assignment | Worst Assignment |
+| :--- | :--- | :--- | :--- |
+| **Jan Geologist** | Metal Outposts, Surface exploration | Geology research, Anomaly scanning | Cooking, Greenhouse work |
+| **Jan Physicist** | Workshop queues, Repair Kit crafting | Base maintenance, Scanner operations | Refining raw chemicals |
+| **Jan Chemist** | Field Laboratory research | Chemical Refinery, cooking | Base maintenance, mining |
+| **Jan Biologist** | Greenhouse, Infirmary recovery | Biological sample analysis | Workshop crafting, mining |
+
+### Managing Field Laboratory Deployments
+
+Field Laboratories are located outside the base and are vital for advancing your understanding of the planet. However, sending a specialist to a Field Lab is a double-edged sword.
+
+- **The Trade-Off**: Stationing an Alter in a Field Lab removes them from your active base roster. They will stop contributing to daily chores, crafting, and resource gathering.
+- **The Aging Mechanic**: Assigned Alters stay on the surface while Jan Scientist enters cryosleep. They will visibly age across the planetary cycles.
+- **The Solution**: Complete all of an Alter's urgent base upgrades, personal conversations, and story objectives before permanently deploying them to a Field Lab.
+
+<Callout type="warning" title="Crucial Warning: Stationing Limits">
+Once an Alter is assigned to a Field Lab, they are locked into that role for the remainder of the cycle. Ensure your base has a comfortable buffer of crafted items (like Repair Kits) before sending Jan Physicist or Jan Geologist to the surface.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Cycle 1 Setup Guide">
+
+The first cycle of the game is governed by a strict 14-day deadline to construct the Cryosleep Chamber. Use this step-by-step progression route to establish your base economy, secure your first Alter, and investigate the Oasis.
+
+<Steps>
+  <Step num="1" title="Bury the Old Scientist">
+    Begin by speaking with the Old Scientist to receive his final request. Bury him, return to JanBot, and inspect the damaged Research Lab and the locked Quantum Computer. Save your starting Metals; do not craft optional gear yet.
+  </Step>
+  <Step num="2" title="Establish Metal Income">
+    Travel south from the base to locate the nearest Metals deposit. Build a Metals Outpost, connect it to your power grid via pylons, and collect enough raw materials to craft a Repair Kit (10 Metals) in the Workshop.
+  </Step>
+  <Step num="3" title="Repair and Research">
+    Use the Repair Kit to restore the Research Lab. Interact with the laboratory whiteboard and begin researching the **New Branching Procedure** (requires 20 Rapidium and 2 working hours) to unlock the cloning system.
+  </Step>
+  <Step num="4" title="Clone Jan Geologist">
+    Gather Rapidium from the deposit south of your Metals Outpost. Use the Quantum Computer to clone **Jan Geologist** as your first specialist. Immediately assign him to mine the southern Metal deposits to double your income.
+  </Step>
+  <Step num="5" title="Investigate the Oasis">
+    Enter the Oasis biome and collect all three Electric Algae samples. Do not leave early; collecting all three in a single run saves valuable working hours. Return to the base and start the **Analysis of Samples** research.
+  </Step>
+  <Step num="6" title="Build the Core Modules">
+    Construct the Sample Analysis Module (60 Metals, 50 Rapidium, 60 Organics) and the Cryosleep Chamber (50 Metals, 65 Rapidium) before Day 14. Establish an Organics Outpost behind the base to keep your life support fueled.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Cycle Completion Checkpoint">
+Before triggering cryosleep, make sure you have built a Dormitory for your crew, stocked at least 50 Organics for every person remaining inside the base, and dismantled any surface extractors threatened by the upcoming hot phase.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Underground Base & Cryosleep Checklist">
+
+Your underground base must be carefully managed to survive the planet's years-long hot phases. If you enter cryosleep unprepared, you will wake up to critical resource shortages, damaged modules, and mutinous crew members. Use this checklist to prepare your base at the end of every cool phase.
+
+<Checklist
+  id="cryosleep-preparation"
+  title="End-of-Cycle Survival Checklist:"
+  items={[
+    "Verify the Cryosleep Organics reserve (50 Organics per person staying in the base).",
+    "Dismantle surface outposts and pipelines threatened by the cycle transition to recoup materials.",
+    "Heal all crew injuries in the Infirmary and clear radiation exposure.",
+    "Craft a buffer of 3-5 Repair Kits to handle post-wake-up earthquake damage.",
+    "Resolve all active specialist conversation bubbles to prevent relationship decay.",
+    "Assign your selected specialist to the active Field Lab on the final evening."
+  ]}
+/>
+
+### Soil and Layout Optimization
+
+When expanding your underground base, you must plan around varied soil types and module footprints. Avoid placing critical rooms in isolated corners.
+
+| Room Type | Placement Rule | Failure Consequence |
+| :--- | :--- | :--- |
+| **Cryosleep Chamber** | Place early in a central cell. | Blocks future corridor expansions. |
+| **Research Lab & Workshop** | Keep adjacent to storage modules. | Increases walking times and wastes work hours. |
+| **Dormitory & Mess Hall** | Separate from noisy machinery. | Lowers crew morale and triggers relationship conflicts. |
+| **Power & Life Support** | Build near the elevator shaft. | Increases pylon costs and complicates repairs. |
+
+<Callout type="info" title="Morale Management">
+Alters who work long shifts without rest or sleep in noisy dormitories will quickly build up stress. Use Jan Biologist in the Greenhouse to grow comfort crops, or assign stressed crew members to Recreation shifts to keep their productivity high.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Endings, Missables & Achievements">
+
+The final segment of the expansion brings Jan Scientist face-to-face with the ultimate consequences of his obsession. While most dialogue choices shape personal relationships, the definitive ending branch is decided during your final conversation with JanBot after activating the ENC Generator in Rocky Valley.
+
+### The Two Concluding Paths
+
+- **Ending 1: Create a Successor**: Jan accepts a self-perpetuating cycle of research. A new clone and JanBot are designated to continue studying the Oasis, prioritizing scientific discovery over individual human lifetimes.
+- **Ending 2: Break the Cycle**: Jan rejects the cloning model. He accepts his own mortality and decides that some questions are better left unanswered, sparing future Jans from carrying the same burden.
+
+### Missable Content & Save Points
+
+To experience everything the expansion has to offer in a single playthrough, utilize these strategic save points:
+
+1. **Before Field Lab Assignments**: Save before locking a specialist into a Field Lab. This allows you to finish their personal storylines first.
+2. **Before the ENC Generator**: Create a manual backup save before assembling the generator. This is your last chance to complete surface exploration and clean up missing achievements.
+3. **The Final Conversation**: The game creates an autosave right before you speak to JanBot. Use this to easily view both endings without replaying the campaign.
+
+<FAQ items={[
+  {
+    question: "What are the best assignments for specialists in The Alters: Last Variable?",
+    answer: "The best assignments are Jan Geologist on Metal Outposts, Jan Physicist in the Workshop, Jan Chemist in the Field Labs, and Jan Biologist in the Greenhouse or Infirmary."
+  },
+  {
+    question: "Which Alter should I clone first?",
+    answer: "You should always clone Jan Geologist first. His 50% mining speed bonus secures the massive Metal reserves required to build the Research Lab, outposts, and the Cryosleep Chamber."
+  },
+  {
+    question: "How do I prevent my crew from dying during the cycle transition?",
+    answer: "You must build the Cryosleep Chamber within the 14-day deadline and stock exactly 50 Organics for every person staying inside the base. Crew members stationed in surface Field Labs do not require Organics."
+  },
+  {
+    question: "Can I clone the same specialist type twice?",
+    answer: "Yes. If a specialist ages out or is permanently stationed in a Field Lab, you can clone that specialist type again at the Quantum Computer. Doing so also unlocks the 'Wait, you can do that?' achievement."
+  }
+]} />
+
+</Section>

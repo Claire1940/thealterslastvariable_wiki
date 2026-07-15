@@ -1,0 +1,171 @@
+import { Map, Target, Shield, Layout, Sparkles, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "The Alters Last Variable Underground Base Guide: Best Layouts",
+  description: "Master your underground base layout in The Alters Last Variable. Learn optimal module placement, soil management, power planning, and cryosleep prep.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/332046/fff?text=Underground+Base+Guide",
+  date: "2026-07-15",
+  author: "The Alters Last Variable Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Underground Base Layouts**: Proper soil clearing and corridor placement prevent dead ends in your base structure.
+- **Resource Management**: Build the Cryosleep Chamber early to meet the strict 14-day cycle deadline.
+- **Power & Maintenance**: Keep essential rooms close to storage corridors and isolate high-noise production.
+- **Cryosleep Prep**: Always reserve 50 Organics per person before ending a cool phase.
+</Callout>
+
+<Section icon={Map} title="The Alters Last Variable Underground Base Guide: Construction Basics">
+
+Building and maintaining your facility is the core loop of [The Alters: Last Variable](https://store.steampowered.com/app/3237520/The_Alters_Last_Variable/). Unlike the mobile mobile base in the original game, the expansion tasks Jan Scientist with reclaiming a buried, static research station. Because you cannot move this base away from planetary hazards, your layout decisions, power grids, and expansion routes dictate your survival. 
+
+Every room you build must fit within specific underground grids. Soil density, structural damage from earthquakes, and radiation waves limit where and when you can expand.
+
+| Construction Element | Primary Resource | Primary Function | Placement Rule |
+|---|---|---|---|
+| **Corridors** | Metals | Connects rooms | Always build horizontal backbones first |
+| **Power Pylons** | Metals, Rapidium | Expands grid range | Place near outer resource outposts |
+| **Storage Modules** | Metals | Holds physical items | Keep adjacent to Workshops and Refineries |
+| **Life Support** | Metals, Organics | Maintains crew health | Isolate from high-noise power generators |
+
+<Callout type="tip" title="Soil Restriction Warning">
+Not all underground tiles are buildable. Hard rock and radioactive soil deposits require specific drill upgrades or anomaly repulsors before you can clear them. Always preview room footprints before committing precious Metals.
+</Callout>
+
+</Section>
+
+<Section icon={Layout} title="Optimized Base Layouts for Every Campaign Stage">
+
+To survive the harsh cycles on this planet, your base layout must evolve. Placing rooms randomly increases the travel time of your Alters, lowers work efficiency, and increases power grid vulnerability. Grouping functional rooms into specialized zones maximizes productivity.
+
+<CardGrid cols={3}>
+  <Card title="Early Game Layout">
+    - Focus on **Metals and Organics** outposts.
+    - Keep the Research Lab next to the Workshop.
+    - Minimize corridor length to save starting Metals.
+  </Card>
+  <Card title="Mid Game Layout">
+    - Add the **Sample Analysis Module**.
+    - Build separate Dormitories for your Alters.
+    - Set up a dedicated Refinery wing.
+  </Card>
+  <Card title="Late Game Layout">
+    - Construct the **Splitter** and advanced tanks.
+    - Build the massive ENC Generator infrastructure.
+    - Isolate high-radiation experimental rooms.
+  </Card>
+</CardGrid>
+
+Use the layout templates below to structure your underground base as your crew grows:
+
+| Layout Phase | Target Rooms | Key Bottleneck | Efficiency Rating |
+|---|---|---|---|
+| **Phase 1 (Days 1–5)** | Lab, Workshop, Basic Dorm | Metal scarcity | ★★★☆☆ |
+| **Phase 2 (Days 6–12)** | Sample Module, Greenhouse, Refinery | Power limits | ★★★★☆ |
+| **Phase 3 (Days 13+)** | Splitter, Split-Dorm, Infirmary | Travel time | ★★★★★ |
+
+<Callout type="warning" title="Base Maintenance">
+Earthquakes damage random rooms. If a module is damaged, its active bonuses stop. Keep a buffer of 10-20 Metals and at least one Repair Kit crafted in your Workshop at all times to address emergencies immediately.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="How to Start and Build Your Core Base Modules">
+
+Starting your expansion run correctly prevents early resource bankruptcy. Follow this step-by-step path to establish your core infrastructure, unlock your first specialist Alter, and secure your survival before the first hot phase.
+
+<Steps>
+  <Step num="1" title="Repair the Research Core">
+    Collect surface Metals immediately on Day 1. Build a Repair Kit in your Workshop for 10 Metals and apply it to the damaged Research Lab. This unlocks the whiteboard and allows you to analyze the new branching procedure.
+  </Step>
+  <Step num="2" title="Establish Automated Resource Extraction">
+    Do not rely on manual surface gathering. Travel south of your base, locate the primary Metals deposit, and build your first Metals Outpost. Connect it back to the base grid using power pylons.
+  </Step>
+  <Step num="3" title="Construct the Cryosleep Chamber">
+    The Forced Dormancy mission gives you a strict 14-day deadline. Reserve 50 Metals and 65 Rapidium to build the Cryosleep Chamber. Place it in a central, safe soil tile where it won't block future corridor expansions.
+  </Step>
+  <Step num="4" title="Deploy the Sample Analysis Module">
+    Once you venture into the Oasis and collect three biological samples, research Preliminary Analysis. Build the Sample Analysis Module using 60 Metals, 50 Rapidium, and 60 Organics to begin advanced tech trees.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Ideal First Alter Creation">
+Create **Jan Geologist** as your first Alter. His 50% mining efficiency bonus for Metals and rapid progression through geology tech trees will ease the resource strain of early base construction.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="The Cryosleep Cycle: Hot Phase Preparation Checklist">
+
+The planet's climate shifts between cool exploration phases and scorching, years-long hot phases. Before you put Jan and his Alters into cryosleep, you must run a strict logistics checklist to ensure you do not wake up to a broken base and starved crew.
+
+| Resource Type | Minimum Cryosleep Reserve | Failure Consequence |
+|---|---|---|
+| **Organics** | 50 per person in base | Crew starvation / Health decay |
+| **Metals** | 30 in storage | Cannot repair earthquake damage on day 1 |
+| **Repair Kits** | 2 Kits in Workshop | Critical systems remain offline after waking |
+| **Power Cells** | 3 fully charged | Life support fails during the wake-up shift |
+
+<Checklist
+  id="cryosleep-prep"
+  title="Final Day Survival Checklist:"
+  items={[
+    "Reserve 50 Organics for every Jan staying inside the base.",
+    "Dismantle surface structures warned by the system to reclaim parts.",
+    "Heal all crew injuries and clear radiation sickness in the Infirmary.",
+    "Assign your selected specialist Alter to an active Field Laboratory.",
+    "Queue up basic materials in the refinery so they process during sleep."
+  ]}
+/>
+
+<Callout type="info" title="Field Laboratory Strategy">
+Alters assigned to Field Laboratories remain outside the base during cryosleep. They do not consume your base's Organics reserve, but they will age visibly while Jan Scientist sleeps. Finish their personal storylines before sending them out.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Advanced Base Processing and Resource Chains">
+
+As you unlock later cycles, you must transition from simple mining to complex chemical and physical refining. This requires specialized machinery that consumes significant space and power.
+
+| Advanced Machine | Inputs Required | Outputs Produced | Best Staff Assignment |
+|---|---|---|---|
+| **Refinery** | Enriched Metal, Organics | Standard Metals | Jan Chemist (50% faster refining) |
+| **Splitter** | Minerals, Rapidium | Proxylium, Phased Rapidium | Jan Physicist (50% faster crafting) |
+| **Greenhouse** | Water, Organics | Food, Advanced Medicine | Jan Biologist (100% crop efficiency) |
+
+<Callout type="warning" title="Power Grid Overloads">
+Running multiple Refineries and Splitters simultaneously will trip your power grid. Build battery banks and upgrade your generators before expanding your processing wings, or you risk shutting down life support.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What happens if I miss the 14-day Cryosleep Chamber deadline?",
+    answer: "Failing to construct the Cryosleep Chamber before the deadline results in an immediate game over, as the incoming hot phase will kill Jan and any active Alters."
+  },
+  {
+    question: "Should I build comfort and morale modules early?",
+    answer: "No. Prioritize resource extraction, research, and storage modules. Only build comfort facilities like recreation rooms once your Metal and Organics income is fully automated."
+  },
+  {
+    question: "Do Alters in Field Laboratories require food during cryosleep?",
+    answer: "No. Alters stationed at Field Laboratories do not consume your base's Organics reserve during the hot phase transition, making them highly resource-efficient."
+  },
+  {
+    question: "How do I clear hard rock blocking my base expansion?",
+    answer: "You must create Jan Geologist and research advanced root-barrier drilling and geological excavation tech to expand into restricted soil tiles."
+  }
+]} />
+
+</Section>

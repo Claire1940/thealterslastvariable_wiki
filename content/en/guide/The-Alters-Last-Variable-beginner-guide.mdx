@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Activity, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "The Alters Last Variable Beginner Guide: Best Opening Route",
+  description: "Master the first cycle of The Alters Last Variable. Learn the optimal build order, resource management tips, and how to create your first Alter.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/33292c/ff66b2?text=Beginner+Survival+Guide",
+  date: "2026-07-15",
+  author: "The Alters Last Variable Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Objective**: Stabilize your base economy within the 14-day Cryosleep Chamber deadline during Cycle 1.
+- **Resource Priority**: Focus heavily on automated Metals extraction before investing in advanced processing.
+- **First Alter**: Choose Jan Geologist first to accelerate mining speed and bypass early resource bottlenecks.
+- **Key Mechanic**: Manage your crew's daily hours efficiently to prevent early-game exhaustion or research delays.
+</Callout>
+
+<Section icon={Map} title="Introduction to the Last Variable DLC">
+
+The paid expansion campaign of **The Alters Last Variable** places you back on the hostile planet as Jan Scientist. Unlike the base game, this expansion introduces a complex underground base layout, four highly specialized scientific Alters, and nine unique terraforming arenas. Survival requires precise management of your daily schedule, careful base construction, and strategic exploration during the planet's short cool phases.
+
+To succeed in this challenging campaign, you must learn how to balance your daily resource extraction with critical research projects. Mismanaging your opening days can quickly lead to structural failures, resource depletion, or an early game over.
+
+| Feature | Detail |
+| :--- | :--- |
+| **Campaign Length** | Approximately 20 Hours |
+| **Platforms** | PC (Steam, GOG, Epic), PS5, Xbox Series X/S |
+| **Base Game Required** | Yes (Paid DLC Expansion) |
+| **New Specialist Alters** | 4 (Geologist, Physicist, Chemist, Biologist) |
+| **Terraforming Arenas** | 9 Distinct Regions |
+
+<Callout type="tip" title="DLC Access Tip">
+The expansion functions as a separate campaign. You can launch it directly from the main menu without needing a completed base-game save file.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="The Alters Last Variable Beginner Guide: Cycle 1 Route">
+
+Navigating the opening cycle of **The Alters Last Variable beginner guide** requires strict adherence to a specific build order. Your primary goal is to establish automated resource collection, repair your core research facilities, and build the Cryosleep Chamber before the 14-day deadline expires.
+
+### Opening Build Order Comparison
+
+| Phase | Core Objective | Key Resource Cost | Primary Hazard |
+| :--- | :--- | :--- | :--- |
+| **Days 1–2** | Repair Research Lab & Build Metals Outpost | 10 Metals (Repair Kit) | Resource starvation |
+| **Days 3–4** | Create First Alter & Probe Oasis | 50 Metals, 65 Rapidium | Time constraints |
+| **Days 5–6** | Construct Sample Analysis Module | 60 Metals, 50 Rapidium, 60 Organics | Power overload |
+
+<Steps>
+  <Step num="1" title="Complete Famous Last Words">
+    Speak with the Old Scientist to complete his final request. Bury him, return to JanBot, and inspect the damaged Research Lab and locked Quantum Computer. Save your starting Metals; do not craft optional gear yet.
+  </Step>
+  <Step num="2" title="Establish the Metals Outpost">
+    Head south of the base to locate the nearest Metals deposit. Construct a Metals Outpost and connect it to your base network. Build a Repair Kit in the Workshop using 10 Metals and repair the Research Lab.
+  </Step>
+  <Step num="3" title="Research New Branching Procedure">
+    Extract Rapidium from the deposit south of the Metals Outpost. Use your newly repaired Research Lab to research the New Branching Procedure. This project costs 20 Rapidium and takes 2 working hours.
+  </Step>
+  <Step num="4" title="Create Your First Alter">
+    Access the Quantum Computer to create your first specialist Alter. For the optimal opening route, select Jan Geologist to resolve early-game extraction bottlenecks.
+  </Step>
+  <Step num="5" title="Investigate the Oasis">
+    Travel to the Oasis and gather all three Electric Algae samples. Do not leave early; collecting all three in a single run saves valuable exploration hours. Return to the lab and begin the Analysis of Samples.
+  </Step>
+  <Steps num="6" title="Build the Cryosleep Chamber">
+    Construct the Cryosleep Chamber using 50 Metals and 65 Rapidium. Ensure you place it in a cell that does not block future corridor expansions through the underground soil.
+  </Steps>
+</Steps>
+
+<Callout type="warning" title="Deadline Alert">
+Delaying the construction of the Cryosleep Chamber beyond Day 14 will result in an immediate campaign failure when the hot phase hits.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Specialist Alters and Best Assignments">
+
+Choosing the right Alter at the right time determines how smoothly your base operates. Each specialist provides massive production bonuses but also comes with unique personality traits and research contributions.
+
+<CardGrid cols={2}>
+  <Card title="Jan Geologist (S-Tier)">
+    - **Creation Priority**: First
+    - **Efficiency**: +50% Metal mining speed
+    - **Best Use**: Early resource gathering, clearing root barriers, and analyzing planetary anomalies.
+  </Card>
+  <Card title="Jan Physicist (A-Tier)">
+    - **Creation Priority**: Second
+    - **Efficiency**: +50% Workshop crafting and base maintenance
+    - **Best Use**: Mass-producing Repair Kits, upgrading base systems, and running Splitter research.
+  </Card>
+  <Card title="Jan Chemist (A-Tier)">
+    - **Creation Priority**: Third
+    - **Efficiency**: +50% refining speed and faster cooking
+    - **Best Use**: Field Lab research, processing rare materials, and managing food supplies.
+  </Card>
+  <Card title="Jan Biologist (A-Tier)">
+    - **Creation Priority**: Fourth
+    - **Efficiency**: +100% Greenhouse speed, 8x faster healing
+    - **Best Use**: Medical recovery, farming Organics, and managing crew morale.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Field Lab Assignment Rule">
+When you assign an Alter to a Field Laboratory, they stop contributing to daily base tasks. Complete their personal quests and base-side research before sending them out.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Underground Base and Cryosleep Maintenance">
+
+The underground base requires careful spatial planning. Soil variations restrict where you can place specific modules, making efficient layouts crucial for minimizing walking distances and power consumption.
+
+### Critical Cryosleep Organics Requirements
+
+To survive the transition between planetary cycles, you must stockpile a strict amount of Organics before entering cryosleep. 
+
+| Crew Size | Required Organics | Survival Outcome |
+| :--- | :--- | :--- |
+| **Jan Scientist Only** | 50 Organics | Safe transition to next cycle |
+| **Jan + 1 Alter** | 100 Organics | Safe transition to next cycle |
+| **Jan + 2 Alters** | 150 Organics | Safe transition to next cycle |
+| **Any Crew Size** | Less than required | Critical starvation / Crew loss |
+
+<Callout type="success" title="Dismantling Tip">
+On the final evening of a cycle, dismantle your surface structures (Outposts, Phasers, Pipelines). This returns their construction materials directly to your base inventory, preventing decay.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Terraforming and Exploration Checklist">
+
+The planet reacts defensively as you terraform its surface. To minimize environmental hazards, explore immediately during the cool phases and upgrade your protective gear early.
+
+<Checklist
+  id="exploration-milestones"
+  title="Essential Cool Phase Goals:"
+  items={[
+    "Collect all three Electric Algae samples from the Oasis",
+    "Establish a secure pipeline corridor through the Base arena",
+    "Recover all 4 Old Technology Debris from the Base region",
+    "Build the first Field Laboratory in Rocky Valley",
+    "Upgrade radiation filters before entering the Volcano arena"
+  ]}
+/>
+
+</Section>
+
+<Section icon={HelpCircle} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Which Alter should I create first in The Alters Last Variable?",
+    answer: "You should create Jan Geologist first. His 50% bonus to Metal mining speed is essential for securing the materials needed for your early base modules and the Cryosleep Chamber."
+  },
+  {
+    question: "What happens if I don't have enough Organics before cryosleep?",
+    answer: "If you fail to meet the Organics requirement (50 per person inside the base) before entering cryosleep, your crew will suffer severe health penalties or death upon waking up in the next cycle."
+  },
+  {
+    question: "Do Field Lab workers require Organics during cryosleep?",
+    answer: "No. Alters assigned to active Field Laboratories remain outside the base during the hot phase and do not consume your base's Organics reserve."
+  },
+  {
+    question: "Can I create the same type of Alter more than once?",
+    answer: "Yes. If an Alter is permanently stationed at a Field Lab or lost, you can clone that specialist type again at the Quantum Computer, which also unlocks a hidden achievement."
+  }
+]} />
+
+</Section>

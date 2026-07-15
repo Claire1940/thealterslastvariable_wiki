@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Activity } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "The Alters Last Variable cryosleep chamber guide: Setup & Cycle Strategy",
+  description: "Master the Cryosleep Chamber in The Alters Last Variable. Learn construction costs, organics management, and cycle preparation for Jan Scientist.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Cryosleep+Chamber+Guide",
+  date: "2026-07-15",
+  author: "The Alters Last Variable Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Cryosleep Chamber Deadline**: You must construct the chamber within the first **14 days** of Cycle 1 to survive the planetary hot phase.
+- **Resource Requirements**: Building the chamber requires **50 Metals** and **65 Rapidium**; always keep these in reserve.
+- **Organics Management**: Every person remaining in the base requires **50 Organics** to safely enter cryosleep.
+- **Field Lab Strategy**: Assigning an Alter to a Field Lab removes their **Organics cost** for that cycle, as they remain outside the base.
+- **Final Checklist**: Complete all urgent research and personal conversations before the final evening of the cool phase.
+</Callout>
+
+<Section icon={Target} title="The Critical 14-Day Deadline">
+
+In *The Alters: Last Variable*, the Cryosleep Chamber is not just another base module; it is the fundamental requirement for Jan Scientist's survival. The expansion introduces a harsh planetary cycle where 13-year-long "hot phases" force the crew into suspended animation. Your first major objective, the **Forced Dormancy** quest, gives you exactly 14 days to establish this facility. Failing to meet this deadline results in an immediate game over, as the base cannot shield the crew from the surface's lethal temperatures without the chamber.
+
+| Requirement Type | Value/Detail | Importance |
+| :--- | :--- | :--- |
+| **Quest Name** | Forced Dormancy | Main Story Milestone |
+| **Time Limit** | 14 Days (Cycle 1) | Hard Deadline |
+| **Primary Goal** | Build Cryosleep Chamber | Survival Essential |
+| **Secondary Goal** | Stock Organics Reserve | Crew Safety |
+| **Failure State** | Death by Radiation/Heat | Critical Risk |
+
+Managing your time during these first two weeks is vital. You must balance the immediate need for **The Alters Last Variable cryosleep chamber guide** logistics with the expansion of your resource outposts. If you spend too much Metal on optional comfort modules or early base decorations, you may find yourself short of the materials needed for the chamber as the deadline looms.
+
+<Callout type="warning" title="Deadline Alert">
+Do not treat the 14-day timer as a suggestion. The planetary cooldown ends abruptly, and if the chamber is not fully operational and powered, you will lose your entire progress.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Construction Costs and Soil Logistics">
+
+Building the Cryosleep Chamber requires careful planning of your underground base layout. Unlike surface structures, underground modules are restricted by soil types. You must ensure you have a valid placement cell connected to your main power and corridor network. The chamber has a significant footprint, so blocking off potential expansion routes with poor placement in the early game can lead to expensive rebuilding later.
+
+| Material | Amount Required | Primary Source |
+| :--- | :--- | :--- |
+| **Metals** | 50 | Metals Outpost (South of Base) |
+| **Rapidium** | 65 | Rapidium Deposits (Oasis/South) |
+| **Power** | Constant | Base Power Grid |
+| **Soil Type** | Stable/Standard | Underground Excavation |
+
+<CardGrid cols={2}>
+  <Card title="Strategic Placement">
+    Place the chamber in a location that allows for **future corridor expansion**. Avoid "dead-ending" your base, as you will need room for the Laboratory, Workshop, and Dormitories.
+  </Card>
+  <Card title="Resource Buffering">
+    Always maintain a **buffer of 20 Metals** even after building the chamber. Earthquakes can damage the facility, requiring immediate Repair Kits to keep it functional.
+  </Card>
+</CardGrid>
+
+The construction itself consumes working hours, so it is best to assign Jan or a specialized Alter (like the Physicist) to the task during the middle of the day. This ensures that if a resource shortage occurs, you still have the evening to scavenge the surface for the final few units of Metal or Rapidium.
+
+<Callout type="tip" title="Physicist Bonus">
+Using **Jan Physicist** for construction and maintenance provides a **50% efficiency boost**, allowing you to finish the chamber faster and with less risk of missing the deadline.
+</Callout>
+
+</Section>
+
+<Section icon={Activity} title="Organics Management and Crew Scaling">
+
+The most common point of failure for new players isn't building the chamber, but failing to fuel it. Each person entering the chamber requires a specific amount of **Organics** to sustain their biological functions during the 13-year sleep. As you create more specialist Alters, your Organics requirement increases linearly.
+
+| Crew Composition | Organics Required | Survival Buffer (Recommended) |
+| :--- | :--- | :--- |
+| **Jan Scientist Only** | 50 | 75 |
+| **Jan + 1 Alter** | 100 | 130 |
+| **Jan + 2 Alters** | 150 | 190 |
+| **Jan + 3 Alters** | 200 | 250 |
+| **Jan + 4 Alters** | 250 | 320 |
+
+<Steps>
+  <Step num="1" title="Establish Organics Outpost">
+    Immediately set up an Organics Outpost behind the base. This should be your second priority after the Metals Outpost.
+  </Step>
+  <Step num="2" title="Calculate Crew Needs">
+    Before creating a new Alter, check your current Organics stock. Do not branch a new personality if you cannot afford their cryosleep cost.
+  </Step>
+  <Step num="3" title="Lock the Reserve">
+    Treat the required Organics as "dead money." Do not spend them on Greenhouse experiments or luxury food items if it drops you below the survival threshold.
+  </Step>
+</Steps>
+
+If you find yourself short on Organics on the final day, you must make a difficult choice: dismantle surface structures to recover resources for a last-minute push, or risk an **Alter Revolt** if a crew member realizes there isn't enough fuel to keep them alive.
+
+<Callout type="success" title="Biologist Efficiency">
+**Jan Biologist** provides a **100% efficiency boost** to Greenhouse work, making him essential for stockpiling the large amounts of Organics needed for a full 5-man crew.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Field Labs and External Assignments">
+
+A unique mechanic in *The Alters: Last Variable* is the **Field Laboratory**. These structures are placed in terraformed regions like Rocky Valley or Misty Gorge. When an Alter is assigned to a Field Lab, they remain on the surface for the duration of the hot phase. This has significant strategic implications for your cryosleep planning.
+
+**Strategic Advantages of Field Labs:**
+- **Zero Organics Cost**: An Alter in a Field Lab does not use the Cryosleep Chamber and therefore does not consume the 50 Organics fee.
+- **Continuous Research**: The assigned specialist continues to work on long-term Oasis projects while Jan Scientist sleeps.
+- **Resource Savings**: By keeping specialists outside, you can maintain a larger crew with a smaller Organics stockpile.
+
+<CardGrid cols={3}>
+  <Card title="Jan Geologist">
+    Best for the **Rocky Valley** Field Lab. He accelerates Phased Rapidium research and clears terrain barriers for the next cycle.
+  </Card>
+  <Card title="Jan Chemist">
+    Ideal for **Misty Gorge**. He reduces Field Lab research time from 10 hours to approximately 6 hours and 15 minutes.
+  </Card>
+  <Card title="Jan Biologist">
+    Essential for late-game **Waterfall** research. He analyzes biological samples that unlock the final terraforming tiers.
+  </Card>
+</CardGrid>
+
+However, be warned: an Alter stationed in a Field Lab will **visibly age** and cannot participate in base maintenance or relationship events until the next cool phase begins. Ensure their personal storylines are advanced as much as possible before sending them out.
+
+<Callout type="info" title="Expert Strategy">
+Use Field Labs to "park" specialists you cannot afford to feed in the Cryosleep Chamber. This allows you to keep all four specialist types active without needing 250 Organics every cycle.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Final Day Checklist and Wake-up Protocol">
+
+The final evening of any cool phase is the most stressful period in *The Alters: Last Variable*. Once you click the "Enter Cryosleep" button, any unfinished business is lost or delayed by 13 years. Following a strict protocol ensures you wake up in a position of strength rather than a state of emergency.
+
+| Action Item | Priority | Reason |
+| :--- | :--- | :--- |
+| **Dismantle Phasers** | High | Prevents destruction by planetary heat |
+| **Heal Injuries** | High | Lowers risk of death during sleep |
+| **Assign Field Labs** | Medium | Maximizes research progress |
+| **Stock Pile Metal** | Medium | Required for post-sleep repairs |
+| **Final Conversations** | Low | Prevents morale decay and revolts |
+
+<Checklist
+  id="cryosleep-prep"
+  title="Pre-Cryosleep Checklist:"
+  items={[
+    "Verify Organics reserve (50 per person in base)",
+    "Repair all critical base modules (Laboratory/Power)",
+    "Dismantle surface pipelines and outposts (as warned by JanBot)",
+    "Complete all pending Sample Analysis experiments",
+    "Assign exactly one Alter to each active Field Lab",
+    "Ensure Jan Scientist has full health and low radiation"
+  ]}
+/>
+
+When you wake up, the planet will have changed. Terraformed regions may have new routes, and your Field Lab researchers will have fresh data. Your first priority upon waking should always be **restoring the Organics Outpost**, as your food and fuel supplies will be at their absolute lowest.
+
+<Callout type="tip" title="The 13-Year Gap">
+Any resources left in surface outposts that were not dismantled will be destroyed. Always check JanBot's warnings to see which structures are "safe" and which must be packed away.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What happens if I miss the 14-day deadline for the Cryosleep Chamber?",
+    answer: "You will fail the 'Forced Dormancy' quest and receive a Game Over. The planetary hot phase begins immediately after Day 14, and without the chamber, Jan cannot survive the radiation and heat."
+  },
+  {
+    question: "Can I create all four Alters before the first cryosleep?",
+    answer: "It is possible but difficult. You would need 250 Organics to keep them all in the base. It is more efficient to create 2-3 Alters and send one to a Field Lab to save on Organics costs."
+  },
+  {
+    question: "Do Alters age inside the Cryosleep Chamber?",
+    answer: "No. Time is suspended for anyone inside the chamber. Only Alters assigned to Field Labs will age, as they remain active on the planet's surface for the 13-year hot phase."
+  },
+  {
+    question: "How do I get enough Rapidium for the chamber early on?",
+    answer: "Build a Metals Outpost first, then use the Metals to build pylons toward the Rapidium deposit south of the Metals Outpost. Using Jan Geologist for mining will speed up this process by 50%."
+  }
+]} />
+
+<Callout type="info" title="Final Note">
+Mastering the **The Alters Last Variable cryosleep chamber guide** is the difference between a struggling base and a thriving research colony. Keep your Organics high, your specialists busy, and always watch the clock.
+</Callout>
+
+</Section>

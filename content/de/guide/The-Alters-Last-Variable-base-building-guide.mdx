@@ -1,0 +1,175 @@
+import { Map, Shield, Swords, Target, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "The Alters Last Variable Basisbau-Leitfaden: Layouts & Upgrades",
+  description: "Meistern Sie den unterirdischen Basisbau in The Alters Last Variable. Lernen Sie optimale Modullayouts, Bodenbeschränkungen, Energiemanagement und die Vorbereitung auf den Kryoschlaf.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/252b3b/ff3b9c?text=Base+Building+Guide",
+  date: "2026-07-15",
+  author: "The Alters Last Variable Wiki-Team"
+}
+
+<Callout type="info" title="Schnellzugriff">
+- **The Alters Last Variable Basisbau-Leitfaden**: Errichten Sie ein modulares unterirdisches Netzwerk, das Energie, Produktion und Überleben im Gleichgewicht hält.
+- **Bodenbeschränkungen**: Platzieren Sie schwere Module nur in stabilen Gesteinsfeldern, um strukturelle Einstürze zu verhindern.
+- **Energiepuffer**: Halten Sie einen Energieüberschuss von mindestens 20 % aufrecht, bevor Sie fortschrittliche Ressourcenraffinerien hinzufügen.
+- **Kryoschlaf-Frist**: Konstruieren Sie die Kryoschlafkammer innerhalb der ersten 14 Tage, um die heiße Phase zu überleben.
+- **Ressourcen-Priorität**: Konzentrieren Sie sich auf automatisierte Metall- und Organik-Außenposten, bevor Sie in Komfortmodule investieren.
+</Callout>
+
+<Section icon={Map} title="Kernmechaniken des unterirdischen Bauens">
+
+Der Bau einer funktionalen unterirdischen Basis in *The Alters: Last Variable* erfordert ein tiefes Verständnis von strukturellen Layouts, Bodenbeschränkungen und Modulverbindungen. Im Gegensatz zur mobilen Basis des Hauptspiels ist Ihre unterirdische Einrichtung ortsgebunden. Eine schlechte Anfangsplanung kann daher essenzielle Erweiterungswege dauerhaft blockieren.
+
+Das unterirdische Raster besteht aus verschiedenen Bodentypen, die bestimmen, wo bestimmte Module platziert werden können. Das Bauen auf instabilem Boden ohne entsprechende Verstärkung führt zu häufigen strukturellen Schäden, insbesondere während der wiederkehrenden Erdbeben des Planeten.
+
+| Bodentyp | Strukturelle Stabilität | Beste Modul-Übereinstimmungen | Baubeschränkungen |
+|---|---|---|---|
+| **Stabiles Gestein** | Ausgezeichnet | Schwere Maschinen, Werkstatt, Raffinerie | Keine; ideal für Räume mit hoher Belastung |
+| **Lockerer Boden** | Niedrig | Schlafräume, Krankenstation, Gewächshaus | Erfordert Verstärkung; hohes Schadensrisiko |
+| **Rissiger Boden** | Kritisch | Stromleitungen, einfache Korridore | Platzieren Sie hier keine Produktionsmodule |
+
+<Callout type="warning" title="Boden-Warnung">
+Platzieren Sie das Forschungslabor oder die Werkstatt niemals in Feldern mit rissigem Boden. Ein Erdbeben wird diese Einrichtungen sofort deaktivieren, was Ihre aktiven Forschungsprojekte und die Warteschlangen für die Gegenstandsherstellung stoppt.
+</Callout>
+
+### Prioritäten beim Basis-Layout
+Ein effizientes Basis-Layout minimiert die Laufwege von Jan und seinen Alters, während risikoreiche Produktionsmodule von den Ruhebereichen isoliert bleiben. Nutzen Sie die folgende Tabelle, um Ihre Modulkonfigurationen für das Früh-, Mittel- und Spätspiel zu planen.
+
+| Phase | Kernmodule | Energiebedarf | Hauptfokus |
+|---|---|---|---|
+| **Früh** | Forschungslabor, Werkstatt, Schlafraum | Niedrig | Einfaches Überleben, Reparatur des Kerns, erster Alter |
+| **Mittel** | Splitter, Raffinerie, Probenanalyse | Mittel | Fortgeschrittene Ressourcenverarbeitung, Feldlabore |
+| **Spät** | ENC-Generator, Massenspektrometer | Hoch | Finale Energieextraktion, Analyse des Planetenkerns |
+
+</Section>
+
+<Section icon={Shield} title="The Alters Last Variable Basisbau-Leitfaden: Schritt-für-Schritt-Layout">
+
+Um Ihre unterirdische Basis erfolgreich zu errichten und die strikte 14-tägige Frist für die Kryoschlafkammer in Zyklus 1 zu überleben, müssen Sie einer hochgradig optimierten Baureihenfolge folgen. Das Verschwenden von Startmetallen für unbedeutende Strukturen wird Sie anfällig für frühe Ressourcenengpässe machen.
+
+<Steps>
+  <Step num="1" title="Den Forschungskern wiederherstellen">
+    Stellen Sie in der Werkstatt sofort ein Reparaturset mit **10 Metallen** her. Nutzen Sie es, um das beschädigte Forschungslabor zu reparieren. Sobald es online ist, interagieren Sie mit der Labortafel und beginnen Sie mit der Erforschung des **Neuen Verzweigungsverfahrens**, um den Pfad der Spezialisten-Crew freizuschalten.
+  </Step>
+  <Step num="2" title="Ressourcen-Außenposten errichten">
+    Reisen Sie von Ihrer Basis aus nach Süden, um das nächstgelegene Metallvorkommen zu finden. Bauen Sie einen Metall-Außenposten und verbinden Sie ihn mit Ihrem Basisnetzwerk. Diese automatisierte Versorgung ist entscheidend, um Ihren täglichen Baubedarf zu decken.
+  </Step>
+  <Step num="3" title="Die Kryoschlafkammer bauen">
+    Vor Tag 14 müssen Sie die Kryoschlafkammer konstruieren, um die bevorstehende heiße Phase zu überleben. Dies erfordert **50 Metalle und 65 Rapidium**. Stellen Sie sicher, dass Sie dieses Modul in einem zentralen, leicht zugänglichen Feld platzieren, das an Ihre Hauptstromleitungen angeschlossen ist.
+  </Step>
+  <Step num="4" title="Das Probenanalyse-Modul konstruieren">
+    Nachdem Sie die drei essenziellen Proben aus der Oase gesammelt haben, investieren Sie **60 Metalle, 50 Rapidium und 60 Organische Stoffe**, um das Probenanalyse-Modul zu bauen. Dies schaltet den fortgeschrittenen Forschungsbaum frei, der für höherstufiges Terraforming erforderlich ist.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Tipp zur Baureihenfolge">
+Halten Sie immer eine Reserve von **20 Metallen** in Ihrem Inventar. Dies stellt sicher, dass Sie sofort Bohrpatronen oder Reparatursets herstellen können, wenn ein Erdbeben Ihre Ressourcenpipelines blockiert oder Ihre Lebenserhaltungssysteme beschädigt.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Energieplanung und Ressourcenverarbeitungs-Pipelines">
+
+Das Energiemanagement ist die häufigste Fehlerquelle für Basen im Mittespiel. Wenn Sie von der einfachen Gewinnung zu komplexen Produktionsketten mit mehreren Inputs übergehen, wird Ihr Stromnetz stark belastet. Fortgeschrittene Module wie der Splitter und der Proxilium-Tank erfordern eine dedizierte Energieplanung.
+
+<CardGrid cols={3}>
+  <Card title="Der Splitter">
+    - **Kosten**: 300 Metalle, 150 Mineralien, 100 Organische Stoffe
+    - **Funktion**: Verarbeitet Rohmineralien zu fortschrittlichen Komponenten
+    - **Stromlast**: Hoch; erfordert dedizierte Netzplanung
+  </Card>
+  <Card title="Proxilium-Tank">
+    - **Kosten**: 150 Metalle, 40 Mineralien
+    - **Funktion**: Lagert und verarbeitet seltenen Proxilium-Treibstoff
+    - **Stromlast**: Mittel; in der Nähe des Hauptlagers platzieren
+  </Card>
+  <Card title="Raffinerie">
+    - **Kosten**: 100 Metalle, 50 Organische Stoffe
+    - **Funktion**: Raffiniert angereichertes Metall und Nahrungsmittel-Inputs
+    - **Stromlast**: Niedrig; nur betreiben, wenn voll besetzt
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Effizienzschub">
+Teilen Sie **Jan (Physiker)** der Werkstatt und der Basiswartung zu. Er bietet einen **Effizienzschub von 50 %** beim Herstellen von Gegenständen und Durchführen von Reparaturen, was die Ressourcenkosten für die Instandhaltung Ihres Stromnetzes erheblich senkt.
+</Callout>
+
+### Effizienz der Ressourcenverarbeitung
+Um Ressourcenengpässe zu vermeiden, stimmen Sie Ihre Verarbeitungsmodule mit den richtigen spezialisierten Alters ab. Die folgende Tabelle zeigt die optimalen Zuweisungen für die Ressourcenraffination.
+
+| Verarbeitungsmodul | Primärer Input | Ausgabeprodukt | Bester Spezialist | Verarbeitungsbonus |
+|---|---|---|---|---|
+| **Raffinerie** | Angereichertes Metall | Standardmetall | **Jan (Chemiker)** | 50 % schnellere Raffination |
+| **Splitter** | Rohmineralien | Fortschrittliche Materialien | **Jan (Physiker)** | 25 % weniger Stromverbrauch |
+| **Gewächshaus** | Organische Stoffe / Samen | Nahrung / Medizin | **Jan (Biologe)** | 100 % Pflanzenwachstum |
+
+</Section>
+
+<Section icon={Target} title="Vorbereitungs-Checkliste für den Kryoschlaf-Zyklus">
+
+Der planetare Zyklus wechselt zwischen einer kühlen Erkundungsphase und einer verheerenden 13-jährigen heißen Phase. Bevor Sie die Kryoschlafkammer betreten, müssen Sie eine strenge Vorbereitungs-Checkliste abarbeiten, um sicherzustellen, dass Ihre Basis und Ihre Crew den Übergang ohne kritische Engpässe überstehen.
+
+<Checklist
+  id="cryosleep-prep"
+  title="Logistik-Checkliste für den letzten Tag:"
+  items={[
+    "Sichern Sie 50 Organische Stoffe für jede Person, die die Kryoschlafkammer betritt.",
+    "Bauen Sie alle in der Zykluswarnung genannten Oberflächenstrukturen ab, um 100 % ihrer Baumaterialien zurückzuerhalten.",
+    "Weisen Sie einen spezialisierten Alter einem aktiven Feldlabor zu, um die Oasen-Forschung während der heißen Phase fortzusetzen.",
+    "Heilen Sie alle Verletzungen der Crew in der Krankenstation und beseitigen Sie aktive Strahlungswerte.",
+    "Stellen Sie mindestens 3 Reparatursets her und lagern Sie diese im zentralen Inventar."
+  ]}
+/>
+
+<Callout type="warning" title="Strafe für fehlende Organische Stoffe">
+Wenn Sie die erforderliche Reserve an Organischen Stoffen (**50 pro Person**) vor dem Kryoschlaf nicht sichern, führt dies zu schweren gesundheitlichen Beeinträchtigungen oder dem dauerhaften Verlust eines Alters beim Aufwachen.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Fortgeschrittene Basis-Upgrades & Tech-Baum-Prioritäten">
+
+In den späteren Zyklen der Erweiterung muss Ihre Basis hochgradige Forschungsprojekte wie den ENC-Generator und die Massenspektrometrische Analyse unterstützen. Diese Strukturen erfordern enorme Materialinvestitionen und müssen basierend auf Ihren aktuellen Terraforming-Zielen priorisiert werden.
+
+| Fortgeschrittenes Upgrade | Baukosten | Forschungszeit | Hauptnutzen |
+|---|---|---|---|
+| **Magnetometer** | 30 Metalle, 30 Mineralien | 12 Stunden | Schaltet magnetometrische Analyse frei |
+| **Massenspektrometer** | 50 Metalle, 50 Mineralien | 12 Stunden | Schaltet massenspektrometrische Analyse frei |
+| **Widerstandsblöcke** | 50 Metalle, 300 Phasen-Rapidium | 4 Stunden | Erforderlich für den finalen ENC-Generator |
+| **ENC-Alternator** | 50 Metalle, 50 Organische Stoffe | 16 Stunden | Versorgt die finale Analyse des Planetenkerns mit Strom |
+
+<Callout type="info" title="Forschungs-Tipp">
+Nutzen Sie **Jan (Chemiker)**, um Forschungsprojekte im Feldlabor abzuschließen. Er erledigt diese Aufgaben in **6 Stunden und 15 Minuten**, verglichen mit den standardmäßigen 10 Stunden, die andere Alters benötigen.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Basisbau FAQ">
+
+<FAQ items={[
+  {
+    question: "Was ist die wichtigste Regel in diesem Basisbau-Leitfaden für The Alters Last Variable?",
+    answer: "Die wichtigste Regel ist, die Bodenbeschränkungen zu respektieren und Ihr Layout um die 14-tägige Frist der Kryoschlafkammer herum zu planen. Sichern Sie immer Ihre automatisierten Metall- und Organik-Außenposten, bevor Sie optionale Module bauen."
+  },
+  {
+    question: "Kann ich ein Modul nach dem Bau verschieben?",
+    answer: "Nein, Module können nicht verschoben werden. Sie müssen sie abbauen, um einen Teil der Ressourcen zurückzuerhalten, und sie dann in einem neuen Feld wieder aufbauen. Deshalb ist die anfängliche Layoutplanung so kritisch."
+  },
+  {
+    question: "Wie verhindere ich Basisschäden bei Erdbeben?",
+    answer: "Stellen Sie sicher, dass alle schweren Produktionsmaschinen auf stabilen Gesteinsfeldern gebaut werden. Halten Sie zudem Jan (Physiker) im Wartungsdienst und lagern Sie reichlich Reparatursets in Ihrem Inventar."
+  },
+  {
+    question: "Was passiert mit Oberflächen-Außenposten während der heißen Phase?",
+    answer: "Die meisten Oberflächenstrukturen werden durch die extreme Hitze zerstört. Gehen Sie am letzten Tag immer die Checkliste durch und bauen Sie Ihre Oberflächenpipelines und Extraktoren ab, um deren Materialien vor dem Kryoschlaf zurückzugewinnen."
+  }
+]} />
+
+</Section>
